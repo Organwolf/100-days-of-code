@@ -19,7 +19,9 @@ Debouncing is problably the most advanced part of this code and from what I unde
 
 **Today's Progress**: 
 
-**Thoughts**: 
+**Thoughts**:
+
+**Experimented with:**
 
 **Link(s) to work**: [Todays thing](http://www.example.com)
 -->

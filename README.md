@@ -21,7 +21,7 @@ If you want to help by providing a translation of content/rules in the language 
 - [ ] Re-evaluate my goals and add/remove goals at least once
 
 ###### JavaScript
-- [ ] Learn more vanilla JS
+- [ ] Learn more vanilla JS (by completing [JavaScript30](https://javascript30.com/) by Wesbos)
 - [ ] Learn more React.js
 
 ###### Personal
