@@ -47,11 +47,12 @@ If you want to help by providing a translation of content/rules in the language 
 - [ ] Answer 3 questions on StackOverflow
 - [ ] Get +3 badges on StackOverflow
 
-General division of my 100 days of code
+###### General division of my 100 days of code
 
 First 25 days | Day 26-50     | Day 51-75     | Last 25 days
 --------------|---------------|---------------|---------------
-front-end dev | App dev       | Poetic Comp.  | Co-op dev.
+front-end dev | App dev       | Poetic Comp.  | Co-op dev.  
+
 
 Give a man a program, frustrate him for a day.  
 Teach a man to program, frustrate him for a lifetime. - Muhammad Waseem
