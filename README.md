@@ -12,7 +12,7 @@
 
 If you want to help by providing a translation of content/rules in the language you know, submit a pull request (or DM me on Twitter @ka11away), adding a sub-folder in the 'intl' folder with the files of the translation there.
 
-## Goals:
+## Goals
 
 ###### General
 - [ ] Experiment +5 min with code per day
@@ -53,7 +53,7 @@ First 25 days | Day 26-50     | Day 51-75     | Last 25 days
 --------------|---------------|---------------|---------------
 front-end dev | App dev       | Poetic Comp.  | Co-op dev.
 
-Give a man a program, frustrate him for a day.
+Give a man a program, frustrate him for a day.  
 Teach a man to program, frustrate him for a lifetime. - Muhammad Waseem
 
 :rocket:
