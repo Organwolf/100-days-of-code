@@ -14,6 +14,7 @@ Debouncing is problably the most advanced part of this code and from what I unde
 
 **Link to work:** [Slide in on scroll](https://github.com/Organwolf/VanillaJS/tree/master/SlideInOnScroll)
 
+<!--
 ### Day x: March y, 2020
 
 **Today's Progress**: 
@@ -21,3 +22,4 @@ Debouncing is problably the most advanced part of this code and from what I unde
 **Thoughts**: 
 
 **Link(s) to work**: [Todays thing](http://www.example.com)
+-->
