@@ -14,7 +14,6 @@ Debouncing is problably the most advanced part of this code and from what I unde
 
 **Link to work:** [Slide in on scroll](https://github.com/Organwolf/VanillaJS/tree/master/SlideInOnScroll)
 
-
 ### Day 1: March 2, 2020
 
 **Today's Progress**: Made a TODO app in combination with localStorage so that the information persests even if you reload the page
@@ -27,8 +26,23 @@ Debouncing is problably the most advanced part of this code and from what I unde
 viewBox="-2.35 -0.5 23 23"
 ~~~~
 
-
 **Link(s) to work**: [TODO-list](https://github.com/Organwolf/VanillaJS/tree/master/TODO-list)
+
+### Day 2: March y, 2020
+
+**Today's Progress**: By making this todoapp I got the opportunity to repeat some of ReactJS core concepts such as separating the data from the view components.
+
+**Thoughts**: The app is far from beautiful. It litterally has minimal styling. All of the binding of functions can be a bit confusing. On the other hand this was
+a good opportunity to practise. I could definitely revisit this and work on the visuals. Both with different css frameworks and plain css!
+
+**Experimented with:** Removing the list style type on list elements by setting the list type style to none. I also experimented with different fonts
+~~~~
+font-family: sans-serif;
+list-style-type: none;
+~~~~
+
+**Link(s) to work**: [Todo App](https://github.com/Organwolf/ReactJS/tree/master/intro-react)
+
 <!--
 ### Day x: March y, 2020
 
