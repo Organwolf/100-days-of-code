@@ -19,10 +19,14 @@ If you want to help by providing a translation of content/rules in the language 
 - [x] Become better at using Markdown language
 - [ ] Participate in a code project outside of work
 - [ ] Re-evaluate my goals and add/remove goals at least once
+- [ ] Learn how, why and when I should use virtual environments
 
 ###### JavaScript
 - [ ] Learn more vanilla JS (by completing [JavaScript30](https://javascript30.com/) by Wesbos)
 - [ ] Learn more React.js
+    [x] Create a Todo app
+    [ ] Add Redux to the Todo app
+    [ ] Refactor and use Hooks in the Todo app
 
 ###### Personal
 - [ ] Make a Personal Website
@@ -34,6 +38,8 @@ If you want to help by providing a translation of content/rules in the language 
 - [ ] Trigger visuals via code
 
 ###### App development
+- [ ] Use a single API call in an app
+- [ ] Use multiple API calls in an app
 - [ ] Create a full-stack application
 - [ ] Make a simple app for mobile
 

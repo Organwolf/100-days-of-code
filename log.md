@@ -46,7 +46,7 @@ list-style-type: none;
 
 ### Day 3: March y, 2020
 
-**Today's Progress**: Worked on Javascript30 by Wesbos. Day 17: Sort Without articles. Learnt more about using map, regex and "compressing" functions by using fat arrows and turnary functions.
+**Today's Progress**: Worked on Javascript30 by Wesbos. Day 17: Sort Without articles. Learnt more about using map, regex and "compressing" functions by using fat arrows and turnary functions. Also learnt how I can parse a nodeList to an array using Array.from().
 
 **Thoughts**: It is good if I try to solve the Javascript30 problems on my own first before the solution is shown.
 
@@ -54,6 +54,8 @@ list-style-type: none;
 **Experimented with:** Regex and turnary functions
 
 ~~~~
+// 1 & 2 are equivalent to each other.
+
 // 1
 str.replace(/^(a |the |an )/i, '').trim();
 
@@ -64,22 +66,20 @@ str.replace(/a/gi, "")
 str.trim()
 ~~~~
 
-1 & 2 are equivalent to each other.
-
 ~~~~
+// 1 & 2 are equivalent to each other.
+
+// 1
 const sortedBands = bands.sort(function (a,b) {
   if(strip(a) > strip(b)){
       return 1;
-    } 
+  } 
   else {
       return -1;
   }
 });
-~~~~
 
-is also equivalent to:
-
-~~~~
+// 2
 const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
 ~~~~
 
