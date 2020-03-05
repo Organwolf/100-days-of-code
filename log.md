@@ -43,6 +43,47 @@ list-style-type: none;
 
 **Link(s) to work**: [Todo App](https://github.com/Organwolf/ReactJS/tree/master/intro-react)
 
+
+### Day 3: March y, 2020
+
+**Today's Progress**: Worked on Javascript30 by Wesbos. Day 17: Sort Without articles. Learnt more about using map, regex and "compressing" functions by using fat arrows and turnary functions.
+
+**Thoughts**: It is good if I try to solve the Javascript30 problems on my own first before the solution is shown.
+
+
+**Experimented with:** Regex and turnary functions
+
+~~~~
+// 1
+str.replace(/^(a |the |an )/i, '').trim();
+
+// 2
+str.replace(/the/gi, "")
+str.replace(/an/gi, "")
+str.replace(/a/gi, "")
+str.trim()
+~~~~
+
+1 & 2 are equivalent to each other.
+
+~~~~
+const sortedBands = bands.sort(function (a,b) {
+  if(strip(a) > strip(b)){
+      return 1;
+    } 
+  else {
+      return -1;
+  }
+});
+~~~~
+
+is also equivalent to:
+
+~~~~
+const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
+~~~~
+
+**Link(s) to work**: No link today
 <!--
 ### Day x: March y, 2020
 
