@@ -8,7 +8,7 @@
 
 ###### General
 - [ ] Experiment +5 min with code per day
-    - [ ] 0-24 &nbsp; &nbsp;days completed
+    - [ ] 0-24 &nbsp;&nbsp;days completed
     - [ ] 25-49 days completed
     - [ ] 50-74 days completed
     - [ ] 75-99 days completed
