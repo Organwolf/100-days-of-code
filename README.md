@@ -24,9 +24,13 @@ If you want to help by providing a translation of content/rules in the language 
 ###### JavaScript
 - [ ] Learn more vanilla JS (by completing [JavaScript30](https://javascript30.com/) by Wesbos)
 - [ ] Learn more React.js
-    [x] Create a Todo app
-    [ ] Add Redux to the Todo app
-    [ ] Refactor and use Hooks in the Todo app
+- [x] Create a Todo app
+    - [ ] Add Redux to the Todo app
+    - [ ] Add the ability to evaluate the Todo 
+    - [ ] Refactor and use Hooks in the Todo app
+    - [ ] Style the Todo app w Bootstrap
+    - [ ] Style the Todo app w plain CSS
+    - [ ] Style the Todo app w Styled Components
 
 ###### Personal
 - [ ] Make a Personal Website
