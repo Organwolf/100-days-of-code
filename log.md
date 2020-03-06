@@ -14,7 +14,7 @@ Debouncing is problably the most advanced part of this code and from what I unde
 
 **Link to work:** [Slide in on scroll](https://github.com/Organwolf/VanillaJS/tree/master/SlideInOnScroll)
 
-### Day 1: March 2, 2020
+### Day 1: March 3, 2020
 
 **Today's Progress**: Made a TODO app in combination with localStorage so that the information persests even if you reload the page
 
@@ -28,7 +28,7 @@ viewBox="-2.35 -0.5 23 23"
 
 **Link(s) to work**: [TODO-list](https://github.com/Organwolf/VanillaJS/tree/master/TODO-list)
 
-### Day 2: March y, 2020
+### Day 2: March 4, 2020
 
 **Today's Progress**: By making this todoapp I got the opportunity to repeat some of ReactJS core concepts such as separating the data from the view components.
 
@@ -44,7 +44,7 @@ list-style-type: none;
 **Link(s) to work**: [Todo App](https://github.com/Organwolf/ReactJS/tree/master/intro-react)
 
 
-### Day 3: March y, 2020
+### Day 3: March 5, 2020
 
 **Today's Progress**: Worked on Javascript30 by Wesbos. Day 17: Sort Without articles. Learnt more about using map, regex and "compressing" functions by using fat arrows and turnary functions. Also learnt how I can parse a nodeList to an array using Array.from().
 
