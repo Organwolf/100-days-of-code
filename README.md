@@ -55,8 +55,7 @@ First 25 days | Day 26-50     | Day 51-75     | Last 25 days
 --------------|---------------|---------------|---------------
 front-end dev | App dev       | Poetic Comp.  | Co-op dev.  
 
+:rocket:
 
 Give a man a program, frustrate him for a day.  
 Teach a man to program, frustrate him for a lifetime. - Muhammad Waseem
-
-:rocket:
