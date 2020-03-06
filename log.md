@@ -84,6 +84,17 @@ const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
 ~~~~
 
 **Link(s) to work**: No link today
+
+### Day 4: March 6, 2020
+
+**Today's Progress**: I have refactored more than half of the Todo app to work with Redux.
+
+**Thoughts**: Redux is confusing. 
+
+**Experimented with:** I have new ideas of addons I can do to this app. For example I'd like to add the opportunity to write a note once a chore is finished.
+
+**Link(s) to work**: [Todo app with redux](https://github.com/Organwolf/ReactJS/tree/redux)
+
 <!--
 ### Day x: March y, 2020
 
