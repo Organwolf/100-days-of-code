@@ -95,6 +95,17 @@ const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
 
 **Link(s) to work**: [Todo app with redux](https://github.com/Organwolf/ReactJS/tree/redux)
 
+
+### Day 5: March 7, 2020
+
+**Today's Progress**: Final refactoring of Todo.
+
+**Thoughts**: I feel way more comfortable with the refactoring from 'regular' react code to react-redux code. The single source of truth etc. Tomorrow I'll start to add 
+more functionality!
+
+**Experimented with:** Naming the actions and action creators something else than CJ did in the videos. 
+
+**Link(s) to work**: [Redux Refactored Todo](https://github.com/Organwolf/ReactJS/tree/db7e74f04aa8213caf7cc6d872b4087a652ff824)
 <!--
 ### Day x: March y, 2020
 
