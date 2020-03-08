@@ -14,13 +14,13 @@
 
 ### Day 6: March 8, 2020
 
-**Today's Progress**: Refactored my log. Reversed the order of log entries to make it easier for myself in the long run.
+**Today's Progress**: Refactored my log. Reversed the order of log entries to make it easier for myself in the long run. Added a new feature to the todo app. You can now add notes about a completed chore.
 
-**Thoughts**:
+**Thoughts**: I still get confused when it comes to redux. A lot of the concepts are still really new and I suspect that the loose typing is one of the reasons for confusion. 
 
-**Experimented with:**
+**Experimented with:** How a user can add a note to a completed todo using react and redux
 
-**Link(s) to work**: [Todays thing](http://www.example.com)
+**Link(s) to work**: [Todo with notes](https://github.com/Organwolf/ReactJS/tree/2284186d6cc2b49373584046f9d000cec1b9eb19)
 
 ### Day 5: March 7, 2020
 
