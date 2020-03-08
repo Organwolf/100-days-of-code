@@ -23,7 +23,7 @@
 - [ ] Learn more React.js
 - [x] Create a Todo app
     - [x] Add Redux to the Todo app
-    - [ ] Add the ability to evaluate the Todo 
+    - [x] Add the ability to add a note to the Todo 
     - [ ] Refactor and use Hooks in the Todo app
     - [ ] Style the Todo app w plain CSS
     - [ ] Style the Todo app w Bootstrap
