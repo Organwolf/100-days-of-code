@@ -14,18 +14,19 @@
     - [ ] 75-99 days completed
 - [x] Become better at using Markdown language
 - [ ] Participate in a code project outside of work
-- [ ] Re-evaluate my goals and add/remove goals at least once
+- [x] Re-evaluate my goals and add/remove goals at least once
+    - [x] Added a new goal about virtual environments
 - [ ] Learn how, why and when I should use virtual environments
 
 ###### JavaScript
 - [ ] Learn more vanilla JS (by completing [JavaScript30](https://javascript30.com/) by Wesbos)
 - [ ] Learn more React.js
 - [x] Create a Todo app
-    - [ ] Add Redux to the Todo app
+    - [x] Add Redux to the Todo app
     - [ ] Add the ability to evaluate the Todo 
     - [ ] Refactor and use Hooks in the Todo app
-    - [ ] Style the Todo app w Bootstrap
     - [ ] Style the Todo app w plain CSS
+    - [ ] Style the Todo app w Bootstrap
     - [ ] Style the Todo app w Styled Components
 
 ###### Personal
