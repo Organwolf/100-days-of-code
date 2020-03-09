@@ -3,6 +3,7 @@
 ### Day 7: March 9, 2020
 
 **Today's Progress**: 
+<img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png" alt="drawing" width="200" height="height"/>
 ![](https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png =250x250) Todo app without  css
 
 ![](https://github.com/Organwolf/ReactJS/blob/redux/images/todo-plain-css.png =250x250) Todo app with css
