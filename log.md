@@ -2,19 +2,19 @@
 
 ### Day 7: March 9, 2020
 
-**Today's Progress**: 
+**Today's Progress**: Learnt how to add pictures to my markdown as well as basic styling using css. Giving the buttons a *border-radius* did a lot. Changing the font also did a lot.
 
-#### Todo app without css
+###### Todo app without css
 
 <img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png" alt="without" width="400" height="400"/>
 
-#### Todo app with css
+###### Todo app with css
 
 <img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-plain-css.png" alt="with" width="400" height="400"/>
 
-**Thoughts**:
+**Thoughts**: CSS feels a bit more manageable. I try to encurage myself to try before being 100% what a certain peice of code does. Encouraging experimentation and exploration baby! :baby: 
 
-**Experimented with:**
+**Experimented with:** CSS - *border-radius*, using a container class, using *display: block* to place elements on seperate lines, removing text-decoration as well as using *em* for font-size, padding and margin.
 
 **Link(s) to work**: [Todo app plain css](https://github.com/Organwolf/ReactJS/tree/cc375aa561ddb746eec3ba8becbe7d496d988b68)
 
