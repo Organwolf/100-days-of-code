@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 7: March 9, 2020
+
+**Today's Progress**: 
+![](https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png) Todo app without  css
+
+![](https://github.com/Organwolf/ReactJS/blob/redux/images/todo-plain-css.png) Todo app with css
+
+**Thoughts**:
+
+**Experimented with:**
+
+**Link(s) to work**: [Todo app plain css](https://github.com/Organwolf/ReactJS/tree/cc375aa561ddb746eec3ba8becbe7d496d988b68)
+
 ### Day 6: March 8, 2020
 
 **Today's Progress**: Refactored my log. Reversed the order of log entries to make it easier for myself in the long run. Added a new feature to the todo app. You can now add notes about a completed chore.
