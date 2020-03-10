@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 8: March 10, 2020
+
+**Today's Progress**: 
+
+**Thoughts**:
+
+**Experimented with:**
+
+**Link(s) to work**: [Speach Recognition in Firefox](https://github.com/Organwolf/VanillaJS/tree/master/SpeachRecognition)
+
 ### Day 7: March 9, 2020
 
 **Today's Progress**: Learnt how to add pictures to my markdown as well as basic styling using css. Giving the buttons a *border-radius* did a lot. Changing the font also did a lot.
