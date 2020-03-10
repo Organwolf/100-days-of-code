@@ -2,13 +2,13 @@
 
 ### Day 8: March 10, 2020
 
-**Today's Progress**: 
+**Today's Progress**: Used the voice recognition that is built into Edge and Chrome to render a unicorn whenever the user says "unicorn". The site will register what the user says and display it one screen. The core functionalities are taken from JavaScript30 by Wesbos. This is day 20 "Speech Detection". 
 
-**Thoughts**:
+**Thoughts**: If I'm not way of this is actually an API. At least is says so in the [documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/SpeechRecognition). The browser compatability is quite limited. It doesn't work in my browser of choice which is Firefox. 
 
-**Experimented with:**
+**Experimented with:** The idea of controlling something using ones voice. Now I just check if the user says 'Unicorn' but I'd like to expand this to an app that takes a picture once a user says say 'Take a picture'.
 
-**Link(s) to work**: [Speach Recognition in Firefox](https://github.com/Organwolf/VanillaJS/tree/master/SpeachRecognition)
+**Link(s) to work**: [Speach detection in the browser](https://github.com/Organwolf/VanillaJS/tree/master/SpeachRecognition)
 
 ### Day 7: March 9, 2020
 
