@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 9: March 11, 2020
+
+**Today's Progress**: Added react-bootstrap to my app. I also threw in styled-components and some components from react-router-dom. 
+
+**Thoughts**: I planned to replace the buttons, inputfield and change the font today. In retrospect that was a bit too much to hope for. 
+Instead I managed to complete the setup from the routing and installed all of the appropriate packages. I also pushed the new code to it's own branch. I'll see if I can't complete this tomorrow.
+
+**Experimented with:** Routing. If someone tries to access a route I havn't implemented I rerout to a NoMatch component.
+
+**Link(s) to work**: [Todo with react-bootstrap](https://github.com/Organwolf/ReactJS/tree/react-bootstrap)
+
 ### Day 8: March 10, 2020
 
 **Today's Progress**: Used the voice recognition that is built into Edge and Chrome to render a unicorn whenever the user says "unicorn". The site will register what the user says and display it one screen. The core functionalities are taken from JavaScript30 by Wesbos. This is day 20 "Speech Detection". 
