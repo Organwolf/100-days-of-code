@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day x: March y, 2020
+### Day 10: March 12, 2020
 
 **Today's Progress**: Added a navbar to the site, used styled components to add color and a hover effect to the navbar, learnt more about the difference between [named export and default export in ES6](https://medium.com/@etherealm/named-export-vs-default-export-in-es6-affb483a0910). 
 
