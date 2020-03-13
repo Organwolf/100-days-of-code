@@ -17,6 +17,7 @@
 - [x] Re-evaluate my goals and add/remove goals at least once
     - [x] Added a new goal about virtual environments
 - [ ] Learn how, why and when I should use virtual environments
+- [ ] Learn more about the different default interactive shells
 
 ###### JavaScript
 - [ ] Learn more vanilla JS (by completing [JavaScript30](https://javascript30.com/) by Wesbos)
@@ -25,21 +26,24 @@
     - [x] Add Redux to the Todo app
     - [x] Add the ability to add a note to the Todo 
     - [ ] Refactor and use Hooks in the Todo app
-    - [ ] Style the Todo app w plain CSS
+    - [x] Style the Todo app w plain CSS
     - [ ] Style the Todo app w Bootstrap
-    - [ ] Style the Todo app w Styled Components
+    - [x] Style the Todo app w Styled Components
 
 ###### Personal
 - [ ] Make a Personal Website
 
 ###### Sound/visuals
 - [ ] Animate UI in some way
-- [ ] Manipulate an image with code
-- [ ] Trigger sound via code
+- [x] Manipulate an image with code
+    - [x] using get imageData and then processing the pixels. Day 11
+- [x] Trigger sound via code
+    - [x] snap sound taking pictures. Day 11
 - [ ] Trigger visuals via code
 
 ###### App development
-- [ ] Use a single API call in an app
+- [x] Use a single API call in an app
+    - [x] Webcam Navigator web API
 - [ ] Use multiple API calls in an app
 - [ ] Create a full-stack application
 - [ ] Make a simple app for mobile

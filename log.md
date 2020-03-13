@@ -1,5 +1,44 @@
 # 100 Days Of Code - Log
 
+### Day 11: March y, 2020
+
+**Today's Progress**: A mixed bag of canvas drawing context, chart.js (in another project not added here), pixel manipulation in plain JS, using the video stream from my webcam, working with fetch to load csv data (in another project). This is part of Wesbos JavaScript30 -> day 19
+
+**Thoughts**: It turns out the term API is way broader then I initially thought. Today I used one without even knowing it at first. There are a lot of [web APIs](https://developer.mozilla.org/en-US/docs/Web/API). I used the [navigator](https://developer.mozilla.org/en-US/docs/Web/API/Navigator) web API to access the webcams [localMediaStream](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia).
+
+**Experimented with:**
+
+~~~~
+const ctx = canvas.getContext('2d');
+~~~~
+
+Using the [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) function to draw a frame each 16ms.
+
+~~~~
+function paintToCanvas() {
+    const width = video.videoWidth;
+    const height = video.videoHeight;
+    canvas.width = width;
+    canvas.height = height;
+
+    console.log(width, height);
+    return setInterval(() => {
+        // draw the image starting in the top left corner
+        ctx.drawImage(video, 0, 0, width, height);
+        // take pixels out
+        let pixels = ctx.getImageData(0, 0, width, height);
+        // add effect
+        ctx.globalAlpha = 0.1;
+        // pixels = redEffect(pixels);
+        pixels = rgbSplit(pixels);
+        // put pixels back
+        ctx.putImageData(pixels, 0, 0);
+    }, 16);
+}
+~~~~ 
+
+**Link(s) to work**: [Webcam Photobooth](https://github.com/Organwolf/VanillaJS/tree/master/Webcam-PhotoBooth)
+
 ### Day 10: March 12, 2020
 
 **Today's Progress**: Added a navbar to the site, used styled components to add color and a hover effect to the navbar, learnt more about the difference between [named export and default export in ES6](https://medium.com/@etherealm/named-export-vs-default-export-in-es6-affb483a0910). 
