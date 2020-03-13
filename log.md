@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 11: March y, 2020
+### Day 11: March 13, 2020
 
 **Today's Progress**: A mixed bag of canvas drawing context, chart.js (in another project not added here), pixel manipulation in plain JS, using the video stream from my webcam, working with fetch to load csv data (in another project). This is part of Wesbos JavaScript30 -> day 19
 
