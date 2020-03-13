@@ -35,7 +35,7 @@ function paintToCanvas() {
         ctx.putImageData(pixels, 0, 0);
     }, 16);
 }
-~~~~ 
+~~~~
 
 **Link(s) to work**: [Webcam Photobooth](https://github.com/Organwolf/VanillaJS/tree/master/Webcam-PhotoBooth)
 
