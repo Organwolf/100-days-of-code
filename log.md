@@ -8,13 +8,14 @@
 
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/Todos2-15:3:20.png" alt="without" width="600" height="400"/>
 
-I was also introduced to [Glitch](https://glitch.com/) trough the APIs for beginners course linked below. This site might be a real gem, we'll see.
+I was also introduced to [Glitch](https://glitch.com/) trough the APIs for beginners course linked below.  
+This site might be a real gem, we'll see.
 
 **Thoughts**: 2 weeks completed at this point and it feels good! I really appriciate the [APIs for Beginners - How to use an API (Full Course)](https://www.youtube.com/watch?v=GZvSYJDk-us). As for day 23 of the 30 days of JavaScript challange I'm a bit confused. Had to read up on speech synthesis on [mozillas developer pages](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis). I'll have to solve the last issues I have with that tomorrow. Python is really fun. Working in the console, writing bash commands and just doing (fairly basic) stuff like that makes you feel like a hacker (or something). I appreciate it, that's what I'm trying to get at, and I'm looking forward to automating stuff with it further down the line.
 
 **Experimented with:** SpeechSynthesis in the browser, twillo API calls using both JavaScript and python, virtual environments and there file structures and environment variables!
 
-**Link(s) to work**: [Todays thing](http://www.example.com)
+**Link(s) to work**: [Work in progress](https://giphy.com/gifs/character-lemon-wip-3o7qE4iwtQb9PSYsE0)
 
 ### Day 12: March 14, 2020
 
