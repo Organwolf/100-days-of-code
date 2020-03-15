@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day x: March y, 2020
+
+**Today's Progress**: 
+
+**Thoughts**:
+
+**Experimented with:**
+
+**Link(s) to work**: [Todays thing](http://www.example.com)
+
 ### Day 12: March 14, 2020
 
 **Today's Progress**: Created a highlight that adjusts to the size of whatever has a anchor tag around itself. First step was creating a span element, adding the highlight class to the span and then appending that span to the body of the document. To trigger the dynamic highlighting of the current anchor tag under the mouse cureser event listeners where added to each a-tag. Each time the 'mouseenter' event was triggered a functions was called that got the bounding rectangle of the current element. The [Element.getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) method returns the size of an element and its position relative to the viewport. I could use the position information to retrieve the width, height, top and left coords and set the highlights width, height and transform accordingly.
