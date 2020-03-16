@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 14: March 16, 2020
+
+**Today's Progress**: I personally really like the JavaScript below. First you fetch all of the elements with the type of *range* or *text* and store them in an *options* array. Then a forEach is used on that options array adding an eventlistener to each of the elements. The eventlistener triggers on the *'change'* event calling *setOption()*. *msg* is an instance of *SpeechSynthesisUtterance*. `The SpeechSynthesisUtterance interface of the Web Speech API represents a speech request. It contains the content the speech service should read and information about how to read it (e.g. language, pitch and volume.)` Because the retrieved elements' name attributes are the same as the attributes on the msg object that we want to change it is possible to use the *this.name*. The *toggle()* function then runs the speech service with the current text, pitch and range that the user has specified.
+
+```javascript
+  const options = document.querySelectorAll('[type="range"], [name="text"]');
+
+  options.forEach(option => option.addEventListener('change', setOption));
+
+  function setOption() {
+    msg[this.name] = this.value;
+    toggle();
+  }
+```
+
+**Thoughts**: Had an absolute hell with my firefox browser. It didn't load the voices and I spent +1 hour reading the Mozilla documentation and trying stuff out. In the end it was a really good experience. I've had a similar problem before when using Flask together with JavaScript. I didn't know that you had to hard reflesh the browser to se the changes. So I spent tons of time trying to fix something without seing anything change in the browser.
+
+**Experimented with:** The Mozilla documentation and loading the voices into the dropdown. I'd love to change the font, the background, moving around the labels and stuff like that.
+
+**Link(s) to work**: [SpeechSynthesis](https://github.com/Organwolf/VanillaJS/tree/master/SpeechSynthesis)
+
 ### Day 13: March 15, 2020
 
 **Today's Progress**: Today has been a really mixed bag of stuff. I added a jumbotron to my todoapp, worked with APIs to understand them better, read about and worked with virtual environments in python and tried to complete day 23 of Wesbos JavaScript30 which deals with speach synthesis in the browser (robot voices reading stuff). I usually make physical todo notes when programming. Here is a taste:
@@ -229,15 +250,3 @@ const sliderImages = document.querySelectorAll('.slide-in');
 Debouncing is problably the most advanced part of this code and from what I understand it enables me to trigger a particular function a fixed amount of times instead of it triggering unnecessarily often.
 
 **Link to work:** [Slide in on scroll](https://github.com/Organwolf/VanillaJS/tree/master/SlideInOnScroll)
-
-<!--
-### Day x: March y, 2020
-
-**Today's Progress**: 
-
-**Thoughts**:
-
-**Experimented with:**
-
-**Link(s) to work**: [Todays thing](http://www.example.com)
--->
