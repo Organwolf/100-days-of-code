@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+### Day 15: March 17, 2020
+
+**Today's Progress**: Learnt more about event bubbling and event capturing as well as *once* in the context of using event listeners. Also used *transform: scare( x )* to create a subtle popping effect.
+
+```javascript
+// the scale of the text while at the top of the page
+transform: scale(0.98);
+
+// the space of the text while you've scrolled down a bit
+transform: scale(1);
+```
+
+**Thoughts**: The stuff I learnt about event bubbling and capturing further drove home the point of the DOM being a graph. You traverse the graph/tree to modify content etc.
+
+**Experimented with**: Google fonts as well as the custom background image used in the SpeechSynthesis web app. 
+
+**Link(s) to work**: [Sticky navigation bar](https://github.com/Organwolf/VanillaJS/tree/master/StickyNav)
+
 ### Day 14: March 16, 2020
 
 **Today's Progress**: I personally really like the JavaScript below. First you fetch all of the elements with the type of *range* or *text* and store them in an *options* array. Then a forEach is used on that options array adding an eventlistener to each of the elements. The eventlistener triggers on the *'change'* event calling *setOption()*. *msg* is an instance of *SpeechSynthesisUtterance*. `The SpeechSynthesisUtterance interface of the Web Speech API represents a speech request. It contains the content the speech service should read and information about how to read it (e.g. language, pitch and volume.)` Because the retrieved elements' name attributes are the same as the attributes on the msg object that we want to change it is possible to use the *this.name*. The *toggle()* function then runs the speech service with the current text, pitch and range that the user has specified.
@@ -17,7 +35,7 @@
 
 **Thoughts**: Had an absolute hell with my firefox browser. It didn't load the voices and I spent +1 hour reading the Mozilla documentation and trying stuff out. In the end it was a really good experience. I've had a similar problem before when using Flask together with JavaScript. I didn't know that you had to hard reflesh the browser to se the changes. So I spent tons of time trying to fix something without seing anything change in the browser.
 
-**Experimented with:** The Mozilla documentation and loading the voices into the dropdown. I'd love to change the font, the background, moving around the labels and stuff like that.
+**Experimented with**: The Mozilla documentation and loading the voices into the dropdown. I'd love to change the font, the background, moving around the labels and stuff like that.
 
 **Link(s) to work**: [SpeechSynthesis](https://github.com/Organwolf/VanillaJS/tree/master/SpeechSynthesis)
 
