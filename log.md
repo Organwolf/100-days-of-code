@@ -22,11 +22,11 @@ I've also used the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/
 
 **Today's Progress**: Learnt more about event bubbling and event capturing as well as *once* in the context of using event listeners. Also used *transform: scare( x )* to create a subtle popping effect.
 
-```javascript
-// the scale of the text while at the top of the page
+```css
+/* the scale of the text while at the top of the page */
 transform: scale(0.98);
 
-// the space of the text while you've scrolled down a bit
+/* the space of the text while you've scrolled down a bit */
 transform: scale(1);
 ```
 
@@ -92,13 +92,13 @@ This site might be a real gem, we'll see.
 
 **Experimented with:**
 
-~~~~
+```javascript
 const ctx = canvas.getContext('2d');
-~~~~
+```
 
 Using the [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) function to draw a frame each 16ms.
 
-~~~~
+```javascript
 function paintToCanvas() {
     const width = video.videoWidth;
     const height = video.videoHeight;
@@ -119,7 +119,7 @@ function paintToCanvas() {
         ctx.putImageData(pixels, 0, 0);
     }, 16);
 }
-~~~~
+```
 
 **Link(s) to work**: [Webcam Photobooth](https://github.com/Organwolf/VanillaJS/tree/master/Webcam-PhotoBooth)
 
@@ -160,11 +160,11 @@ Instead I managed to complete the setup from the routing and installed all of th
 
 ###### Todo app without css
 
-<img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png" alt="without" width="400" height="400"/>
+<img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png" style="text-align:center" alt="without" width="500" height="500"/>
 
 ###### Todo app with css
 
-<img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-plain-css.png" alt="with" width="400" height="400"/>
+<img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-plain-css.png" style="text-align:center" alt="with" width="500" height="500"/>
 
 **Thoughts**: CSS feels a bit more manageable. I try to encurage myself to try before being 100% what a certain peice of code does. Encouraging experimentation and exploration baby! :baby: 
 
@@ -214,7 +214,7 @@ more functionality!
 
 **Experimented with:** Regex and turnary functions
 
-~~~~
+```javascript
 // 1 & 2 are equivalent to each other.
 
 // 1
@@ -225,9 +225,9 @@ str.replace(/the/gi, "")
 str.replace(/an/gi, "")
 str.replace(/a/gi, "")
 str.trim()
-~~~~
+```
 
-~~~~
+```javascript
 // 1 & 2 are equivalent to each other.
 
 // 1
@@ -242,7 +242,7 @@ const sortedBands = bands.sort(function (a,b) {
 
 // 2
 const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
-~~~~
+```
 
 **Link(s) to work**: [TODO-list](https://github.com/Organwolf/VanillaJS/tree/master/TODO-list)
 
@@ -254,10 +254,11 @@ const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
 a good opportunity to practise. I could definitely revisit this and work on the visuals. Both with different css frameworks and plain css!
 
 **Experimented with:** Removing the list style type on list elements by setting the list type style to none. I also experimented with different fonts
-~~~~
+
+```css
 font-family: sans-serif;
 list-style-type: none;
-~~~~
+```
 
 **Link(s) to work**: [Todo App](https://github.com/Organwolf/ReactJS/tree/master/intro-react)
 
@@ -269,9 +270,9 @@ list-style-type: none;
 
 **Experimented with:** SVG icons. Found an icon that fitted the theme. I actually had to fiddle around with the viewBox attribute to make the icon look ok.
 
-~~~~
+```javascript
 viewBox="-2.35 -0.5 23 23"
-~~~~
+```
 
 ### Day 0: March 2, 2020
 
@@ -279,9 +280,9 @@ viewBox="-2.35 -0.5 23 23"
 
 **Thoughts:** Had to debug my code for 10+ minutes because I had forgot the punctuation **.** while using querySelectorAll to select the elements of a certain class. 
 
-~~~~
+```javascript
 const sliderImages = document.querySelectorAll('.slide-in');
-~~~~
+```
 
 Debouncing is problably the most advanced part of this code and from what I understand it enables me to trigger a particular function a fixed amount of times instead of it triggering unnecessarily often.
 
