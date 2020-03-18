@@ -160,9 +160,9 @@ Instead I managed to complete the setup from the routing and installed all of th
 
 <p align="center" >
   <h4>Todo app without css</h3>
-  <img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png" style="box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2)" alt="without" width="500" height="500"/>
+  <img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png" alt="without" width="500" height="500"/>
 </p>
-<p align="center">
+<p style="align: text-center">
   <h4>Todo app with css</h3>
 </p>
 <p align="center">
