@@ -160,8 +160,8 @@ Instead I managed to complete the setup from the routing and installed all of th
 
 ##### Todo app without css
 
-<p align="center" style="box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2)">
-  <img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png" alt="without" width="500" height="500"/>
+<p align="center" >
+  <img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png" style="box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2)" alt="without" width="500" height="500"/>
 </p>
 
 ##### Todo app with css
