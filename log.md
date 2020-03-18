@@ -157,14 +157,18 @@ Instead I managed to complete the setup from the routing and installed all of th
 ### Day 7: March 9, 2020
 
 **Today's Progress**: Learnt how to add pictures to my markdown as well as basic styling using css. Giving the buttons a *border-radius* did a lot. Changing the font also did a lot.
-
-##### Todo app without css
+<p align="center">
+  <h3>Todo app without css</h3>
+</p>
 
 <p align="center" >
   <img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-no-css.png" style="box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2)" alt="without" width="500" height="500"/>
 </p>
 
-##### Todo app with css
+<p align="center">
+  <h3>Todo app with css</h3>
+</p>
+
 <p align="center" style="box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2)">
   <img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-plain-css.png" alt="with" width="500" height="500"/>
 </p>
