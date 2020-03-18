@@ -164,7 +164,7 @@ Instead I managed to complete the setup from the routing and installed all of th
 
 #### Todo app with css
 
-<img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-plain-css.png" alt="with" width="500" height="500"/>
+<img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-plain-css.png" alt="with" width="501" height="500"/>
 
 **Thoughts**: CSS feels a bit more manageable. I try to encurage myself to try before being 100% what a certain peice of code does. Encouraging experimentation and exploration baby! :baby: 
 
