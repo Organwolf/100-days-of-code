@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 16: March 18, 2020
+
+**Today's Progress**: Finished a video about APIs called [APIs for Beginners - How to use an API (Full Course)](https://www.youtube.com/watch?v=GZvSYJDk-us) by Craig Dennis. I've worked a little with flask, express, nodeJs and javascript completing 2 webapps I cloned from [Craig's github](https://github.com/craigsdennis/intro-to-apis-course/blob/master/course-notes.md). 
+
+**Thoughts**: This has nothing to do with programming but I love the aestetics of [Glitch](https://glitch.com).
+
 ### Day 15: March 17, 2020
 
 **Today's Progress**: Learnt more about event bubbling and event capturing as well as *once* in the context of using event listeners. Also used *transform: scare( x )* to create a subtle popping effect.
