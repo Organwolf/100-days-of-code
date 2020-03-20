@@ -1,15 +1,29 @@
 # 100 Days Of Code - Log
 
+### Day 18: March 20, 2020
+
+**Today's Progress**: Worked with getBoundingClientRect again today. This time I used it to be able to find the coordinates of the rectangle around elements in dropdowns. I also worked with the offset of the nav element to make the code more flexible.
+
+**Thoughts**: I feel like I'm more used to using template literals as well as adding eventlisteners using _forEach_. Definitely looking forward to wrapping up JavaScript30.
+
+**Experimented with**: getBoundingClientRect as well as the dropdownbackground transition.
+
+```css
+transition: all 0.3s, opacity 0.1s, transform 0.2s;
+```
+
+**Link(s) to work**: [Stripe Follow Along Nav](https://github.com/Organwolf/VanillaJS/tree/master/StripeFollowAlongNav)
+
 ### Day 17: March 19, 2020
 
-**Today's Progress**: A bit of a mixed bag today. I took a detour into the world of key/value pairs in JavaScript. Read a [post](https://stackoverflow.com/questions/1168807/how-can-i-add-a-key-value-pair-to-a-javascript-object) from 10 years ago about adding a key/value pair to a JS object. Also started working on day 26/30 of Wesbos JavaScript30. 
+**Today's Progress**: A bit of a mixed bag today. I took a detour into the world of key/value pairs in JavaScript. Read a [post](https://stackoverflow.com/questions/1168807/how-can-i-add-a-key-value-pair-to-a-javascript-object) from 10 years ago about adding a key/value pair to a JS object. Also started working on day 26/30 of Wesbos JavaScript30.
 
-**Thoughts**: I really liked the querySelector selecting something inside a class. At first I didn't really understad the syntax but after playing around with it a bit I was able to wrap my head around it.  
+**Thoughts**: I really liked the querySelector selecting something inside a class. At first I didn't really understad the syntax but after playing around with it a bit I was able to wrap my head around it.
 
 ```javascript
 // Adds all list elements inside of the cool class to a nodeList called triggers
-const triggers = document.querySelectorAll('.cool > li');
-```  
+const triggers = document.querySelectorAll(".cool > li");
+```
 
 **Experimented with**: Query selecting elements inside a particular class, mouseenter and mouseleave events to trigger hover effects, adding and removing css classes to achive cool effects. In another project I experimented with redux and in particular how to change the state of input components depending on the value of other input components.
 
@@ -17,10 +31,10 @@ const triggers = document.querySelectorAll('.cool > li');
 
 ### Day 16: March 18, 2020
 
-**Today's Progress**: Finished a video about APIs called [APIs for Beginners - How to use an API (Full Course)](https://www.youtube.com/watch?v=GZvSYJDk-us) by Craig Dennis. I've worked a little with flask, express, nodeJs and javascript completing 2 webapps I cloned from [Craig's github](https://github.com/craigsdennis/intro-to-apis-course/blob/master/course-notes.md). I had a look at the Spotify API and got the chance to admire their documentation. They even have a [web console](https://developer.spotify.com/console/) which enables you to do requests in the browser. I've also used Postman to do Http requests to the Twilio API. I also fixed a couple security alerts that I got from Github concerning depricated dependencies in an older VanillaJS project. 
+**Today's Progress**: Finished a video about APIs called [APIs for Beginners - How to use an API (Full Course)](https://www.youtube.com/watch?v=GZvSYJDk-us) by Craig Dennis. I've worked a little with flask, express, nodeJs and javascript completing 2 webapps I cloned from [Craig's github](https://github.com/craigsdennis/intro-to-apis-course/blob/master/course-notes.md). I had a look at the Spotify API and got the chance to admire their documentation. They even have a [web console](https://developer.spotify.com/console/) which enables you to do requests in the browser. I've also used Postman to do Http requests to the Twilio API. I also fixed a couple security alerts that I got from Github concerning depricated dependencies in an older VanillaJS project.
 
 **Thoughts**: This has nothing to do with programming but I love the aestetics of [Glitch](https://glitch.com).  
-Found this image of a dog on their page:  
+Found this image of a dog on their page:
 
 <br />
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/new%20stuff%20doggo%20glitch.png" alt="without" width="120" height="122"/>
@@ -29,13 +43,12 @@ Found this image of a dog on their page:
 **Experimented with/Links to todays work**:  
 Javascript full stack complimentr app - [Glitch link](https://glitch.com/edit/#!/complimentr-javascript?path=README.md:1:0)  
 Python/Javascript full stack complimentr app - [Glitch link](https://glitch.com/edit/#!/complimentr-javascript?path=README.md:1:0)  
-A "scraper" that scrapes the table with the id "#main_table_countries" from *Worldometers* [coronavirus data](https://www.worldometers.info/coronavirus/#countries) and then prints out the JSON data that was scraped. - [Github link](https://github.com/Organwolf/VanillaJS/tree/master/ScrapeTable)  
+A "scraper" that scrapes the table with the id "#main*table_countries" from \_Worldometers* [coronavirus data](https://www.worldometers.info/coronavirus/#countries) and then prints out the JSON data that was scraped. - [Github link](https://github.com/Organwolf/VanillaJS/tree/master/ScrapeTable)  
 I've also used the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) together with temperature data from NASA and plotted the curve - [Github link](https://github.com/Organwolf/VanillaJS/tree/master/FetchCsv)
-
 
 ### Day 15: March 17, 2020
 
-**Today's Progress**: Learnt more about event bubbling and event capturing as well as *once* in the context of using event listeners. Also used *transform: scare( x )* to create a subtle popping effect.
+**Today's Progress**: Learnt more about event bubbling and event capturing as well as _once_ in the context of using event listeners. Also used _transform: scare( x )_ to create a subtle popping effect.
 
 ```css
 /* the scale of the text while at the top of the page */
@@ -47,23 +60,23 @@ transform: scale(1);
 
 **Thoughts**: The stuff I learnt about event bubbling and capturing further drove home the point of the DOM being a graph. You traverse the graph/tree to modify content etc.
 
-**Experimented with**: Google fonts as well as the custom background image used in the SpeechSynthesis web app. 
+**Experimented with**: Google fonts as well as the custom background image used in the SpeechSynthesis web app.
 
 **Link(s) to work**: [Sticky navigation bar](https://github.com/Organwolf/VanillaJS/tree/master/StickyNav)
 
 ### Day 14: March 16, 2020
 
-**Today's Progress**: I personally really like the JavaScript below. First you fetch all of the elements with the type of *range* or *text* and store them in an *options* array. Then a forEach is used on that options array adding an eventlistener to each of the elements. The eventlistener triggers on the *'change'* event calling *setOption()*. *msg* is an instance of *SpeechSynthesisUtterance*. `The SpeechSynthesisUtterance interface of the Web Speech API represents a speech request. It contains the content the speech service should read and information about how to read it (e.g. language, pitch and volume.)` Because the retrieved elements' name attributes are the same as the attributes on the msg object that we want to change it is possible to use the *this.name*. The *toggle()* function then runs the speech service with the current text, pitch and range that the user has specified.
+**Today's Progress**: I personally really like the JavaScript below. First you fetch all of the elements with the type of _range_ or _text_ and store them in an _options_ array. Then a forEach is used on that options array adding an eventlistener to each of the elements. The eventlistener triggers on the _'change'_ event calling _setOption()_. _msg_ is an instance of _SpeechSynthesisUtterance_. `The SpeechSynthesisUtterance interface of the Web Speech API represents a speech request. It contains the content the speech service should read and information about how to read it (e.g. language, pitch and volume.)` Because the retrieved elements' name attributes are the same as the attributes on the msg object that we want to change it is possible to use the _this.name_. The _toggle()_ function then runs the speech service with the current text, pitch and range that the user has specified.
 
 ```javascript
-  const options = document.querySelectorAll('[type="range"], [name="text"]');
+const options = document.querySelectorAll('[type="range"], [name="text"]');
 
-  options.forEach(option => option.addEventListener('change', setOption));
+options.forEach(option => option.addEventListener("change", setOption));
 
-  function setOption() {
-    msg[this.name] = this.value;
-    toggle();
-  }
+function setOption() {
+  msg[this.name] = this.value;
+  toggle();
+}
 ```
 
 **Thoughts**: Had an absolute hell with my firefox browser. It didn't load the voices and I spent +1 hour reading the Mozilla documentation and trying stuff out. In the end it was a really good experience. I've had a similar problem before when using Flask together with JavaScript. I didn't know that you had to hard reflesh the browser to se the changes. So I spent tons of time trying to fix something without seing anything change in the browser.
@@ -93,7 +106,7 @@ This site might be a real gem, we'll see.
 
 **Today's Progress**: Created a highlight that adjusts to the size of whatever has a anchor tag around itself. First step was creating a span element, adding the highlight class to the span and then appending that span to the body of the document. To trigger the dynamic highlighting of the current anchor tag under the mouse cureser event listeners where added to each a-tag. Each time the 'mouseenter' event was triggered a functions was called that got the bounding rectangle of the current element. The [Element.getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) method returns the size of an element and its position relative to the viewport. I could use the position information to retrieve the width, height, top and left coords and set the highlights width, height and transform accordingly.
 
-**Thoughts**: Yet again I used a web API. This time the most general of them all, the Element web API. The MDN web [docs](https://developer.mozilla.org/en-US/docs/Web/API/Element) state that the *Element is the most general base class from which all element objects (i.e. objects that represent elements) in a Document inherit. It only has methods and properties common to all kinds of elements*.
+**Thoughts**: Yet again I used a web API. This time the most general of them all, the Element web API. The MDN web [docs](https://developer.mozilla.org/en-US/docs/Web/API/Element) state that the _Element is the most general base class from which all element objects (i.e. objects that represent elements) in a Document inherit. It only has methods and properties common to all kinds of elements_.
 
 **Experimented with:** Experimented a lot with the css this time. Font size in the menu, width of the wrapper, the linear-gradient colors in the background and so on. Also added some [random text](https://www.blindtextgenerator.com/) instead of the lorem ipsum.
 
@@ -108,31 +121,31 @@ This site might be a real gem, we'll see.
 **Experimented with:**
 
 ```javascript
-const ctx = canvas.getContext('2d');
+const ctx = canvas.getContext("2d");
 ```
 
 Using the [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) function to draw a frame each 16ms.
 
 ```javascript
 function paintToCanvas() {
-    const width = video.videoWidth;
-    const height = video.videoHeight;
-    canvas.width = width;
-    canvas.height = height;
+  const width = video.videoWidth;
+  const height = video.videoHeight;
+  canvas.width = width;
+  canvas.height = height;
 
-    console.log(width, height);
-    return setInterval(() => {
-        // draw the image starting in the top left corner
-        ctx.drawImage(video, 0, 0, width, height);
-        // take pixels out
-        let pixels = ctx.getImageData(0, 0, width, height);
-        // add effect
-        ctx.globalAlpha = 0.1;
-        // pixels = redEffect(pixels);
-        pixels = rgbSplit(pixels);
-        // put pixels back
-        ctx.putImageData(pixels, 0, 0);
-    }, 16);
+  console.log(width, height);
+  return setInterval(() => {
+    // draw the image starting in the top left corner
+    ctx.drawImage(video, 0, 0, width, height);
+    // take pixels out
+    let pixels = ctx.getImageData(0, 0, width, height);
+    // add effect
+    ctx.globalAlpha = 0.1;
+    // pixels = redEffect(pixels);
+    pixels = rgbSplit(pixels);
+    // put pixels back
+    ctx.putImageData(pixels, 0, 0);
+  }, 16);
 }
 ```
 
@@ -140,19 +153,19 @@ function paintToCanvas() {
 
 ### Day 10: March 12, 2020
 
-**Today's Progress**: Added a navbar to the site, used styled components to add color and a hover effect to the navbar, learnt more about the difference between [named export and default export in ES6](https://medium.com/@etherealm/named-export-vs-default-export-in-es6-affb483a0910). 
+**Today's Progress**: Added a navbar to the site, used styled components to add color and a hover effect to the navbar, learnt more about the difference between [named export and default export in ES6](https://medium.com/@etherealm/named-export-vs-default-export-in-es6-affb483a0910).
 
 **Thoughts**: Html and JSX doesn't feel as unfamiliar any more. Reading documentation also seems to be more manageable. Once I've refactored the entire page to work with react-bootstrap and styled components I'll upload pictures.
- 
-**Experimented with:** git reflog and hard reseting to the previouse commit. Without knowing what would happen I tryed to pull down a branch I'd created on another computer. This lead to a local merge with the current branch I was on. Always nice when you manage to solve stuff like this. 
+
+**Experimented with:** git reflog and hard reseting to the previouse commit. Without knowing what would happen I tryed to pull down a branch I'd created on another computer. This lead to a local merge with the current branch I was on. Always nice when you manage to solve stuff like this.
 
 **Link(s) to work**: [Todo w navbar](https://github.com/Organwolf/ReactJS/tree/a1a3da343d1038179a1e61b9ad24599137980114)
 
 ### Day 9: March 11, 2020
 
-**Today's Progress**: Added react-bootstrap to my app. I also threw in styled-components and some components from react-router-dom. 
+**Today's Progress**: Added react-bootstrap to my app. I also threw in styled-components and some components from react-router-dom.
 
-**Thoughts**: I planned to replace the buttons, inputfield and change the font today. In retrospect that was a bit too much to hope for. 
+**Thoughts**: I planned to replace the buttons, inputfield and change the font today. In retrospect that was a bit too much to hope for.
 Instead I managed to complete the setup from the routing and installed all of the appropriate packages. I also pushed the new code to it's own branch. I'll see if I can't complete this tomorrow.
 
 **Experimented with:** Routing. If someone tries to access a route I havn't implemented I rerout to a NoMatch component.
@@ -161,9 +174,9 @@ Instead I managed to complete the setup from the routing and installed all of th
 
 ### Day 8: March 10, 2020
 
-**Today's Progress**: Used the voice recognition that is built into Edge and Chrome to render a unicorn whenever the user says "unicorn". The site will register what the user says and display it one screen. The core functionalities are taken from JavaScript30 by Wesbos. This is day 20 "Speech Detection". 
+**Today's Progress**: Used the voice recognition that is built into Edge and Chrome to render a unicorn whenever the user says "unicorn". The site will register what the user says and display it one screen. The core functionalities are taken from JavaScript30 by Wesbos. This is day 20 "Speech Detection".
 
-**Thoughts**: If I'm not way of this is actually an API. At least is says so in the [documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/SpeechRecognition). The browser compatability is quite limited. It doesn't work in my browser of choice which is Firefox. 
+**Thoughts**: If I'm not way of this is actually an API. At least is says so in the [documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/SpeechRecognition). The browser compatability is quite limited. It doesn't work in my browser of choice which is Firefox.
 
 **Experimented with:** The idea of controlling something using ones voice. Now I just check if the user says 'Unicorn' but I'd like to expand this to an app that takes a picture once a user says say 'Take a picture'.
 
@@ -171,7 +184,7 @@ Instead I managed to complete the setup from the routing and installed all of th
 
 ### Day 7: March 9, 2020
 
-**Today's Progress**: Learnt how to add pictures to my markdown as well as basic styling using css. Giving the buttons a *border-radius* did a lot. Changing the font also did a lot.
+**Today's Progress**: Learnt how to add pictures to my markdown as well as basic styling using css. Giving the buttons a _border-radius_ did a lot. Changing the font also did a lot.
 
 #### Todo app without css
 
@@ -181,9 +194,9 @@ Instead I managed to complete the setup from the routing and installed all of th
 
 <img src="https://github.com/Organwolf/ReactJS/blob/redux/images/todo-plain-css.png" alt="with" width="501" height="500"/>
 
-**Thoughts**: CSS feels a bit more manageable. I try to encurage myself to try before being 100% what a certain peice of code does. Encouraging experimentation and exploration baby! :baby: 
+**Thoughts**: CSS feels a bit more manageable. I try to encurage myself to try before being 100% what a certain peice of code does. Encouraging experimentation and exploration baby! :baby:
 
-**Experimented with:** CSS - *border-radius*, using a container class, using *display: block* to place elements on seperate lines, removing text-decoration as well as using *em* for font-size, padding and margin.
+**Experimented with:** CSS - _border-radius_, using a container class, using _display: block_ to place elements on seperate lines, removing text-decoration as well as using _em_ for font-size, padding and margin.
 
 **Link(s) to work**: [Todo app plain css](https://github.com/Organwolf/ReactJS/tree/cc375aa561ddb746eec3ba8becbe7d496d988b68)
 
@@ -191,7 +204,7 @@ Instead I managed to complete the setup from the routing and installed all of th
 
 **Today's Progress**: Refactored my log. Reversed the order of log entries to make it easier for myself in the long run. Added a new feature to the todo app. You can now add notes about a completed chore.
 
-**Thoughts**: I still get confused when it comes to redux. A lot of the concepts are still really new and I suspect that the loose typing is one of the reasons for confusion. 
+**Thoughts**: I still get confused when it comes to redux. A lot of the concepts are still really new and I suspect that the loose typing is one of the reasons for confusion.
 
 **Experimented with:** How a user can add a note to a completed todo using react and redux
 
@@ -201,13 +214,12 @@ Instead I managed to complete the setup from the routing and installed all of th
 
 **Today's Progress**: Final refactoring of Todo.
 
-**Thoughts**: I feel way more comfortable with the refactoring from 'regular' react code to react-redux code. The single source of truth etc. Tomorrow I'll start to add 
+**Thoughts**: I feel way more comfortable with the refactoring from 'regular' react code to react-redux code. The single source of truth etc. Tomorrow I'll start to add
 more functionality!
 
-**Experimented with:** Naming the actions and action creators something else than CJ did in the videos. 
+**Experimented with:** Naming the actions and action creators something else than CJ did in the videos.
 
 **Link(s) to work**: [Redux Refactored Todo](https://github.com/Organwolf/ReactJS/tree/db7e74f04aa8213caf7cc6d872b4087a652ff824)
-
 
 **Link(s) to work**: No link today
 
@@ -215,7 +227,7 @@ more functionality!
 
 **Today's Progress**: I have refactored more than half of the Todo app to work with Redux.
 
-**Thoughts**: Redux is confusing. 
+**Thoughts**: Redux is confusing.
 
 **Experimented with:** I have new ideas of addons I can do to this app. For example I'd like to add the opportunity to write a note once a chore is finished.
 
@@ -233,30 +245,29 @@ more functionality!
 // 1 & 2 are equivalent to each other.
 
 // 1
-str.replace(/^(a |the |an )/i, '').trim();
+str.replace(/^(a |the |an )/i, "").trim();
 
 // 2
-str.replace(/the/gi, "")
-str.replace(/an/gi, "")
-str.replace(/a/gi, "")
-str.trim()
+str.replace(/the/gi, "");
+str.replace(/an/gi, "");
+str.replace(/a/gi, "");
+str.trim();
 ```
 
 ```javascript
 // 1 & 2 are equivalent to each other.
 
 // 1
-const sortedBands = bands.sort(function (a,b) {
-  if(strip(a) > strip(b)){
-      return 1;
-  } 
-  else {
-      return -1;
+const sortedBands = bands.sort(function(a, b) {
+  if (strip(a) > strip(b)) {
+    return 1;
+  } else {
+    return -1;
   }
 });
 
 // 2
-const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
+const sortedBands = bands.sort((a, b) => (strip(a) > strip(b) ? 1 : -1));
 ```
 
 **Link(s) to work**: [TODO-list](https://github.com/Organwolf/VanillaJS/tree/master/TODO-list)
@@ -281,22 +292,22 @@ list-style-type: none;
 
 **Today's Progress**: Made a TODO app in combination with localStorage so that the information persests even if you reload the page
 
-**Thoughts**: Still working on wesbos JavaScript 30. Used event delegates in this one. I subscribe to the click event on the itemsList. Inside the function I determine which element I want to add logic to. 
+**Thoughts**: Still working on wesbos JavaScript 30. Used event delegates in this one. I subscribe to the click event on the itemsList. Inside the function I determine which element I want to add logic to.
 
 **Experimented with:** SVG icons. Found an icon that fitted the theme. I actually had to fiddle around with the viewBox attribute to make the icon look ok.
 
 ```javascript
-viewBox="-2.35 -0.5 23 23"
+viewBox = "-2.35 -0.5 23 23";
 ```
 
 ### Day 0: March 2, 2020
 
 **Today's Progress**: Learnt more about debouncing, window events, using scroll events in vanilla JS.
 
-**Thoughts:** Had to debug my code for 10+ minutes because I had forgot the punctuation **.** while using querySelectorAll to select the elements of a certain class. 
+**Thoughts:** Had to debug my code for 10+ minutes because I had forgot the punctuation **.** while using querySelectorAll to select the elements of a certain class.
 
 ```javascript
-const sliderImages = document.querySelectorAll('.slide-in');
+const sliderImages = document.querySelectorAll(".slide-in");
 ```
 
 Debouncing is problably the most advanced part of this code and from what I understand it enables me to trigger a particular function a fixed amount of times instead of it triggering unnecessarily often.
