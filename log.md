@@ -6,12 +6,14 @@
 
 **Thoughts**: So this was it for the backend. Next up is the react front-end and I'll complete that tomorrow. I've completed some of the JavaScript, CSS and HTML stuff on [freeCodeCamp](https://www.freecodecamp.org/) before. This PERN turorial is something I found on freeCodeCamps youtube channel.
 
-<img src="" width="" height=""/>
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/freecodecamp_logo.png" width="" height=""/>
 
 **Experimented with**: The password needed to work with postgresq. I'd forgotten mine and tried all kind of hacks. I tried resetting the password following [this](https://dev.to/theoklitosbam7/how-to-reset-your-forgotten-password-in-postgresql-4a7g) dev article. Problem was I didn't know how to handle GNU nano. I also tried uninstalling -> reinstalling which didn't work. I reverted to trying to guess what my password was and managed to hack myself :sweat_smile:. I also experimented with adding requests in Postman to a collection dedicated to this PERN app.
 
 **Keyword/commands**:  
-`mkdir, npm init, npm i express pg cors, touch index.js, npm i -g nodemon, nodemon index, \l, \c, \dt, trycatch + tab, POST body raw JSON, (\$1), RETURNING \*, req.params, :id, psql -U postgres -> pw.`
+`mkdir, npm init, npm i express pg cors, touch index.js,`  
+`npm i -g nodemon, nodemon index, \l, \c, \dt, trycatch + tab,`  
+`POST body raw JSON, (\$1), RETURNING \*, req.params, :id, psql -U postgres.`
 
 **Link(s) to work**: [Work in progress](https://www.kindpng.com/imgv/JibJhR_sadcat-meme-memes-sad-cat-crying-cat-meme/)
 
