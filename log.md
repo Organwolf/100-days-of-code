@@ -10,7 +10,7 @@
 
 **Experimented with**: The password needed to work with postgresq. I'd forgotten mine and tried all kind of hacks. I tried resetting the password following [this](https://dev.to/theoklitosbam7/how-to-reset-your-forgotten-password-in-postgresql-4a7g) dev article. Problem was I didn't know how to handle GNU nano. I also tried uninstalling -> reinstalling which didn't work. I reverted to trying to guess what my password was and managed to hack myself :sweat_smile:. I also experimented with adding requests in Postman to a collection dedicated to this PERN app.
 
-**Keyword/commands**:  
+**Keywords/commands**:  
 `mkdir, npm init, npm i express pg cors, touch index.js,`  
 `npm i -g nodemon, nodemon index, \l, \c, \dt, trycatch + tab,`  
 `POST body raw JSON, (\$1), RETURNING \*, req.params, :id, psql -U postgres.`
