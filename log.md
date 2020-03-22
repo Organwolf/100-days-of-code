@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 20: March 22, 2020
+
+**Today's Progress**: Finished PERN todo app which includes adding, editing and deleting a todo. It has a RESTFUL api with crud functionality.
+
+**Thoughts**: I will most likely be adding an additional feature to the app just to wrap my head around the app. Creating one or more columns in the database, one or more buttons to each todo or just working a little on the styling of the application.
+
+**Experimented with**: Using the id of data from the backend as the id inside of the modal.
+
+**Keywords/commands**:  
+`data-target={\`#id\${todo.todo_id}\`}`
+
 ### Day 19: March 21, 2020
 
 **Today's Progress**: Work with the PERN stack (Postgresql, Express, ReactJS, Node) following along [this tutorial](https://www.youtube.com/watch?v=ldYcgPKEZC8&list=PLDYvKtwxa9g39626F5PhHborthRAKaI6v&index=2&t=0s).
