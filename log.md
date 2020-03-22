@@ -9,7 +9,7 @@
 **Experimented with**: Using the id of data from the backend as the id inside of the modal.
 
 **Keywords/commands**:  
-`data-target={\`#id\${todo.todo_id}\`}`
+`data-target={`#id\${todo.todo_id}`}`
 
 ### Day 19: March 21, 2020
 
