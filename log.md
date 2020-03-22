@@ -2,14 +2,16 @@
 
 ### Day 20: March 22, 2020
 
-**Today's Progress**: Finished PERN todo app which includes adding, editing and deleting a todo. It has a RESTFUL api with crud functionality.
+**Today's Progress**: Finished PERN todo app which includes adding, editing and deleting todos. It has a RESTFUL api with crud functionality. The frontend is created w ReactJS and Bootstrap 4 for styling.
 
-**Thoughts**: I will most likely be adding an additional feature to the app just to wrap my head around the app. Creating one or more columns in the database, one or more buttons to each todo or just working a little on the styling of the application.
+**Thoughts**: I will most likely be adding an additional feature to the app just to wrap my head around the app. Creating one or more columns in the database, one or more buttons to each todo or just working a little on the styling of the application. I actually got good use of [w3Schools Bootstrap 4 modal examples](https://www.w3schools.com/bootstrap4/bootstrap_modal.asp). I just had to replace the "class" attribute with "className" instead to adjust the code to ReactJS standards. I also used their table examples as guidelines.
 
 **Experimented with**: Using the id of data from the backend as the id inside of the modal.
 
 **Keywords/commands**:  
-`data-target={`#id\${todo.todo_id}`}`
+data-target={\`#id\${todo.todo_id}\`}, id = {\`id\${todo.todo_id}\`}, const editTodo = async (e) => {};, className="text-centered", className="d-flex", adding [] as the second argument to useEffect so it only triggers once.
+
+**Link(s) to work**: [PERS stack todo app](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/PERN-stack)
 
 ### Day 19: March 21, 2020
 
