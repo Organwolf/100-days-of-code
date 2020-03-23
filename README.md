@@ -2,7 +2,7 @@
 
 ## Contents
 
-- [Log - click here to see my progress](log.md)
+- :punch: [Log - click here to see my progress](log.md)
 
 ## Goals
 
@@ -38,7 +38,10 @@
 
 ###### Sound/visuals
 
-- [ ] Animate UI in some way
+- [x] Animate UI
+  - [x] Increase the size of an element on click
+  - [ ] Animate a dropdown
+  - [ ] Animate movement in the background of a homepage
 - [x] Manipulate an image with code
   - [x] using get imageData and then processing the pixels. Day 11
 - [x] Trigger sound via code
