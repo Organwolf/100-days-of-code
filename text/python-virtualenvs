@@ -1,0 +1,43 @@
+// Virtual environments
+
+why:
+
+resolve dependency issues
+makes a project self-contained and reproducible
+install packages on a host on which you do not have admin privlages
+
+virtual environment and conda environments are diff things
+
+what:
+
+Python tool for **dependency management** and **project isolation**.
+It is just a directory with three important components:
+    site-packages
+    Symlinks
+    Scripts
+site-packages -> a folder where third party libraries are installed
+Symlinks are links to Python executables installed on your system
+Scripts that ensure executed Python code uses the Python interpreter
+and site packages installed inside the given virtual environment.
+
+Don't include the venv to your teams repo.
+Create your own venv inside of the proj root directory.
+And then pip install -r requirements.txt
+
+----
+
+% source venv/bin/activate
+(venv) % deactivate
+
+(venv) % pip freeze > requirements.txt
+
+----
+
+how:
+
+It comes down to PATH. In particular echo $PATH which tells the shell
+what instance of Python to use and where to look for packages.
+Still a bit confused on the how but that's ok.
+
+// Link(s):
+https://towardsdatascience.com/virtual-environments-104c62d48c54

@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 21: March 23, 2020
+
+**Today's Progress**: Created "click and drag" functionality using vanilla javascript. I also delved deep into css while trying to style the images that are show to the user. I learnt how to fetch random images from [unsplash](https://unsplash.com/) as well.
+
+A random image:  
+<img src="https://unsplash.com/random/400x400" width="" height=""/>
+
+**Thoughts**: I'm still a bit afraid of experimenting but this time I got more into css. Certain things like aligning particular object, resizing, attatching and detatching classes and the like are still a bit confusing. I will most likely add a **styling** label to my goals. I feel like a need to learn more about styling in general.
+
+**Experimented with**: css, unsplash images, adding and removing css classes using javascript and I also read up on virtual environments in Python. I will publish what I've learnt about that tomorrow.
+
+**Link(s) to work**: [Drag and scroll](https://github.com/Organwolf/VanillaJS/tree/master/DragAndScroll)
+
 ### Day 20: March 22, 2020
 
 **Today's Progress**: Finished PERN todo app which includes adding, editing and deleting todos. It has a RESTFUL api with crud functionality. The frontend is created w ReactJS and Bootstrap 4 for styling.
