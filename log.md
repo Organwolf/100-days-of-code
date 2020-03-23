@@ -4,10 +4,10 @@
 
 **Today's Progress**: Created "click and drag" functionality using vanilla javascript. I also delved deep into css while trying to style the images that are show to the user. I learnt how to fetch random images from [unsplash](https://unsplash.com/) as well.
 
-A random image:  
-<img src="https://unsplash.com/random/400x400" width="" height=""/>
+An image from unsplash:  
+<img src="https://unsplash.com/photos/eoJbO7P_1RY/400x400" width="" height=""/>
 
-**Thoughts**: I'm still a bit afraid of experimenting but this time I got more into css. Certain things like aligning particular object, resizing, attatching and detatching classes and the like are still a bit confusing. I will most likely add a **styling** label to my goals. I feel like a need to learn more about styling in general.
+**Thoughts**: I'm still a bit afraid of experimenting but this time I got more into css. Certain things like aligning particular object, resizing, attatching and detatching classes and the like are still a bit confusing. I will most likely add a **styling** label to my goals. I feel like a need to learn more about styling in general. I will read through this [post](https://vanseodesign.com/css/vertical-centering/) tomorrow (or later). It should help me understand basic alignment using css.
 
 **Experimented with**: css, unsplash images, adding and removing css classes using javascript and I also read up on virtual environments in Python. I will publish what I've learnt about that tomorrow.
 

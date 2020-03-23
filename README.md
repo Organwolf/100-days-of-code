@@ -2,7 +2,7 @@
 
 ## Contents
 
-- :punch: [Log - click here to see my progress](log.md)
+[Log - click here to see my progress](log.md)
 
 ## Goals
 
