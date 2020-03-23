@@ -6,6 +6,7 @@
 
 An image from unsplash:  
 <img src="https://unsplash.com/photos/eoJbO7P_1RY/400x400" width="" height=""/>
+Photo by [chuttersnap](https://unsplash.com/@chuttersnap/) on Unsplash
 
 **Thoughts**: I'm still a bit afraid of experimenting but this time I got more into css. Certain things like aligning particular object, resizing, attatching and detatching classes and the like are still a bit confusing. I will most likely add a **styling** label to my goals. I feel like a need to learn more about styling in general. I will read through this [post](https://vanseodesign.com/css/vertical-centering/) tomorrow (or later). It should help me understand basic alignment using css.
 
