@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 22: March 24, 2020
+
+**Today's Progress**: Worked with the playback rate of video together with a controller for the playback. The controller is a slider that is next to the video. When you hover over the controller the playback speed with increase or decrease depending on where the cursor is. Nothing ground breaking but still good repetition of css, html and vanilla js. 
+
+**Thoughts**: For this exercise I started by going over both the css file and the html file before watching the video. It's easy to say that I should have done that from the very beginning with these exercises. Hindsight is 20/20 and all that. I would actually like to frame this differently when I think about it. It's more like this -> now that I've gained more confidence when it comes to css/html/js I'm ok with browsing the code before being told what it's about. Hey, that's exactly what I wanted to accomplish with these 100xCode.
+
+**Experimented with**: toFixed() was new to me.  
+```javascript
+    const y = e.pageY - this.offsetTop;
+    const percent = y / this.offsetHeight;
+    const min = 0.5;
+    const max = 4;
+    const height = Math.round(percent * 100) + '%'
+    bar.style.height = height;
+    const playbackRate = percent * (max-min) + min;
+    bar.textContent = playbackRate.toFixed(2) + 'x';
+    video.playbackRate = playbackRate;
+```
+
+**Link(s) to work**: [Video speed controller](https://github.com/Organwolf/VanillaJS/tree/master/VideoSpeedController)
+
 ### Day 21: March 23, 2020
 
 **Today's Progress**: Created "click and drag" functionality using vanilla javascript. I also delved deep into css while trying to style the images that are show to the user. I learnt how to fetch random images from unsplash as well.
@@ -357,3 +378,11 @@ const sliderImages = document.querySelectorAll(".slide-in");
 Debouncing is problably the most advanced part of this code and from what I understand it enables me to trigger a particular function a fixed amount of times instead of it triggering unnecessarily often.
 
 **Link to work:** [Slide in on scroll](https://github.com/Organwolf/VanillaJS/tree/master/SlideInOnScroll)
+
+
+<!-- ### Day 22: March 24, 2020
+
+**Today's Progress**:
+**Thoughts**: 
+**Experimented with**:
+**Link(s) to work**: -->
