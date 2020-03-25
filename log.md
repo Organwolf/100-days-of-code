@@ -1,5 +1,30 @@
 # 100 Days Of Code - Log
 
+### Day 23: March 25, 2020
+
+**Today's Progress**: Made an old fasioned timer. Actually I use timer quite a lot. It's great to break down tasks in 5 min parts as well as take regular breaks from whatever you're trying to solve/work on/learn. The timer has a couple of buttons for presets pause times as well as an input for any amount of minutes you'd like to enter. When I revise the work i've done while working with Javascript30 I will consider adding more functionality. For now I'm really glad with the result.
+
+**Thoughts**: Came across yet another example of writing "if/else logic" with a ternary operator. Apparantly the ternary is the only JavaScript operator that takes three operands [source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator).  
+
+```javascript
+    // Intuitively I still want to solve if-else logic like this
+    if(remainingSeconds < 10){
+        const displaySeconds = '0' + `${remainingSeconds}`;
+    }
+    // However
+    const display = `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
+    // Is arguably a more elegant solution
+```
+
+**Experimented with**:  
+Template literals/template strings and terniery logic but also how to select all elements that share a certain attribute!  
+
+```javascript 
+const buttons = document.querySelectorAll('[data-time]'); 
+```  
+
+**Link(s) to work**: [Countdown thing](https://github.com/Organwolf/VanillaJS/tree/master/CountdownTimer)
+
 ### Day 22: March 24, 2020
 
 **Today's Progress**: Worked with the playback rate of video together with a controller for the playback. The controller is a slider that is next to the video. When you hover over the controller the playback speed with increase or decrease depending on where the cursor is. Nothing ground breaking but still good repetition of css, html and vanilla js. 

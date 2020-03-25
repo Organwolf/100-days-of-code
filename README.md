@@ -19,6 +19,8 @@
   - [x] Added a new goal about virtual environments
 - [ ] Learn how, why and when I should use virtual environments
 - [ ] Learn more about the different default interactive shells
+- [ ] Learn how to resolve git conflicts using the terminal
+- [ ] Learn basic VIM commands
 
 ###### JavaScript
 
