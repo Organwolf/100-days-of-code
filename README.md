@@ -9,7 +9,7 @@
 ###### General
 
 - [ ] Experiment +5 min with code per day
-  - [ ] 0-24 &nbsp;&nbsp;days completed
+  - [x] 0-24 &nbsp;&nbsp;days completed
   - [ ] 25-49 days completed
   - [ ] 50-74 days completed
   - [ ] 75-99 days completed
@@ -24,14 +24,14 @@
 
 ###### JavaScript
 
-- [ ] Learn more vanilla JS (by completing [JavaScript30](https://javascript30.com/) by Wesbos)
+- [x] Learn more vanilla JS (by completing [JavaScript30](https://javascript30.com/) by Wesbos)
 - [ ] Learn more React.js
 - [x] Create a Todo app
   - [x] Add Redux to the Todo app
   - [x] Add the ability to add a note to the Todo
   - [ ] Refactor and use Hooks in the Todo app
   - [x] Style the Todo app w plain CSS
-  - [ ] Style the Todo app w Bootstrap
+  - [x] Style the Todo app w Bootstrap
   - [x] Style the Todo app w Styled Components
 
 ###### Personal
