@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 24: March 26, 2020
+
+**Today's Progress**: Completed [Javascript30](https://javascript30.com/) today! :birthday:
+
+**Thoughts**: I really feel like revisiting some of the vanilla js projects I've completed. I feel like I've leant a lot the past 3-4 weeks. It would be great to recap and also add new features to some projects. Repetition, experimentation and perseverance! 
+
+**Experimented with**: WindowOrWorkerGlobalScope.setTimeout.setTimeout() which according to [MDN](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout) is a method of the WindowOrWorkerGlobalScope mixin thats purpose is to start a timer and execute a function or specified piece of code once the timer expires.
+
+**Link(s) to work**: [Whack A Mole](https://github.com/Organwolf/VanillaJS/tree/master/WhackAMole)
+
 ### Day 23: March 25, 2020
 
 **Today's Progress**: Made an old fasioned timer. Actually I use timer quite a lot. It's great to break down tasks in 5 min parts as well as take regular breaks from whatever you're trying to solve/work on/learn. The timer has a couple of buttons for presets pause times as well as an input for any amount of minutes you'd like to enter. When I revise the work i've done while working with Javascript30 I will consider adding more functionality. For now I'm really glad with the result.
