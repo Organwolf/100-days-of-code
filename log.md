@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 25: March 27, 2020
+
+**Today's Progress**: Worked with setting up virtualenvwrapper on my mac. Had problems with configurating the $PATH and had to create a ~/.profile for my zsh shell. Inside of the profile file I added the correct path to my python3 interpreter. 
+
+**Thoughts**: It's a lot of work yet few lines of code when it comes to configuring stuff like this. I had to read multiple forum posts and guides. Patchworking my way towards a working solution. 
+
+**Experimented with**: zsh interactive shell, touch, open, ~/.profile, virtualenvwrapper, docker-compose up, docker-compose down as well as testing http requests using postman.
+
+**Link(s) to work**: None today
+
 ### Day 24: March 26, 2020
 
 **Today's Progress**: Completed [Javascript30](https://javascript30.com/) today! :birthday:
