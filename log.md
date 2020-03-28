@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 26: March 28, 2020
+
+**Today's Progress**: Moving away from tutorials and working on my own. Adding custom :hover and :focus effects via css as well as trying to add my own features to previously finished projects.
+
+**Thoughts**: Worked more independently today. Didn't rely on any tutorial or blog post of any kind and it was hard! I will definitely have to focus more on how much time I spend programming rather than what I program. Atleast for the next 7 days. 
+
+**Experimented with**: Hiding/displaying a button, pausing and restarting a setInterval that runs behind the scenes keeping track of time.
+
+**Link(s) to work**: None today
+
 ### Day 25: March 27, 2020
 
 **Today's Progress**: Worked with setting up virtualenvwrapper on my mac. Had problems with configurating the $PATH and had to create a ~/.profile for my zsh shell. Inside of the profile file I added the correct path to my python3 interpreter. 
