@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 ### Day 27: March 28, 2020
-**Today's Progress**: Continued to revise my CountdownTimer code. Now I've added logic to my pause/start button.  
+**Today's Progress**: Continued to revise my CountdownTimer code. Now I've added logic to pause/start the timer once it's active.  
 
 I wanted to:
  - [x] Show the button once the timer started ticking
