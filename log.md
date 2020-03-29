@@ -30,13 +30,50 @@ I wanted to:
 
 ### Day 25: March 27, 2020
 
-**Today's Progress**: Worked with setting up virtualenvwrapper on my mac. Had problems with configurating the $PATH and had to create a ~/.profile for my zsh shell. Inside of the profile file I added the correct path to my python3 interpreter. 
+**Today's Progress**: Worked with setting up virtualenvwrapper on my mac. Had problems with configurating the $PATH and had to create a ~/.profile for my zsh shell. Inside of the profile file I added the correct path to my python3 interpreter. Below is some of what I've learnt about virual environments.  
+
+#### Virtual environments
+
+**why**:
+
+Virual environment resolve dependency issues, make a project self-contained and reproducible and enables the installation of packages on a host on which you do not have admin privlages.
+I also learnt that virtual environment and conda environment are different things.
+
+**what**:
+
+A virtual environment is a python tool for **dependency management** and **project isolation**.
+It is just a directory with three important components:  
+ - site-packages
+ - Symlinks
+ - Scripts  
+
+site-packages -> a folder where third party libraries are installed
+Symlinks -> are links to Python executables installed on your system
+Scripts -> ensures that executed Python code uses the Python interpreter
+and site packages installed inside the given virtual environment.
+
+Don't include the virtual environment to your teams repo.
+Create your own vintual environment inside of the proj root directory.
+And then pip install -r requirements.txt.
+
+**how**:
+
+It comes down to PATH. In particular echo $PATH which tells the shell
+what instance of Python to use and where to look for packages.
+Still a bit confused on the how but that's ok.
+
+**virtualenvironment specific commands**:
+
+% source venv/bin/activate
+(venv) % deactivate
+
+(venv) % pip freeze > requirements.txt
 
 **Thoughts**: It's a lot of work yet few lines of code when it comes to configuring stuff like this. I had to read multiple forum posts and guides. Patchworking my way towards a working solution. 
 
 **Experimented with**: zsh interactive shell, touch, open, ~/.profile, virtualenvwrapper, docker-compose up, docker-compose down as well as testing http requests using postman.
 
-**Link(s) to work**: None today
+**Link(s) to work**: [Virtual environments info](https://towardsdatascience.com/virtual-environments-104c62d48c54)
 
 ### Day 24: March 26, 2020
 
