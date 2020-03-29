@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 27: March 28, 2020
+**Today's Progress**: Continued to revise my CountdownTimer code. Now I've added logic to my pause/start button.  
+
+I wanted to:
+ - [x] Show the button once the timer started ticking
+ - [x] Give the button the same size as the previously added buttons
+ - [x] Learn how to place two elements next to each other
+ - [x] Be able to pause/resume the timer
+ - [x] Count the hours
+ - [x] Trigger a sound once the timer was done  
+
+**Thoughts**: Not loving that I used a global variable to keep track of the remaining time but all in all I'm proud with the over all outcome. As mentioned previously it is way harder adding made up features than following someone else.
+
+**Experimented with**: `text-shadow: 4px 4px 0 rgba(0,0,0,0.05); visibility: hidden; as well as the built in Audio API`
+
+**Link(s) to work**: [Count down timer with added features](https://github.com/Organwolf/VanillaJS/tree/master/CountdownTimer)
+
 ### Day 26: March 28, 2020
 
 **Today's Progress**: Moving away from tutorials and working on my own. Adding custom :hover and :focus effects via css as well as trying to add my own features to previously finished projects.
