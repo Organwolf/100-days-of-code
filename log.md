@@ -1,6 +1,23 @@
 # 100 Days Of Code - Log
 
-### Day 27: March 28, 2020
+### Day 28: March 30, 2020
+
+**Today's Progress**: Installed Oh-My-Zsh and worked my way through several blog posts about customization. Learnt a little about vim but mostly I picked up commands that are mac specific such as pressing cmd + shift + h while in the finder to be redirected to the home directory.  
+
+<img src="">
+
+**Thoughts**: Finding the Terminal > Preferences > Profiles to be a bit confusing. After a bunch of trial and error I managed to set up the terminal in the particular color I wanted. I had a hard time understanding how to set the chosen background color. There is a "default" button at the bottom left that I had to press. 
+
+**Keywords/commands**:  
+`zsh --version, cmd + shift + ., cmd + shift + h, .zshrc, source ~/.zshrc, alias myip=\"curl http://ipecho.net/plain; echo\", exit, sh -c \"$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\", cmd + , , vi file, ls -a, touch .hushlogin` 
+
+**Link(s) I followed**: 
+https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108
+https://medium.com/@smile2gether/how-to-customize-your-mac-os-terminal-880c4097b18b
+https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc
+
+### Day 27: March 29, 2020
+
 **Today's Progress**: Continued to revise my CountdownTimer code. Now I've added logic to pause/start the timer once it's active.  
 
 I wanted to:
