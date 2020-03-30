@@ -48,6 +48,7 @@
   - [x] using get imageData and then processing the pixels. Day 11
 - [x] Trigger sound via code
   - [x] snap sound taking pictures. Day 11
+  - [x] alarm sound on timer completion. Day 27
 - [ ] Trigger visuals via code
 
 ###### App development
