@@ -14,10 +14,10 @@
 **Keywords/commands**:  
 `zsh --version, cmd + shift + ., cmd + shift + h, .zshrc, source ~/.zshrc, alias myip=\"curl http://ipecho.net/plain; echo\", exit, sh -c \"$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\", cmd + , , vi file, ls -a, touch .hushlogin` 
 
-**Link(s) I followed**: 
-https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108
-https://medium.com/@smile2gether/how-to-customize-your-mac-os-terminal-880c4097b18b
-https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc
+**Links I followed**:  
+https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108  
+https://medium.com/@smile2gether/how-to-customize-your-mac-os-terminal-880c4097b18b  
+https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc  
 
 ### Day 27: March 29, 2020
 
