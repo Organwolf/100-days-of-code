@@ -5,8 +5,8 @@
 **Today's Progress**: Installed Oh-My-Zsh and worked my way through several blog posts about customization. Learnt a little about vim but mostly I picked up commands that are mac specific such as pressing cmd + shift + h while in the finder to be redirected to the home directory.  
 
 <div>
-  <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/old-terminal.png" width="450" height="300"/>
-  <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/new-terminal.png" width="450" height="300"/>
+  <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/old-terminal.png" width="451" height="300"/>
+  <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/new-terminal.png" width="451" height="300"/>
 </div>
 
 **Thoughts**: Finding the Terminal > Preferences > Profiles to be a bit confusing. After a bunch of trial and error I managed to set up the terminal in the particular color I wanted. I had a hard time understanding how to set the chosen background color. There is a "default" button at the bottom left that I had to press. 
