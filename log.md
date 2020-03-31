@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 29: March 31, 2020
+**Today's Progress**: Yesterday I started working with python. A friend of mine had adviced me to take a look at ["Automating the Boring Stuff with Python"](https://www.google.com/search?client=firefox-b-d&q=automating+the+boring+stuff+with+python). Yesterday I opened the pdf, skipped the first 140 pages that deal with python programming basics, and jumped to automating tasks. First of was Regex. Regex is usually used by string searching algorithms to find or validate strings. 
+
+**Thoughts**: The syntax can be a real pain. I'm not planning on learning any of this by heart. It just feels like this is a good revamp of my python skills. I've used python mainly for backend tasks before. Mainly when using the Flask framework.
+
+**Experimented with**: Importing re which is the python regex library. Using re.compile(r'Things|To|Find') where r before the first quote marks the string as a *raw string* which does not excape characters such as backslash. The search method takes a string as input and checks it against the created regex. It returns a *Match* object. The Match objects have a *group()* method that will return the matched text fro mthe searched string. I also learnt that by using parentheses inside of my regular expression I can create groups in the regex. These groups can later be "destructured", to use a term from JavaScript, into multiple values like so:  
+
+```python
+    areaCode, mainNumber = mo.groups()
+```
+**Link(s) to work**: None yet
+
 ### Day 28: March 30, 2020
 
 **Today's Progress**: Installed Oh-My-Zsh and worked my way through several blog posts about customization. Learnt a little about vim but mostly I picked up commands that are mac specific such as pressing cmd + shift + h while in the finder to be redirected to the home directory.  
