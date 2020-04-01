@@ -1,15 +1,40 @@
 # 100 Days Of Code - Log
 
+### Day 30: April 1, 2020
+
+**Today's Progress**: Focused on react hooks today which is a new addition in React 16.8. Hooks allow you to use state and other React features without writing a class. They let you "hook" into lifecycle features in function component. The two most common hooks are useState and useEffect. The state hook is called *useState* because it enables the re-use of stateful behaviour between different components. The effect hook, adds the ability to perform side effects from a function component. API calls can be defined as mutations outside of your own code. By performing such mutations you create side effects. The effect hook is designed to deal with code that creates side effect.
+
+**Thoughts**: Tomorrow I am going to start using hooks in my todo application.
+
+**Experimented with**: React hooks, how to migrate code from Codepen to my local environment, deleting a local branch using git branch -d branch_name, configured vs code to open the current directory using "code .", 
+
+**Links I followed**:  
+https://code.visualstudio.com/docs/setup/mac
+https://reactjs.org/docs/hooks-overview.html
+https://www.reddit.com/r/javascript/comments/6cm7gd/pure_functions_when_working_with_dom_manipulation/
+
 ### Day 29: March 31, 2020
-**Today's Progress**: Yesterday I started working with python. A friend of mine had adviced me to take a look at ["Automating the Boring Stuff with Python"](https://www.google.com/search?client=firefox-b-d&q=automating+the+boring+stuff+with+python). Yesterday I opened the pdf, skipped the first 140 pages that deal with python programming basics, and jumped to automating tasks. First of was Regex. Regex is usually used by string searching algorithms to find or validate strings. 
+**Today's Progress**: Yesterday I started working with python. A friend of mine had adviced me to take a look at ["Automating the Boring Stuff with Python"](https://www.google.com/search?client=firefox-b-d&q=automating+the+boring+stuff+with+python). Yesterday I opened the pdf, skipped the first 140 pages that deal with python programming basics, and jumped to automating tasks. First of was Regex. Regex is usually used by string searching algorithms to find or validate strings. [Regexpal](https://www.regexpal.com/) can be used to test your regular expressions on a certain text.
 
 **Thoughts**: The syntax can be a real pain. I'm not planning on learning any of this by heart. It just feels like this is a good revamp of my python skills. I've used python mainly for backend tasks before. Mainly when using the Flask framework.
 
 **Experimented with**: Importing re which is the python regex library. Using re.compile(r'Things|To|Find') where r before the first quote marks the string as a *raw string* which does not excape characters such as backslash. The search method takes a string as input and checks it against the created regex. It returns a *Match* object. The Match objects have a *group()* method that will return the matched text fro mthe searched string. I also learnt that by using parentheses inside of my regular expression I can create groups in the regex. These groups can later be "destructured", to use a term from JavaScript, into multiple values like so:  
 
 ```python
-    areaCode, mainNumber = mo.groups()
+areaCode, mainNumber = mo.groups()
 ```
+
+Matching One or More is done with a **+** after the group. To match 0 or more use an **\***. Specific repetitions with {} and findall() to... find all. There are character classes that represent digits, any character that is not a digit and so on. The caret symbol (^) at the start of a regex indicated that a match must occur at the beghinning of the searched text. The dollar sign ($) that it should occur at the end. The dot (.) is a wild card and combining dot and star (.*) can stant in for anything.
+
+```python
+>>> nameRegex = re.compile(r'First Name: (.*) Last Name: (.*)') >>> mo = nameRegex.search('First Name: Al Last Name: Sweigart') >>> mo.group(1)
+'Al'
+>>> mo.group(2) 
+'Sweigart'
+```
+
+A review of regex symbols can be found on page 186 of the book.
+
 **Link(s) to work**: None yet
 
 ### Day 28: March 30, 2020
