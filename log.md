@@ -9,8 +9,8 @@
 **Experimented with**: React hooks, how to migrate code from Codepen to my local environment, deleting a local branch using git branch -d branch_name, configured vs code to open the current directory using "code .", 
 
 **Links I followed**:  
-https://code.visualstudio.com/docs/setup/mac
-https://reactjs.org/docs/hooks-overview.html
+https://code.visualstudio.com/docs/setup/mac  
+https://reactjs.org/docs/hooks-overview.html  
 https://www.reddit.com/r/javascript/comments/6cm7gd/pure_functions_when_working_with_dom_manipulation/
 
 ### Day 29: March 31, 2020
