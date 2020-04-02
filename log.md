@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 31: April 2, 2020
+
+**Today's Progress**: Started my research into refactoring a react app using redux for state management to using hooks instead. Found out that I most likely have to use the context reducer *useContext*. I found a list of the available hooks [here](https://reactjs.org/docs/hooks-reference.html). Created a new hooks branch in my todo app and learnt how to push the branch up-stream.
+
+**Thoughts**: Not much coding today. Atleast not yet. I need to wrap my head around useState, useContexr and useReducer first. I'd also like to read more about refactoring from redux code to hooks code. Git and the different commands to deal with branches feel more familiar. Finding answers to problems regarding git has also become easier. The current todo app consists of 3 components  
+
+- Add new todo
+- List of todos
+- Complete todos
+
+I could complete the *Add new todo* with hooks seperately to get an idea of using hooks. That might help me along the way.
+
+**Experimented with**: `git branch -r, ls -a, git checkout --track origin/redux, git checkout -b hooks, git push -u origin.`
+
+**Links I followed**:  
+https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#_tracking_branches
+https://www.freecodecamp.org/news/how-to-convert-from-react-redux-classes-to-react-hooks-the-easy-way-eca2233e0e7a/
+https://reactjs.org/docs/hooks-reference.html
+
+**Link(s) to work**: [Todo - hooks](https://github.com/Organwolf/ReactJS/tree/hooks/hooks/todo)
+
 ### Day 30: April 1, 2020
 
 **Today's Progress**: Focused on react hooks today which is a new addition in React 16.8. Hooks allow you to use state and other React features without writing a class. They let you "hook" into lifecycle features in function component. The two most common hooks are useState and useEffect. The state hook is called *useState* because it enables the re-use of stateful behaviour between different components. The effect hook, adds the ability to perform side effects from a function component. API calls can be defined as mutations outside of your own code. By performing such mutations you create side effects. The effect hook is designed to deal with code that creates side effect.
@@ -14,6 +35,7 @@ https://reactjs.org/docs/hooks-overview.html
 https://www.reddit.com/r/javascript/comments/6cm7gd/pure_functions_when_working_with_dom_manipulation/
 
 ### Day 29: March 31, 2020
+
 **Today's Progress**: Yesterday I started working with python. A friend of mine had adviced me to take a look at ["Automating the Boring Stuff with Python"](https://www.google.com/search?client=firefox-b-d&q=automating+the+boring+stuff+with+python). Yesterday I opened the pdf, skipped the first 140 pages that deal with python programming basics, and jumped to automating tasks. First of was Regex. Regex is usually used by string searching algorithms to find or validate strings. [Regexpal](https://www.regexpal.com/) can be used to test your regular expressions on a certain text.
 
 **Thoughts**: The syntax can be a real pain. I'm not planning on learning any of this by heart. It just feels like this is a good revamp of my python skills. I've used python mainly for backend tasks before. Mainly when using the Flask framework.
