@@ -12,11 +12,12 @@
 
 I could complete the *Add new todo* with hooks seperately to get an idea of using hooks. That might help me along the way.
 
-**Experimented with**: `git branch -r, ls -a, git checkout --track origin/redux, git checkout -b hooks, git push -u origin.`
+**Experimented with**:  
+`git branch -r, ls -a, git checkout --track origin/redux, git checkout -b hooks, git push -u origin.`
 
 **Links I followed**:  
-https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#_tracking_branches
-https://www.freecodecamp.org/news/how-to-convert-from-react-redux-classes-to-react-hooks-the-easy-way-eca2233e0e7a/
+https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#_tracking_branches  
+https://www.freecodecamp.org/news/how-to-convert-from-react-redux-classes-to-react-hooks-the-easy-way-eca2233e0e7a/  
 https://reactjs.org/docs/hooks-reference.html
 
 **Link(s) to work**: [Todo - hooks](https://github.com/Organwolf/ReactJS/tree/hooks/hooks/todo)
