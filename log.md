@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 32: April 3, 2020  
+
+**Today's Progress**: I was introduced to Gatsby CLI, Leaflet, Yarn, React Helmet, Resolve Src. Followed [this](https://www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/).  
+
+**Thoughts**: I didn't quite manage to bring it all together. I started by following the video and managed to do everything up until the custom badges. When I added the new css to _map.scss nothing changed. I mean, so something broke, I didn't solve whatever the application was missing to function properly. However, I've spent +1 hour debugging, learning more about the file structure of this project, working with yarn and gatsby. Although I'm a little disappointed I still did a good enough job today.  
+
+**Experimented with**: Gatsby, which is a React-based, GraphQL powered, static site genereator, some sass, Leaflet, an open-source JS library for interactive maps. I also encountered some destructuring that I liked `const { data = [] } = response`. I like that the data is explicitly set to an array. It looks like I imagine TypeScript functions. It's very easy to understand what datastructure is used for storing the response.  
+
+**Links I followed**:  
+https://www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/
+https://github.com/colbyfayock/coronavirus-map-dashboard
+
+**Link(s) to work**:  None today
+
 ### Day 31: April 2, 2020
 
 **Today's Progress**: Started my research into refactoring a react app using redux for state management to using hooks instead. Found out that I most likely have to use the context reducer *useContext*. I found a list of the available hooks [here](https://reactjs.org/docs/hooks-reference.html). Created a new hooks branch in my todo app and learnt how to push the branch up-stream.
