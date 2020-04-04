@@ -12,10 +12,6 @@
 **Link(s) to work**:
 [Fullstack Blog Boilerplate Code](https://github.com/Organwolf/ReactJS/tree/e8783fa33f6d892b6d6535474de80e3b4872b38b)
 
-// followed this for setup
-https://www.codementor.io/@engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
-// followed this for solving the problem running `psql postgres` to access the psql command line
-
 ### Day 32: April 3, 2020  
 
 **Today's Progress**: I was introduced to Gatsby CLI, Leaflet, Yarn, React Helmet, Resolve Src. Followed [this](https://www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/).  
