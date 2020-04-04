@@ -4,12 +4,17 @@
 
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/computer-glitch.png" alt="cool computer" width="241" height="133"/>
 
-**Today's Progress**: Learnt something new about git today. Apparently a `git pull` is shorthand for `git fetch` followed by `git merge FETCH_HEAD`. I was having a hard time accessing a remote branch on my local machine. So I performed a git pull request and was confused about the merging of local content with the remote branch. Now I know why that happened. [This](https://www.freecodecamp.org/forum/t/push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too/13222) article was a big help when I came to understanding the local vs remote branches. I was also having problems with Postgresql. The solution was restarting postgres through homebrew. Not 100% sure why it didn't work to begin with but I'm glad I managed to solve it. I managed to set up some fullstack boilerplate code following [this](https://www.freecodecamp.org/news/fullstack-react-blog-app-with-express-and-psql/) tutorial. The commit with the bare bones code can be found [here](https://github.com/Organwolf/ReactJS/tree/e8783fa33f6d892b6d6535474de80e3b4872b38b). It has some kinks and some information missing but it has still been of great help. On the client-side useReducer, useState and useContext are used to solve the same task. That way you get to see the similarities and differences between them. What made me happy was how similar useContext is to Redux which I'm already familiar with.  
-
+**Today's Progress**: Learnt something new about git today. Apparently a `git pull` is shorthand for `git fetch` followed by `git merge FETCH_HEAD`. I was having a hard time accessing a remote branch on my local machine. So I performed a git pull and was confused about my local content merging with the remote branch. Now I know why that happened. [This](https://www.freecodecamp.org/forum/t/push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too/13222) article was a big help when trying to understand the difference between local and remote branches.  
+  
+I was also having problems with Postgresql. The solution was restarting postgres through homebrew. Not 100% sure why it didn't work to begin with but I'm glad I managed to solve it.  
+  
+I also managed to set up some fullstack boilerplate code following [this](https://www.freecodecamp.org/news/fullstack-react-blog-app-with-express-and-psql/) tutorial. The commit with with boilerplate code can be found [here](https://github.com/Organwolf/ReactJS/tree/e8783fa33f6d892b6d6535474de80e3b4872b38b). The tutorial has some kinks and some missing information but it has still been of great help. On the client-side useReducer, useState and useContext are used to solve the same tasks. That way I got to see the similarities and differences between them. What made me happy was the fact that useContext and Redux have a lot in common. 
+  
 **Thoughts**: I've learnt a lot today. Not sure if I'll do more coding until tomorrow but I'm looking forward to setting up the database. I'm also looking forward to learning more about styling applications but that's another chapter entirely :trollface:.
 
 **Experimented with**:  
-`brew services restart postgresql, git fetch, \l, \c, \dt, \du, postgres -V, psql postgres, pg library, axios, useContext`
+`brew services restart postgresql, git fetch, \l, \c, \dt, \du,`  
+`postgres -V, psql postgres, pg library, axios, useContext`
 
 **Link(s) to work**:
 [Fullstack Blog Boilerplate Code](https://github.com/Organwolf/ReactJS/tree/e8783fa33f6d892b6d6535474de80e3b4872b38b)
