@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 33: April 4, 2020  
+
+**Today's Progress**: Learnt something new about git today. Apparently a `git pull` is shorthand for `git fetch` followed by `git merge FETCH_HEAD`. I was having a hard time accessing a remote branch on my local machine. So I performed a git pull request and was confused about the merging of local content with the remote branch. Now I know why that happened. [This](https://www.freecodecamp.org/forum/t/push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too/13222) article was a big help when I came to understanding the local vs remote branches. I was also having problems with Postgresql. The solution was restarting postgres through homebrew. Not 100% sure why it didn't work to begin with but I'm glad I managed to solve it. I managed to set up some fullstack boilerplate code following [this](https://www.freecodecamp.org/news/fullstack-react-blog-app-with-express-and-psql/) tutorial. The commit with the bare bones code can be found [here](https://github.com/Organwolf/ReactJS/tree/e8783fa33f6d892b6d6535474de80e3b4872b38b). It has some kinks and some information missing but it has still been of great help. On the client-side useReducer, useState and useContext are used to solve the same task. That way you get to see the similarities and differences between them. What made me happy was how similar useContext is to Redux which I'm already familiar with.  
+
+**Thoughts**: I've learnt a lot today. Not sure if I'll do more coding until tomorrow but I'm looking forward to setting up the database. I'm also looking forward to learning more about styling applications but that's another chapter entirely :trollface:.
+
+**Experimented with**:  
+`brew services restart postgresql, git fetch, \l, \c, \dt, \du, postgres -V, psql postgres, pg library, axios, useContext`
+
+**Link(s) to work**:
+[Fullstack Blog Boilerplate Code](https://github.com/Organwolf/ReactJS/tree/e8783fa33f6d892b6d6535474de80e3b4872b38b)
+
+// followed this for setup
+https://www.codementor.io/@engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
+// followed this for solving the problem running `psql postgres` to access the psql command line
+
 ### Day 32: April 3, 2020  
 
 **Today's Progress**: I was introduced to Gatsby CLI, Leaflet, Yarn, React Helmet, Resolve Src. Followed [this](https://www.freecodecamp.org/news/how-to-create-a-coronavirus-covid-19-dashboard-map-app-in-react-with-gatsby-and-leaflet/).  
@@ -589,4 +605,6 @@ Debouncing is problably the most advanced part of this code and from what I unde
 **Today's Progress**:
 **Thoughts**: 
 **Experimented with**:
-**Link(s) to work**: -->
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+ -->
