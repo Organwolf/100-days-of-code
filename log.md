@@ -17,7 +17,7 @@ I also managed to set up some fullstack boilerplate code following [this](https:
 `postgres -V, psql postgres, pg library, axios, useContext`
 
 **Link(s) to work**:
-[Fullstack Blog Boilerplate Code](https://github.com/Organwolf/ReactJS/tree/e8783fa33f6d892b6d6535474de80e3b4872b38b)
+[Fullstack boilerplate code for a blog](https://github.com/Organwolf/ReactJS/tree/e8783fa33f6d892b6d6535474de80e3b4872b38b)
 
 ### Day 32: April 3, 2020  
 
