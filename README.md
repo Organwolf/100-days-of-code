@@ -14,13 +14,17 @@
   - [ ] 50-74 days completed
   - [ ] 75-99 days completed
 - [x] Become better at using Markdown language
-- [ ] Participate in a code project outside of work
 - [x] Re-evaluate my goals and add/remove goals at least once
   - [x] Added a new goal about virtual environments
 - [x] Learn how, why and when I should use virtual environments
 - [x] Learn more about the different default interactive shells
 - [ ] Learn how to resolve git conflicts using the terminal
 - [ ] Learn basic VIM commands
+
+###### Open-source
+
+- [ ] Manage to run [+HospitalRun](https://github.com/HospitalRun) localy 
+- [ ] Participate in a code project outside of work
 
 ###### JavaScript
 
@@ -38,6 +42,23 @@
 
 - [ ] Make a Personal Website
 
+
+###### App development
+
+- [x] Use a single API call in an app
+  - [x] Webcam Navigator web API
+- [ ] Use multiple API calls in an app
+- [ ] Create a full-stack application
+- [ ] Make a simple app for mobile
+
+###### Styling
+
+- [ ] Learn basic CSS
+  - [ ] Understand how to center different elements vertically/horizontally using css
+  - [ ] Understart how to group elements
+- [ ] Remix a project on Glitch
+- [ ] Export a project from Codepen and edit it localy
+
 ###### Sound/visuals
 
 - [x] Animate UI
@@ -50,18 +71,6 @@
   - [x] snap sound taking pictures. Day 11
   - [x] alarm sound on timer completion. Day 27
 - [ ] Trigger visuals via code
-
-###### App development
-
-- [x] Use a single API call in an app
-  - [x] Webcam Navigator web API
-- [ ] Use multiple API calls in an app
-- [ ] Create a full-stack application
-- [ ] Make a simple app for mobile
-
-##### Styling
-
-- [ ] Understand how to center different elements vertically/horizontally using css
 
 ###### Automation
 
