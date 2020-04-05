@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 34: March April 5, 2020
+
+**Today's Progress**: Learnt that you don't use '-' in database names. At least that isn't the convention. I created a postgres database for the fullstack app I'm working on. I also learnt that fetching descending dates from a database gives you the most recent date first.
+
+
+**Thoughts**: I don't know why but it feels really powerful to be able to do things via the command line interface (CLI). Learning how to display the dependencies via the CLI, although you can easily find them by clicking your way into the package.json file, feels empowering to me!
+
+**Experimented with**: Postgresql, Express, React, Context and stuff.
+
+**Keywords/commands**: `\dt to list tables, \d table_name to list the table, npm ls --depth=0` [npm commands](https://docs.npmjs.com/cli/ls)
+
+**Link(s) to work**:
+[The latest from the blog](https://github.com/Organwolf/ReactJS/tree/80359873a27b4fa2c56b0a5952aed674bcb5a043)
+
 ### Day 33: April 4, 2020  
 
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/computer-glitch.png" alt="cool computer" width="241" height="133"/>
