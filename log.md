@@ -1,11 +1,21 @@
 # 100 Days Of Code - Log
 
-### Day 34: March April 5, 2020
+### Day 35: April 6, 2020
+
+**Today's Progress**: Completed a small interactive [VIM tutorial](https://www.openvim.com/) and spent 45 mins on the fullstack blog tutorial. 
+
+**Thoughts**: I'm starting to fear that I won't be able to get this app to run. So far I have identified 2 things that might cause problems. 1) That I've copied some of the code from the freeCodeCamp post and some from the authors github repo. The repo contains some additional code not mentioned in the tutorial :triangular_flag_on_post:. 2) the db.js could be set up wrong. Although that is an easier fix. 
+
+**Experimented with**: Copy pasting and looking for new resourses. Found [this](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts) which I plan to check out tomorrow. 
+
+**Link(s) to work**:
+[The latest from the blog](https://github.com/Organwolf/ReactJS/tree/d2d7b6722cd1b8d3c1ce877bc9ae075bcd5cdcc4)
+
+### Day 34: April 5, 2020
 
 **Today's Progress**: Learnt that you don't use '-' in database names. At least that isn't the convention. I created a postgres database for the fullstack app I'm working on. I also learnt that fetching descending dates from a database gives you the most recent date first.
 
-
-**Thoughts**: I don't know why but it feels really powerful to be able to do things via the command line interface (CLI). Learning how to display the dependencies via the CLI, although you can easily find them by clicking your way into the package.json file, feels empowering to me!
+**Thoughts**: It feels really powerful to be able to do things via the command line interface (CLI). Learning how to display the dependencies via the CLI, although you can find them by clicking your way into the package.json, was empowering!
 
 **Experimented with**: Postgresql, Express, React, Context and stuff.
 
