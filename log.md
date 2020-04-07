@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 36: April 7, 2020
+
+**Today's Progress**:  Read about [System Design](https://www.freecodecamp.org/news/systems-design-for-interviews/) and particularly in the context of job interviews. While doing that I stumbled upon [spaced learning](https://www.freecodecamp.org/news/use-spaced-repetition-with-anki-to-learn-to-code-faster-7c334d448c3c/) and in particular supervised spaced learning using Anki.  
+
+Finished the blog app. The tutorial/article I followed was extensive and the app complex but I wish that the author had added parts where he walked me through using the application. I sort of got it to work but once I added a post to the database the backend threw an error.  
+`error: column "search_vector" of relation "posts" does not exist`  
+Turns out the tsvector doesn't exist in the database. I checked by running `\c posts` and couldn't see the search_vector column either. I might have to either add the column or drop the table and re-add it. Tbh I'm in over my head. I have no idea what a tsvector is. I found and article explaining it's usage. In the [article](https://forestry.io/blog/full-text-searching-with-postgres/) the auther explains that the tsvector is used to full text search.
+
+**Thoughts**: I'm at the point where I need to encorporate better error handling. The Facebook team behind react link to [this](https://reactjs.org/docs/error-boundaries.html) article about error boundaries and I'm planning on reading it later on this week. I would also like to learn how to add toast messages in apps. Something similar to a [modal window](https://en.wikipedia.org/wiki/Modal_window) where I can inform the user about stuff. I'd also like to dig into [Electron](https://www.electronjs.org/) and use it to build a cross-platform desktop app.  
+
+I'm feeling a bit overwhelmed right now. I believe that it's good to experiment and do things you don't really know how to do. However I am having a hard time debugging an app I don't really understand. I'll try circling back to this tomorrow and see if I can't add the missing peices to the server side. If that doesn't work I'll leave the app as is and possibly return once I know more about fullstack development with react and postgres.
+
+**Link(s) to work**:  [Current state of the blog app](https://github.com/Organwolf/ReactJS/tree/c450117123265d79d13e7e90d75df3e138b50452)
+
 ### Day 35: April 6, 2020
 
 **Today's Progress**: Completed a small interactive [VIM tutorial](https://www.openvim.com/) and spent 45 mins on the fullstack blog tutorial. 
