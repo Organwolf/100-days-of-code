@@ -1,5 +1,27 @@
 # 100 Days Of Code - Log
 
+### Day 37: April 8, 2020
+
+**Today's Progress**: Learnt new zsh shortcuts for git see **keywords/commands** below. Created a boilerplate project with Electron. You can find a link to the project under **links**. I did run the blog app in admin mode as well. Also had to read up on ignorefiles. Learns how to <ins>underline</ins> text in markdown today too.
+
+**Thoughts**: I was going to install a git plugin for zsh but it turns out I already had one by default. Not sure how useful the commands will be or if i'll remember them. In the admin app of the blog app I tried out the calendar functionality. Although that particular project feels like a bit too much for me at the moment it has boosted my self-confidence. 
+
+**Keywords/commands**:  
+<ins>zsh commands for git</ins>
+
+`gst 	  git status`
+`gaa 	  git add --all`
+`gcmsg 	git commit -m`
+`gf 	  git fetch`
+`gp 	  git push`  
+<ins>.gitignore</ins>
+
+`**` is used for a recursive call in the whole project
+`**/node_modules` can be added to a .gitignore to recursively ignore the node_modules folder
+
+**Link(s) to work**:
+[Electron boilerplate](https://github.com/Organwolf/Electron/tree/336ce061619b05ac2a5ca224684a13d1534ff764)
+
 ### Day 36: April 7, 2020
 
 **Today's Progress**:  Read about [System Design](https://www.freecodecamp.org/news/systems-design-for-interviews/) and particularly in the context of job interviews. While doing that I stumbled upon [spaced learning](https://www.freecodecamp.org/news/use-spaced-repetition-with-anki-to-learn-to-code-faster-7c334d448c3c/) and in particular supervised spaced learning using Anki.  
