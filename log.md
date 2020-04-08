@@ -8,15 +8,13 @@
 
 **Keywords/commands**:  
 <ins>zsh commands for git</ins>
-
-`gst 	  git status`
-`gaa 	  git add --all`
-`gcmsg 	git commit -m`
-`gf 	  git fetch`
-`gp 	  git push`  
+`gst 	  git status`<br>
+`gaa 	  git add --all`<br>
+`gcmsg 	git commit -m`<br>
+`gf 	  git fetch`<br>
+`gp 	  git push`<br>
 <ins>.gitignore</ins>
-
-`**` is used for a recursive call in the whole project
+`**` is used for a recursive call in the whole project  
 `**/node_modules` can be added to a .gitignore to recursively ignore the node_modules folder
 
 **Link(s) to work**:
