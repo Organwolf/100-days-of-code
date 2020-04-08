@@ -4,7 +4,7 @@
 
 **Today's Progress**: Learnt new zsh shortcuts for git see **keywords/commands** below. Created a boilerplate project with Electron. You can find a link to the project under **links**. I did run the blog app in admin mode as well. Also had to read up on ignorefiles. Learns how to <ins>underline</ins> text in markdown today too.
 
-**Thoughts**: I was going to install a git plugin for zsh but it turns out I already had one by default. Not sure how useful the commands will be or if i'll remember them. In the admin app of the blog app I tried out the calendar functionality. Although that particular project feels like a bit too much for me at the moment it has boosted my self-confidence. 
+**Thoughts**: I was going to install a git plugin for zsh but it turns out I already had one by default. Not sure how useful the commands will be or if i'll remember them. In the admin app of the blog app I tried out the calendar functionality. Although that particular project feels like a bit too much for me at the moment it has boosted my self-confidence.
 
 **Keywords/commands**:  
 <ins>zsh commands for git</ins>
