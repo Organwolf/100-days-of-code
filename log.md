@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 38: April 9, 2020
+
+**Today's Progress**: More [electron](https://www.electronjs.org/) programming.
+
+**Thoughts**: The first link I followed was well paced and well explained. However it is more than 2 years old. Turns out some of the info was outdated and I coudn't get the menu inside of the electron app to work. Moved on to the second tutorial, which was much more high paced, and completed a screen recording app. I appriciate the boilerplate code you get when running npx create-electron-app. Just the .gitignore is enough value.
+
+**Keywords/commands**: node, process.platform = 'darwin', npx create-electron-app screen-recorder, npx create-electron-app screen-recorder, typing rs while electron app is running restarts the app and shows new changes. IPC (inter-process communication).
+
+**Link(s) to work**:  
+Started [here](https://www.youtube.com/watch?v=kN1Czs0m1SU)
+Ended up [here](https://www.youtube.com/watch?v=3yqDxhR2XxE)
+Produced [this](https://github.com/Organwolf/Electron/tree/b5e5667f43f1ec6e08222abd34aa0dba120503a8)
+
 ### Day 37: April 8, 2020
 
 **Today's Progress**: Learnt new zsh shortcuts for git see **keywords/commands** below. Created a boilerplate project with Electron. You can find a link to the project under **links**. I did run the blog app in admin mode as well. Also had to read up on ignorefiles. Learns how to <ins>underline</ins> text in markdown today too.
