@@ -8,7 +8,7 @@
 
 The disappointments of not understanding Postgres and not being able to complete the corona dashboard app is all part of my process towards becomming a better programmer. That's why I'd like to share these images:
 
-<div style="margin-top: 200px;">
+<div style="border: 1px solid red;">
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/psql-blog-app.png" width="451" height="286">
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/corona-dashboard.png" width="451" height="286">
 </div>
