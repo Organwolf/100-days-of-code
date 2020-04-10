@@ -2,7 +2,7 @@
 
 ### Day 39: April 10, 2020
 
-**Today's Progress**: Learnt more about ES6, general JavaScript, reactjs and regular functions as well as arrow functions. Added the Prettier extension to VS Code I also added `"editor.formatOnSave": true,` to my _settings.json_. I also learnt that after Github converts Markdown to HTML it sanitizes it which removes things that could cause harm- such as script tags and inline-styles [source](https://stackoverflow.com/questions/44831505/which-inline-html-styles-does-github-markdown-accept).
+**Today's Progress**: Learnt more about ES6, general JavaScript, reactjs and regular functions as well as arrow functions. Added the Prettier extension to VS Code I also added `"editor.formatOnSave": true,` to my _settings.json_. I also learnt that after Github converts Markdown to HTML it sanitizes it which removes things that could cause harm- such as script tags and inline-styles [source](https://stackoverflow.com/questions/44831505/which-inline-html-styles-does-github-markdown-accept), the ruby [sanitization_filter](https://github.com/jch/html-pipeline/blob/master/lib/html/pipeline/sanitization_filter.rb).
 
 **Thoughts**:
 The disappointments of not understanding Postgres and not being able to complete the corona dashboard app is all part of my process towards becomming a better programmer. That's why I'd like to share these images:
