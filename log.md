@@ -2,10 +2,9 @@
 
 ### Day 39: April 10, 2020
 
-**Today's Progress**: Learnt more about ES6, general JavaScript, reactjs and regular functions as well as arrow functions. Added the Prettier extension for VS Code as well as adding `"editor.formatOnSave": true,` inside of settings.json.
+**Today's Progress**: Learnt more about ES6, general JavaScript, reactjs and regular functions as well as arrow functions. Added the Prettier extension for VS Code as well as adding `"editor.formatOnSave": true,` inside of settings.json. I also learnt that after Github converts Markdown to HTML it sanitizes it which removes things that could cause harm- such as script tags and inline-styles [source](https://stackoverflow.com/questions/44831505/which-inline-html-styles-does-github-markdown-accept)
 
 **Thoughts**:
-
 The disappointments of not understanding Postgres and not being able to complete the corona dashboard app is all part of my process towards becomming a better programmer. That's why I'd like to share these images:
 <br>
 <br>
@@ -15,6 +14,8 @@ The disappointments of not understanding Postgres and not being able to complete
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/corona-dashboard.png" width="451" height="286">
 </div>
 <br>
+So far I havn't dared to ask any questions on stackoverflow yet. I might write about it on 100xdays slack channel and see what other developers think about it.
+
 It's good to recap at certain points and this weekend I will set aside to recapping. Learnt more about the this keyword. The value of this is aparently determined by how a function is called. Something about returing a reference to the window object. If [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is enabled it eliminates some of JavaScripts silent errors by changing them to throw errors. It also fixes mistakes that make it difficult for JavaScript engines to perform optimizations. Functions in JS are objects. A common method used on function objects is bind which sets the value of _this_ permanently.
 
 **Experimented with**:
@@ -82,8 +83,7 @@ const coolObject = {
 coolObject.talk();
 ```
 
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+**Link(s) to work**: None today
 
 ### Day 38: April 9, 2020
 
