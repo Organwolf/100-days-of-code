@@ -6,7 +6,12 @@
 
 **Thoughts**:
 
+The disappointments of not understanding Postgres and not being able to complete the corona dashboard app is all part of my process towards becomming a better programmer. That's why I'd like to share these images:
+
+<div>
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/psql-blog-app.png" width="478" height="296">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/corona-dashboard.png" width="478" height="296">
+</div>
 
 It's good to recap at certain points and this weekend I will set aside to recapping. Learnt more about the this keyword. The value of this is aparently determined by how a function is called. Something about returing a reference to the window object. If [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is enabled it eliminates some of JavaScripts silent errors by changing them to throw errors. It also fixes mistakes that make it difficult for JavaScript engines to perform optimizations. Functions in JS are objects. A common method used on function objects is bind which sets the value of _this_ permanently.
 
