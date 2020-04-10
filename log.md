@@ -7,6 +7,7 @@
 **Thoughts**:
 
 The disappointments of not understanding Postgres and not being able to complete the corona dashboard app is all part of my process towards becomming a better programmer. That's why I'd like to share these images:
+<br>
 
 <div>
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/psql-blog-app.png" width="451" height="286">
