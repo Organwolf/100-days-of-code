@@ -16,8 +16,7 @@ The disappointments of not understanding Postgres and not being able to complete
 <br>
 So far I havn't dared to ask any questions on stackoverflow. I might write about it on 100xdays slack channel and see what other developers think about it.
 <br>
-  
-  
+<br>
 It's good to recap at certain points and this weekend I will set aside to recapping. Learnt more about the this keyword. The value of this is aparently determined by how a function is called. Something about returing a reference to the window object. If [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) is enabled it eliminates some of JavaScripts silent errors by changing them to throw errors. It also fixes mistakes that make it difficult for JavaScript engines to perform optimizations. Functions in JS are objects. A common method used on function objects is bind which sets the value of _this_ permanently.
 
 **Experimented with**:
