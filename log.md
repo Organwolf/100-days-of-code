@@ -26,7 +26,8 @@ I also worked a little with inline styles/styling
 <span style={{ fontSize: 30 }} className="badge badge-primary m-2">
 ```
 
-**Experimented with**: The map and filter method. I also completed an exercise where I had to create a table of movies. Good stuff.
+**Experimented with**:  
+The map and filter method. I also completed an exercise where I had to create a table of movies. Good stuff.
 
 **Link(s) to work**:
 [Movie app](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly)
