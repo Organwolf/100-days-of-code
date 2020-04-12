@@ -1,16 +1,14 @@
 # 100 Days Of Code - Log
 
-### Day 22: March 24, 2020
+### Day 41: April 12, 2020
 
-**Today's Progress**: Worked a little with the default bootstrap templates. ctrl + shift + R enables refactoring in vs code and can be used to extract a method to a class.
+**Today's Progress**: Worked a little with the default bootstrap templates. On their starting page > _Examples_ > _Framework_ > _Starter template_ > right click and pick _View Page Source_. ctrl + shift + R enables refactoring in vs code and can be used to extract a method to a class. I also touched on some css basics by reading some of mozillas [Getting started with the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics). I mainly focused on padding, border and margin.
 
-**Thoughts**:
-**Experimented with**:
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/padding-border-margin.png" width="500" height="420">
 
-write about the default styles found on bootstraps homepage > right click and source code etc!
-https://getbootstrap.com/docs/4.0/examples/
+**Thoughts**: I need a lot of repetition when it comes to css. Or let me re-frame that, I haven't worked with css before and I'm new to frontend development so this takes time.
+
+**Link(s) to work**: None today
 
 ### Day 40: April 11, 2020
 
