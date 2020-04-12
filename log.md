@@ -6,7 +6,7 @@
 
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/padding-border-margin.png" width="500" height="420">
 
-**Thoughts**: I need a lot of repetition when it comes to css. Or let me re-frame that, I haven't worked with css before and I'm new to frontend development so this takes time.
+**Thoughts**: I need a lot of repetition when it comes to css. Or let me re-frame that, I haven't worked with css before and I'm new to frontend development so this takes time. I want to cover [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), more JS basics such as the filter and reduce method as well as some more composing of components in react.
 
 **Link(s) to work**: None today
 
