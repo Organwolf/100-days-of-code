@@ -1,8 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 22: March 24, 2020
+
+**Today's Progress**: Worked a little with the default bootstrap templates. ctrl + shift + R enables refactoring in vs code and can be used to extract a method to a class.
+
+**Thoughts**:
+**Experimented with**:
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
+write about the default styles found on bootstraps homepage > right click and source code etc!
+https://getbootstrap.com/docs/4.0/examples/
+
 ### Day 40: April 11, 2020
 
-**Today's Progress**: Recaps on recaps on recaps. Used the filter and map methods, learnt more about styling components and completed an exercise where I have to create a table of movies.
+**Today's Progress**: Recaps on recaps on recaps. Used the filter and map methods, learnt more about styling components and completed an exercise where I had to create a table of movies.
 
 **Thoughts**: I got a subscription to programming with Mosh yesterday. I'm 20% into learning react. It's slightly out of date but I appriciate being able to repeat the core concepts of react. While using the map function I actually had some issues. For some reason I thought that the method was used like this:
 
