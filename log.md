@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 42: April 13, 2020
+
+**Today's Progress**: Composing components, props.children and debugging react apps. I'm 21% into a React course. I'd like to complete the _Composing Components_ section I'm in by tomorrow. All of the lectures about lifecycle hooks feel a bit outdated but it's good that I have an understanding of how they work none the less.
+
+**Thoughts**: Looking forward to learning how to debug React apps. Debugging in general feel more and more important the more I program.
+
+**Experimented with**: F2 for refactoring which I will try to remember to use moving forward.
+
+**Link(s) to work**: [Multiple counters app](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/counter-app)
+
 ### Day 41: April 12, 2020
 
 **Today's Progress**: Worked a little with the default bootstrap templates. On their starting page > _Examples_ > _Framework_ > _Starter template_ > right click and pick _View Page Source_. ctrl + shift + R enables refactoring in vs code and can be used to extract a method to a class. I also touched on some css basics by reading some of mozillas [Getting started with the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics). I mainly focused on padding, border and margin.
