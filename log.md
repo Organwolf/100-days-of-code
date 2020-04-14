@@ -1,5 +1,7 @@
 # 100 Days Of Code - Log
 
+props = given data, read-only, state = private data/local data. The component that owns a piece of the state, should be the one modifying it. Sending the entire component as props to be able to minimize the amount of separate props sent to the component. Works well for accessing prosp like id, value etc. Single source of truth. By removing the local state and only rely on the props. Controlled components follow these rules. Controlled by parent.
+
 ### Day 42: April 13, 2020
 
 **Today's Progress**: Composing components, props.children and debugging react apps. I'm 21% into a React course. I'd like to complete the _Composing Components_ section I'm in by tomorrow. All of the lectures about lifecycle hooks feel a bit outdated but it's good that I have an understanding of how they work none the less.
