@@ -9,6 +9,8 @@
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/before.png" width="420" height="90">
 <p>After tabing</p>
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/after.png" width="420" height="90">
+<br>
+<br>
 </div>
 
 **Thoughts**: I've used Redux before to solve the need of a single source of truth. From what I could take away from my work today you can achive the same effect by having all statefull data at the top. I'm looking forward to learning more about hooks. How hooks solve this problem and how one should use them properly. For now I'll have to make do with setState and the like.
