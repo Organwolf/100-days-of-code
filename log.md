@@ -4,6 +4,11 @@
 
 **Today's Progress**: Repeating the basics of react. Props = recieved data and read-only. State = private/local data. `The component that owns a piece of the state, should be the one modifying it.` Sending the entire component as props to minimize the amount of separate props sent to a component works well for accessing prosp like id, value etc. Having a single source of truth is important. By removing the local state and only relying on the props a component becomes a controlled component. It is controlled by some parent higher up the the tree.
 
+<div>
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/before.png" width="400" height="80">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/after.png" width="400" height="80">
+</div>
+
 **Thoughts**: I've used Redux before to solve the need of a single source of truth. From what I could take away from my work today you can achive the same effect by having all statefull data at the top. I'm looking forward to learning more about hooks. How hooks solve this problem and how one should use them properly. For now I'll have to make do with setState and the like.
 
 **Experimented with**: Event handlers, usages of props and ways to design an app to have a single source of truth.
