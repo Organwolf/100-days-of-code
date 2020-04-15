@@ -6,19 +6,20 @@
 I have also worked with lifecycle hooks: mount > update > unmount. Mount -> constructor/render/componentDidMount. Stuff in mounted recursively. Update -> whenever state or props of a component changes. componentDidUpdate(), prevProps, prevState.
 
 **Thoughts**:
+I've used the turnary operator tons of times before in the past couple of months. However, I still had a hard time wrapping my head around how to apply an attribute dynamically while working with react. Turns out it's as easy as the code on line 4 below.
 
-```
-    <button
-      onClick={() => this.props.onDecrement(this.props.counter)}
-      className="btn btn-secondary btn-sm m-2"
-      disabled={this.props.counter.value === 0 ? "disabled" : ""}
-    >
-      -
-    </button>
+```r
+  <button
+    onClick={() => this.props.onDecrement(this.props.counter)}
+    className="btn btn-secondary btn-sm m-2"
+    disabled={this.props.counter.value === 0 ? "disabled" : ""}
+  >
+    -
+  </button>
 ```
 
-**Experimented with**:
-**Link(s) to work**:
+**Experimented with**: Ternary operator, lifecycle hooks, functional statelsss components and react elemnts.
+**Link(s) to work**: [Amazing stetless functional components](https://www.youtube.com/watch?v=oHg5SJYRHA0)
 https://gist.github.com/rxaviers/7360908
 
 ### Day 43: April 14, 2020
