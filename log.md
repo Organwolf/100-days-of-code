@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 44: April 15, 2020
+
+**Today's Progress**: Worked with stateless functional components. A stateless functional component returns a react element. A React Element is what gets returned from components. It's an object that virtually describes the DOM nodes that a component represents. With a function component, this element is the object that the function returns. [source](https://stackoverflow.com/questions/30971395/difference-between-react-component-and-react-element)  
+I have also worked with lifecycle hooks: mount > update > unmount. Mount -> constructor/render/componentDidMount. Stuff in mounted recursively. Update -> whenever state or props of a component changes. componentDidUpdate(), prevProps, prevState.
+
+**Thoughts**:
+
+```
+    <button
+      onClick={() => this.props.onDecrement(this.props.counter)}
+      className="btn btn-secondary btn-sm m-2"
+      disabled={this.props.counter.value === 0 ? "disabled" : ""}
+    >
+      -
+    </button>
+```
+
+**Experimented with**:
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
 ### Day 43: April 14, 2020
 
 **Today's Progress**: Repeating the basics of react. Props = recieved data and read-only. State = private/local data. `The component that owns a piece of the state, should be the one modifying it.` Sending the entire component as props to minimize the amount of separate props sent to a component works well for accessing prosp like id, value etc. Having a single source of truth is important. By removing the local state and only relying on the props a component becomes a controlled component. It is controlled by some parent higher up the the tree. I've also started using some new functionality from the extension "Simple React Snippets". See the pictures below.
