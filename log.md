@@ -3,7 +3,10 @@
 ### Day 44: April 15, 2020
 
 **Today's Progress**: Worked with stateless functional components. A stateless functional component returns a react element. A React Element is what gets returned from components. It's an object that virtually describes the DOM nodes that a component represents. With a function component, this element is the object that the function returns. [source](https://stackoverflow.com/questions/30971395/difference-between-react-component-and-react-element)  
-I have also worked with lifecycle hooks: mount > update > unmount. Mount -> constructor/render/componentDidMount. Stuff in mounted recursively. Update -> whenever state or props of a component changes. componentDidUpdate(), prevProps, prevState.
+<br>
+I have also worked with lifecycle hooks:  
+mount > update > unmount. Mount -> constructor/render/componentDidMount.  
+Update -> whenever state or props of a component changes, componentDidUpdate(), prevProps, prevState.
 
 **Thoughts**:
 I've used the turnary operator tons of times before in the past couple of months. However, I still had a hard time wrapping my head around how to apply an attribute dynamically while working with react. Turns out it's as easy as the code on line 4 below.
@@ -19,8 +22,8 @@ I've used the turnary operator tons of times before in the past couple of months
 ```
 
 **Experimented with**: Ternary operator, lifecycle hooks, functional statelsss components and react elemnts.
+
 **Link(s) to work**: [Amazing stetless functional components](https://www.youtube.com/watch?v=oHg5SJYRHA0)
-https://gist.github.com/rxaviers/7360908
 
 ### Day 43: April 14, 2020
 
