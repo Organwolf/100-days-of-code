@@ -4,20 +4,20 @@
 
 **Today's Progress**: Added a like component to the vidley app (an app that displays movies). The component can be found here: `src > components > common > like.jsx` ([link](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly/src/components/common)). I also started working on pagination for the app.
 
-##### Pagination
+#### Pagination
 
-###### Interface
+##### Interface
 
 Goal: decoupled from movies, re-usable and as general as possible.
 Input to component: itemsCount, pageSize, onPageChange.
 
-###### Displaying pages
+##### Displaying pages
 
 Goal: use the total amount of item and the pageSize (which represents the max amount of items per page) to calculate the total amount of pages. If the page count is 1 or less don't display any pagination.
 
-```r
-  const pagesCount = Math.ceil(itemsCount / pageSize);
-  if (pagesCount === 1) return null;
+```javasript
+const pagesCount = Math.ceil(itemsCount / pageSize);
+if (pagesCount === 1) return null;
 ```
 
 **Thoughts**: The like component is my first real stand alone component. I binded an onClick event to an **i** tag that displayed a font awesome [heart](https://fontawesome.com/icons/heart?style=solid).
