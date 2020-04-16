@@ -2,7 +2,13 @@
 
 ### Day 45: April 16, 2020
 
-**Today's Progress**: Added a like component to the vidley app (an app that displays movies). The component can be found here: `src > components > common > like.jsx` ([link](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly/src/components/common)). I also started working on pagination for the app.
+**Today's Progress**: Added a like component to the vidley app (an app that displays movies). The component can be found here: `src > components > common > like.jsx` ([link](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly/src/components/common)).
+
+<ins>Like Component architecture</ins>  
+Input: liked (boolean), onClick (event handler).  
+Output: onClick.
+
+I also started working on pagination for the app.
 
 ##### Pagination - Interface
 
@@ -19,10 +25,6 @@ if (pagesCount === 1) return null;
 ```
 
 **Thoughts**: The like component is my first real stand alone component. I binded an onClick event to an **i** tag that displayed a font awesome [heart](https://fontawesome.com/icons/heart?style=solid).
-
-<ins>Components architecture</ins>  
-Input: liked (boolean), onClick (event handler).  
-Output: onClick.
 
 Pagination exercise. Solving the interface, the data and events that the pagination should recieve. It was easy just copying and pasting code from [getbootstrap.com](https://getbootstrap.com/docs/4.0/components/pagination/). So far I could work things out on my own. The rest, refactoring the pagination logic into its own component and knowing what events it should raise was harder. The component should know something about which page it's on. That much I know.
 
