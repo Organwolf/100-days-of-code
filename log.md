@@ -4,14 +4,12 @@
 
 **Today's Progress**: Added a like component to the vidley app (an app that displays movies). The component can be found here: `src > components > common > like.jsx` ([link](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly/src/components/common)). I also started working on pagination for the app.
 
-#### Pagination
-
-##### Interface
+##### Pagination - Interface
 
 Goal: decoupled from movies, re-usable and as general as possible.
 Input to component: itemsCount, pageSize, onPageChange.
 
-##### Displaying pages
+##### Pagination - Displaying pages
 
 Goal: use the total amount of item and the pageSize (which represents the max amount of items per page) to calculate the total amount of pages. If the page count is 1 or less don't display any pagination.
 
@@ -22,19 +20,19 @@ if (pagesCount === 1) return null;
 
 **Thoughts**: The like component is my first real stand alone component. I binded an onClick event to an **i** tag that displayed a font awesome [heart](https://fontawesome.com/icons/heart?style=solid).
 
-<ins>Components architecture</ins>
-Input: liked (boolean), onClick (event handler). Output: onClick.
+<ins>Components architecture</ins>  
+Input: liked (boolean), onClick (event handler).  
+Output: onClick.
 
 Pagination exercise. Solving the interface, the data and events that the pagination should recieve. It was easy just copying and pasting code from [getbootstrap.com](https://getbootstrap.com/docs/4.0/components/pagination/). So far I could work things out on my own. The rest, refactoring the pagination logic into its own component and knowing what events it should raise was harder. The component should know something about which page it's on. That much I know.
 
-**Experimented with**: Pagination, stateless functional components, stand-alone components, component design and re-usability.  
+**Experimented with**: Pagination, stateless functional components, stand-alone components, component design, lodash naming a property while destructuring and component re-usability.
+
 I also experimented with this:
 
 ```javascript
 const { length: count } = this.state.movies;
 ```
-
-Naming a property while destructuring. I also experimented a little with the library lodash.
 
 **Link(s) to work**: [Vidly app](https://github.com/Organwolf/ReactJS/tree/40cc9554f68f9824c65bc253ec47a24c8a62c010)
 
