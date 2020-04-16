@@ -4,7 +4,7 @@
 
 **Today's Progress**: Added a like component to the vidley app (an app that displays movies). The component can be found here: `src > components > common > like.jsx` ([link](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly/src/components/common)).
 
-<ins>Like Component architecture</ins>  
+Like Component architecture  
 Input: liked (boolean), onClick (event handler).  
 Output: onClick.
 
