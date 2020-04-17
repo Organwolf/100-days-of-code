@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 46: April 17, 2020
+
+**Today's Progress**:
+**Thoughts**:
+**Experimented with**:
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
+Worked with the wildcard selector **\*** in css. Wildcard selectors are used to select multiple elements simultaniously. The **>** in the css below means _select all of what is to the right of \> within what is to the left of \>_
+
+```css
+hp-chooser.chosen > *.chosen {
+  max-width: 30%;
+}
+
+/*  */
+hp-chooser.chosen > *:not(.chosen) {
+  max-width: 16.6%;
+}
+```
+
+Type checking with PropTypes: https://reactjs.org/docs/typechecking-with-proptypes.html
+
 ### Day 45: April 16, 2020
 
 **Today's Progress**: Added a like component to the vidley app (an app that displays movies). The component can be found here: `src > components > common > like.jsx` ([link](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly/src/components/common)).
