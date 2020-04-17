@@ -55,7 +55,8 @@ hp-chooser.chosen > *:not(.chosen) {
 ```
 
 **Link(s) to work**: [CSS animations](https://github.com/Organwolf/VanillaJS/tree/master/InteractionAnimations/Ch3/03_01%20-%20MODIFIED/begin)  
-If you want to run this particular code and have python installed just run `python -m SimpleHTTPServer` inside the directory and navigate to http://localhost:8000/.
+If you want to run this particular code and have python installed just run `python -m SimpleHTTPServer`  
+inside the directory and navigate to http://localhost:8000/.
 
 ### Day 45: April 16, 2020
 
