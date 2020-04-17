@@ -2,26 +2,60 @@
 
 ### Day 46: April 17, 2020
 
-**Today's Progress**:
-**Thoughts**:
-**Experimented with**:
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+Type checking with PropTypes:
+**Today's Progress**: I mainly made progress with css but I also touched on [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) and how it can be added to components to require certain data as input. I also learnt about `python -m SimpleHTTPServer` which, as the name applies, is a simple server that serves files from the current directory and below, directly mapping the directory structure to HTTP requests [source](https://docs.python.org/2/library/simplehttpserver.html).
 
-Worked with the wildcard selector **\*** in css. Wildcard selectors are used to select multiple elements simultaniously. The **>** in the css below means _select all of what is to the right of \> within what is to the left of \>_
+**Experimented with**: The lodash library, css wildcard selectors, animation, SimpleHTTPServer and PropTypes in reactjs.
+
+**Thoughts**:
+Worked with the wildcard selector **\*** in css. Wildcard selectors are used to select multiple elements simultaniously.  
+The **>** in the css below means _select all of what is to the right of **\>** within what is to the left of **\>**._
 
 ```css
+/* 1 */
 hp-chooser.chosen > *.chosen {
   max-width: 30%;
 }
 
-/*  */
+/* 2 */
 hp-chooser.chosen > *:not(.chosen) {
   max-width: 16.6%;
 }
 ```
 
-Type checking with PropTypes: https://reactjs.org/docs/typechecking-with-proptypes.html
+The second peice of css applies a max-width of 16.6% to all elements within the hp-chooser with a class of chosen that don't have the class of chosen. A mouthful I know. If I'd seen this css a couple of weeks back I would have shut down. Today it feel manageble and I'm greatful for that.
+
+I also learnt some best practices while working with css such as the css below that allows the body to take up the entire area of the available screen.
+
+```css
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+```
+
+I've also touched css animations today. The syntax is pretty straigh forward but still a bit unfamiliar. Here is the code for my animation of the unchosen elements:
+
+```css
+hp-chooser.chosen > *:not(.chosen) {
+  max-width: 16.6%;
+  animation-name: unchosen;
+  animation-duration: 0.5s;
+}
+
+@keyframes unchosen {
+  from {
+    max-width: 20%;
+  }
+  to {
+    max-width: 16.6%;
+  }
+}
+```
+
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
 
 ### Day 45: April 16, 2020
 
