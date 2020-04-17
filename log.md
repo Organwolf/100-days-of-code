@@ -2,8 +2,8 @@
 
 ### Day 46: April 17, 2020
 
-Type checking with PropTypes:
-**Today's Progress**: I mainly made progress with css but I also touched on [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) and how it can be added to components to require certain data as input. I also learnt about `python -m SimpleHTTPServer` which, as the name applies, is a simple server that serves files from the current directory and below, directly mapping the directory structure to HTTP requests [source](https://docs.python.org/2/library/simplehttpserver.html).
+**Today's Progress**: I mainly made progress with css but I also touched on [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) and how it can be added to components to require certain data as input. I also learnt about `python -m SimpleHTTPServer`  
+which, as the name applies, is a [simple server](https://docs.python.org/2/library/simplehttpserver.html) that serves files from the current directory and below, directly mapping the directory structure to HTTP requests.
 
 **Experimented with**: The lodash library, css wildcard selectors, animation, SimpleHTTPServer and PropTypes in reactjs.
 
@@ -25,7 +25,7 @@ hp-chooser.chosen > *:not(.chosen) {
 
 The second peice of css applies a max-width of 16.6% to all elements within the hp-chooser with a class of chosen that don't have the class of chosen. A mouthful I know. If I'd seen this css a couple of weeks back I would have shut down. Today it feel manageble and I'm greatful for that.
 
-I also learnt some best practices while working with css such as the css below that allows the body to take up the entire area of the available screen.
+I also learnt some best practices while working with css such as the css shown below. It allows the body to take up the entire area of the available screen.
 
 ```css
 html,
@@ -35,7 +35,7 @@ body {
 }
 ```
 
-I've also touched css animations today. The syntax is pretty straigh forward but still a bit unfamiliar. Here is the code for my animation of the unchosen elements:
+I've also touched css animations today. Learning more about animating with css was one of my goals during my 100 days. The syntax is pretty straigh forward but still a bit unfamiliar. Here is the code for my animation of the unchosen elements:
 
 ```css
 hp-chooser.chosen > *:not(.chosen) {
@@ -54,8 +54,8 @@ hp-chooser.chosen > *:not(.chosen) {
 }
 ```
 
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+**Link(s) to work**: [CSS animations](https://github.com/Organwolf/VanillaJS/tree/master/InteractionAnimations/Ch3/03_01%20-%20MODIFIED/begin)  
+If you want to run this particular code and have python installed just run `python -m SimpleHTTPServer` inside the directory and navigate to http://localhost:8000/.
 
 ### Day 45: April 16, 2020
 
