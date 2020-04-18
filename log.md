@@ -21,7 +21,8 @@ with a simple tab turns into
 <div className="col"></div>
 ```
 
-I also found this cool sight which displays different easing functions rate of change.
+I also found this cool sight which displays different easing  
+functions rate of change. It can be really helpful when writing custom animations in css. By modifying the [animation-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function) you can achieve different easing styles.
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/easOut-easIn.png" width="435" height="450">
 
 **Link(s) to work**: None today
