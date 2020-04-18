@@ -4,23 +4,27 @@
 
 **Today's Progress**: I've worked more with react today. Thinking more about how a component should be used before implementing it. Worked a little on the Vidly apps filter by genre functionality as well.
 
-**Thoughts**: It's good for me focus on the interface of components, what events they might raise and what they might or might not output before starting to code.
+**Thoughts**: It's good for me ti focus on the interface of components, what events they might raise and what they might or might not output before I start to code.
+
 **Experimented with**:
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+
+Some shortcuts :point_down:
 
 ```
 div.col-2+div.col
 ```
 
-with a simple tab runts into
+with a simple tab turns into
 
 ```html
 <div className="col-2"></div>
 <div className="col"></div>
 ```
 
-https://easings.net/
+I also found this cool sight which displays different easing functions rate of change.
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/easOut-easIn.png" width="435" height="450">
+
+**Link(s) to work**: None today
 
 ### Day 46: April 17, 2020
 
