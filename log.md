@@ -1,5 +1,63 @@
 # 100 Days Of Code - Log
 
+### Day 48: April 19, 2020
+
+**Today's Progress**: Stateless functional components in React.
+
+**Thoughts**:
+
+I re-arranged and reworked this component
+
+```javascript
+import React from "react";
+
+const ListGroup = (props) => {
+  const { items } = props;
+
+  return (
+    <ul className="list-group">
+      {items.map((item) => (
+        <li key={item._id} className="list-group-item">
+          {item.name}
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+export default ListGroup;
+```
+
+to become more general
+
+```javascript
+import React from "react";
+
+const ListGroup = (props) => {
+  const { items, textProperty, valueProperty } = props;
+
+  return (
+    <ul className="list-group">
+      {items.map((item) => (
+        <li key={item[valueProperty]} className="list-group-item">
+          {item[textProperty]}
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+export default ListGroup;
+```
+
+by forcing the programmer to pass the valueProperty and textProperty as props instead of assuming that
+they are names `_id` or `name`. Although the changes are minimal codewise the code has become way more dynamic and re-usable!
+
+**Experimented with**: Worked more with stateless functional components in React. Specifically how one can make them as general as possible.
+
+**Link(s) to work**: [Vidly commit with changes in listGroup component](https://github.com/Organwolf/ReactJS/tree/82e1bf4c490d12a935a9692bda5789fe11f83332/vidly)
+https://gist.github.com/rxaviers/7360908
+
 ### Day 47: April 18, 2020
 
 **Today's Progress**: I've worked more with react today. Thinking more about how a component should be used before implementing it. Worked a little on the Vidly apps filter by genre functionality as well.
