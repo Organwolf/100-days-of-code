@@ -4,9 +4,7 @@
 
 **Today's Progress**: Stateless functional components in React.
 
-**Thoughts**:
-
-I re-arranged and reworked this component
+**Thoughts**: I re-arranged and reworked this component
 
 ```javascript
 import React from "react";
@@ -51,9 +49,10 @@ export default ListGroup;
 ```
 
 by forcing the programmer to pass the valueProperty and textProperty as props instead of assuming that
-they are names `_id` or `name`. Although the changes are minimal codewise the code has become way more dynamic and re-usable!
+`_id` or `name` exist. Although the changes are minimal codewise the code has become way more re-usable!
 
-**Experimented with**: Worked more with stateless functional components in React. Specifically how one can make them as general as possible.
+**Experimented with**:  
+Worked more with stateless functional components in React. Specifically how one can make them as general as possible.
 
 **Link(s) to work**: [Vidly commit with changes in listGroup component](https://github.com/Organwolf/ReactJS/tree/82e1bf4c490d12a935a9692bda5789fe11f83332/vidly)
 https://gist.github.com/rxaviers/7360908
