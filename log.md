@@ -6,7 +6,7 @@
 
 **Thoughts**: It's complicated but fun. When I solve stuff at work I start by trying to get things to work. Learning to generalize components usually work the other way around. You have some functionality you want to be able to reuse.
 
-**Experimented with**: Lodash, specifically [\_.get(object, path, \[defaultValue\])](https://lodash.com/docs/#get)
+**Experimented with**: Lodash, specifically [\_.get(object, path, \[defaultValue\])](https://lodash.com/docs/#get).
 
 ```javascript
 import React, { Component } from "react";
