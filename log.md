@@ -1,5 +1,60 @@
 # 100 Days Of Code - Log
 
+### Day 49: April 20, 2020
+
+**Today's Progress**: Generalizing components in React.
+
+**Thoughts**: It's complicated but fun. When I solve stuff at work I start by trying to get things to work. Learning to generalize components usually work the other way around. You have some functionality you want to be able to reuse.
+
+**Experimented with**: Lodash, specifically [\_.get(object, path, \[defaultValue\])](https://lodash.com/docs/#get)
+
+```javascript
+import React, { Component } from "react";
+import _ from "lodash";
+
+class TableBody extends Component {
+  renderCell = (item, column) => {
+    if (column.content) return column.content(item);
+
+    return _.get(item, column.path);
+  };
+
+  createKey = (item, column) => {
+    return item._id + (column.path || column.key);
+  };
+
+  render() {
+    const { data, columns } = this.props;
+    return (
+      <tbody>
+        {data.map((item) => (
+          <tr key={item._id}>
+            {columns.map((column) => (
+              <td key={this.createKey(item, column)}>
+                {this.renderCell(item, column)}
+              </td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+    );
+  }
+}
+
+export default TableBody;
+```
+
+The above code functions a bit like a for loop in a for loop.  
+The below code enables me to reach nested data inside of **item**.  
+**renderCell** renders either moviedata, a like or a delete button.  
+**createKey**, as the name implies, creates a unique key for each cell.
+
+```javascript
+<td>{_.get(item, column.path)}</td>
+```
+
+**Link(s) to work**: [Vidly w generalized table header and table body](https://github.com/Organwolf/ReactJS/tree/a5c565d649369c4fa989ef7cbb0450cfe0b44003/vidly)
+
 ### Day 48: April 19, 2020
 
 **Today's Progress**: Stateless functional components in React.
