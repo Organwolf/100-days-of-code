@@ -1,5 +1,66 @@
 # 100 Days Of Code - Log
 
+### Day 50: April 21, 2020
+
+**Today's Progress**: Routing and refactoring in React.
+
+**Thoughts**: I really liked todays coding. If anything, this is what I need right now. I want and need to learn more about structure, reusability and general skills that have to do with webapps.
+
+**Experimented with**:
+
+**Routing**
+
+A regular Route might look something like this
+
+```javascript
+<Route path="/products" component={Products} />
+```
+
+However, if I'd want to pass any props along with the Product component I'd have to do this:
+
+```javascript
+<Route
+  path="/products"
+  component={(props) => <Products sortBy="newest" {...props} />}
+/>
+```
+
+the passing of props into the arrow function and the spreading of props `{...props}` passes the history, location and match properties to the Products component.
+
+**Refactoring**
+
+```javascript
+const filtered =
+  selectedGenre && selectedGenre._id
+    ? allMovies.filter((m) => m.genre._id === selectedGenre._id)
+    : allMovies;
+
+const sorted = _.orderBy(filtered, [sortColumn.path], [sortColumn.order]);
+
+const movies = paginate(sorted, currentPage, pageSize);
+```
+
+`filtered.length` and `movies`are both used in other parts of the component.  
+This has to be taken into consideration when refactoring it into a new method
+
+```javascript
+getPageData = () => {
+  const filtered =
+    selectedGenre && selectedGenre._id
+      ? allMovies.filter((m) => m.genre._id === selectedGenre._id)
+      : allMovies;
+
+  const sorted = _.orderBy(filtered, [sortColumn.path], [sortColumn.order]);
+
+  const movies = paginate(sorted, currentPage, pageSize);
+
+  return { totalCount: filtered.length, data: movies };
+};
+```
+
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
 ### Day 49: April 20, 2020
 
 **Today's Progress**: Generalizing components in React.
