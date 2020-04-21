@@ -58,8 +58,7 @@ getPageData = () => {
 };
 ```
 
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+**Link(s) to work**: No links but check the code above if you'd like
 
 ### Day 49: April 20, 2020
 
