@@ -1,5 +1,74 @@
 # 100 Days Of Code - Log
 
+### Day 22: March 24, 2020
+
+**Today's Progress**: Refactoring, working with forms in React as well as pimple validation.
+
+**Thoughts**: Have had som problems with gulp and building my projects today. Going to ask a friend about it tomorrow.
+
+**Experimented with**:
+
+Select text/code, press cmd + shift + P and search for wrap, then type what you want to wrap the selected peice of text/code with. Zen coding can be used here as well.
+
+Vanilla JS
+
+```javascript
+const username = document.getElementById("username").value;
+```
+
+The whole point of React is to abstract away the DOM. Which makes react apps easier to maintan and unit test. But how do you access the DOM in React? You use Refs
+
+```javascript
+// Creating the Ref
+username = React.createRef();
+
+// Accessing the Ref
+const username = this.username.current.value;
+
+//Assigning the Ref
+<input
+  ref={this.username}
+  id="username"
+  type="text"
+  className="form-control"
+/>;
+```
+
+But Refs should not be overused. In the case of forms it is usually good to use controlled components. Controlled components don't have their own state. They get all their data via props and they notify changes to the data by raising events.
+
+A handler in such a situation could look like this:
+
+```javascript
+handleChange = (e) => {
+  const account = { ...this.state.account };
+  account[e.currentTarget.name] = e.currentTarget.value;
+  this.setState({ account });
+};
+```
+
+And with some destructuring it looks like this:
+
+```javascript
+handleChange = ({ currentTarget: input }) => {
+  const account = { ...this.state.account };
+  account[input.name] = input.value;
+  this.setState({ account });
+};
+```
+
+I really like destructuring when used like that. It does a lot for the readability.
+
+Today I also build a simple validation function. Inside that function the return looks like this:
+
+```javascript
+return Object.keys(errors).length === 0 ? null : errors;
+```
+
+Which means, if the errors object has zero keys return null. In other words there are no errors. Else the errors object is returnd from the validation function.
+**Link(s) to work**: None today
+
+https://gist.github.com/rxaviers/7360908
+
 ### Day 50: April 21, 2020
 
 **Today's Progress**: Routing and refactoring in React.
