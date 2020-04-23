@@ -1,6 +1,48 @@
 # 100 Days Of Code - Log
 
-### Day 22: March 24, 2020
+### Day 52: April 23, 2020
+
+**Today's Progress**: Refactoring, form validation, computed properties and custom css for bootstrap.
+
+**Thoughts**: When I take the time to look at what I'm working with I notice that something has happened over the past month or so. I'm not sure if it's the continuity, the coding a little every day, or if it's something else. I can sense the progress I'm making. I'd like to take a closer look at git and get more familiar with merging branches, creating and resolving pull requests, stashing data and so on. Right now I don't feel like I have the time.
+
+**Experimented with**:
+
+adding .DS_Store to my gitignore. It always feels powerful when I can make improvements to my git workflow.
+
+[oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet) literalliy has tons of aliases for git out of the box  
+today I found this alias `ggp` which pushes the commit to the current branch.
+
+modifying the gutters between bootstrap columns using custom css
+
+```css
+.custom-gutter > [class*="col-"] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.custom-gutter > [class*="col-"]:first-child {
+  padding-left: 16px;
+}
+
+.custom-gutter > [class*="col-"]:last-child {
+  padding-right: 16px;
+}
+```
+
+and worked with ES6 Computed Property Names while working on form validation in react.  
+Where \[name\] is the computed property in the code below.
+
+```javascript
+handleChange = (event) => {
+  const { name, value } = event.target;
+  this.setState({ [name]: value });
+};
+```
+
+**Link(s) to work**: [Vidly app](https://github.com/Organwolf/ReactJS/tree/34b60b890d3a2888d643328c3e6363f3ac58a04c)
+
+### Day 51: April 22, 2020
 
 **Today's Progress**: Refactoring, working with forms in React as well as pimple validation.
 
