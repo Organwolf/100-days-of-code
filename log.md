@@ -6,7 +6,7 @@
 
 **Thoughts**: When I take the time to look at what I'm working with I notice that something has happened over the past month or so. I'm not sure if it's the continuity, the coding a little every day, or if it's something else. I can sense the progress I'm making. I'd like to take a closer look at git and get more familiar with merging branches, creating and resolving pull requests, stashing data and so on. Right now I don't feel like I have the time.
 
-**Experimented with**:
+**Experimented with**:  
 adding `.DS_Store` to my gitignore. It always feels powerful when I can make improvements to my git workflow.
 
 cmd + b toggles the explorer in vscode (mac). I'll be using that a lot moving forward.
@@ -30,7 +30,8 @@ I also modified the gutters between bootstrap columns using custom css:
 }
 ```
 
-and worked with ES6 Computed Property Names while working on form validation in react. Where \[name\] is the computed property in the code below.
+and worked with ES6 Computed Property Names while working on form validation in react.  
+Where \[name\] is the computed property in the code below.
 
 ```javascript
 handleChange = (event) => {
