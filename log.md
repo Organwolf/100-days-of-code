@@ -2,11 +2,11 @@
 
 ### Day 53: April 24, 2020
 
-**Today's Progress**: Refactoring, added a generalized dropdown component, {...rest}, read and wrote about immutability
+**Today's Progress**: General refactoring as well as refactoring of the validation into its own re-usable class component called Form which loginForm, movieForm and registerForm now extend. I added a generalized dropdown component to the project called _select_, used {...rest} for the first time and read and wrote about immutability.
 
-**Thoughts**: Used a Link element instead of a regular button. Now sure if that is bad practise or not. I'm still not comfortable with using `this.props.history` and `this.props.match` which are props "injecten" into the component that is passed through a Route. I really like the `mapToViewModel(movie)` which is triggered inside of movieForm.jsx if the user has clicked on the hyperlink for a movie. It's pretty "simple" the way that is uses setState to populate the 4 different fields in the movieForm component.
+**Thoughts**: Used a Link element instead of a regular button. Not sure if that is bad practise or not. I'm still not comfortable with using `this.props.history` and `this.props.match` which are props "injecten" into the component that is passed through a Route. I really like the `mapToViewModel(movie)` which is triggered inside of movieForm.jsx if the user has clicked on the hyperlink for a movie. It's pretty "simple", the way that is uses setState to populate the 4 different fields in the movieForm component, but I still like it.
+
 **Experimented with**:
-
 Immutability in react:
 keywords: immutability, pure functions, side effects and referential equality in JS
 
@@ -49,11 +49,7 @@ The reason referential equality is used instead of checking equality deeply (tra
 
 For further reading on this topic I recommend checking out thi [article about immutability in React and Redux](https://daveceddia.com/react-redux-immutability-guide/).
 
-Refactored the validation into its own re-usable class components and extend it in the loginForm.
-Next: extract helper rendering methods
-
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+**Link(s) to work**: [Vidly app](https://github.com/Organwolf/ReactJS/tree/1f8c1429fdee362819386a81a1dbbc6cf217d994)
 
 ### Day 52: April 23, 2020
 
