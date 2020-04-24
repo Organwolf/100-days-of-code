@@ -1,5 +1,60 @@
 # 100 Days Of Code - Log
 
+### Day 53: April 24, 2020
+
+**Today's Progress**: Refactoring, added a generalized dropdown component, {...rest}, read and wrote about immutability
+
+**Thoughts**: Used a Link element instead of a regular button. Now sure if that is bad practise or not. I'm still not comfortable with using `this.props.history` and `this.props.match` which are props "injecten" into the component that is passed through a Route. I really like the `mapToViewModel(movie)` which is triggered inside of movieForm.jsx if the user has clicked on the hyperlink for a movie. It's pretty "simple" the way that is uses setState to populate the 4 different fields in the movieForm component.
+**Experimented with**:
+
+Immutability in react:
+keywords: immutability, pure functions, side effects and referential equality in JS
+
+Immutability is the opposite of _mutable_ which means _changeable_.
+A pure function must follow two rules:
+
+> It must always return the same value when given the same inputs
+> It can't contain/create any side effects
+
+A side effect occurs when modifying things outside the scope of that immediate function. Some examples of side effects include using console.log() or running API calls inside a function.
+
+React prefers immutability
+For react to notice the changes, and by doing so re-rendeing the component, the state must change. It appears that mutable changes to the same object, although assigned to a new object with another name, will be referentially equal and nor trigger a re-rendering.
+
+Referential equality works like this
+
+```javascript
+// This creates a variable, `crayon`, that points to a box (unnamed),
+// which holds the object `{ color: 'red' }`
+let crayon = { color: "red" };
+
+// Changing a property of `crayon` does NOT change the box it points to
+crayon.color = "blue";
+
+// Assigning an object or array to another variable merely points
+// that new variable at the old variable's box in memory
+let crayon2 = crayon;
+console.log(crayon2 === crayon); // true. both point to the same box.
+
+// Niw, any further changes to `crayon2` will also affect `crayon1`
+crayon2.color = "green";
+console.log(crayon.color); // changed to green!
+console.log(crayon2.color); // also green!
+
+// ...because these two variables refer to the same object in memory
+console.log(crayon2 === crayon);
+```
+
+The reason referential equality is used instead of checking equality deeply (traversing through the entire object) is largly due to performance gains from using referential equality. Reference equality checks take constant time O(1).
+
+For further reading on this topic I recommend checking out thi [article about immutability in React and Redux](https://daveceddia.com/react-redux-immutability-guide/).
+
+Refactored the validation into its own re-usable class components and extend it in the loginForm.
+Next: extract helper rendering methods
+
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
 ### Day 52: April 23, 2020
 
 **Today's Progress**: Refactoring, form validation, computed properties and custom css for bootstrap.
