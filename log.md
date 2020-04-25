@@ -4,22 +4,24 @@
 
 **Today's Progress**: Read about CORS and worked on search functionality in my Vidly app. I also started looking at making API requests to endpoints outside of my application. More specifically I also learnt how to throw an error within a try catch block to test my error handling.
 
-**Thoughts**:  
-Web contents _origin_ in the context on CORS is defined by the _scheme_ (protocol), _host_ (domain), and _port_ of the URL used to access it.
+**Thoughts**: I really appriciate learning more about async and await. I use fetch a lot and in this project axios takes that APIs place. It's always interesting to learn more about similar tools and how they tackle stuff. I learnt about optimistic (and pesimistic updates). I tried using optimistic updates in the app I'm currently working on and it really does give the illusion of the app being faster than it actually is.
+
+**Experimented with**: Web contents _origin_ in the context on CORS is defined by the _scheme_ (protocol), _host_ (domain), and _port_ of the URL used to access it.
 
 _http_ and _https_ are are examples of different protocols  
 _example.com_ and _otherexample.se_ are examples of different domains  
 and numbers like _:8080_ att the end of a domain specifies the port.
 
-Cross-Origin Resource Sharing (CORS)  
-Mozillas developer pages say the following:
+On Cross-Origin Resource Sharing (CORS) Mozillas developer pages say the following:
 
-> For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from, unless the response from other origins includes the right CORS headers. [source](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+> For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from, unless the response from other origins includes the right CORS headers.
+> [source](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 A promise is an object that holds the result of an asynchronous operation.  
 It can either resolve (which leads to a success) OR be rejected (which lead to a failure).
 
-According to the resources I'm following the _then()_ is the old way of working with async operations. Below is an example of the "new" way of dealing with async stuff.
+According to the resources I'm following the _then()_ is the old way of working with async operations.  
+Below is an example of the "new" way of dealing with async stuff.
 
 ```javascript
 const response = await axios.get("https://jsonplaceholder.typicode.com/posts");
@@ -43,8 +45,6 @@ handleDelete = async (post) => {
   }
 };
 ```
-
-**Experimented with**: The above
 
 **Link(s) to work**: None today
 
