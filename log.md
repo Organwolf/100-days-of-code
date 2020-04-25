@@ -1,5 +1,53 @@
 # 100 Days Of Code - Log
 
+### Day 54: April 25, 2020
+
+**Today's Progress**: Read about CORS and worked on search functionality in my Vidly app. I also started looking at making API requests to endpoints outside of my application. More specifically I also learnt how to throw an error within a try catch block to test my error handling.
+
+**Thoughts**:  
+Web contents _origin_ in the context on CORS is defined by the _scheme_ (protocol), _host_ (domain), and _port_ of the URL used to access it.
+
+_http_ and _https_ are are examples of different protocols  
+_example.com_ and _otherexample.se_ are examples of different domains  
+and numbers like _:8080_ att the end of a domain specifies the port.
+
+Cross-Origin Resource Sharing (CORS)  
+Mozillas developer pages say the following:
+
+> For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from, unless the response from other origins includes the right CORS headers. [source](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+A promise is an object that holds the result of an asynchronous operation.  
+It can either resolve (which leads to a success) OR be rejected (which lead to a failure).
+
+According to the resources I'm following the _then()_ is the old way of working with async operations. Below is an example of the "new" way of dealing with async stuff.
+
+```javascript
+const response = await axios.get("https://jsonplaceholder.typicode.com/posts");
+```
+
+Example of testing the error handling while doing an async call in my app:
+
+```javascript
+handleDelete = async (post) => {
+  const originalPosts = this.state.posts;
+
+  const posts = this.state.posts.filter((p) => p.id !== post.id);
+  this.setState({ posts });
+
+  try {
+    await axios.delete(apiEndpoint + "/" + post.id);
+    throw new Error("");
+  } catch (ex) {
+    alert("Failed man failed");
+    this.setState({ posts: originalPosts });
+  }
+};
+```
+
+**Experimented with**: The above
+
+**Link(s) to work**: None today
+
 ### Day 53: April 24, 2020
 
 **Today's Progress**: General refactoring as well as refactoring of the validation into its own re-usable class component called Form which loginForm, movieForm and registerForm now extend. I added a generalized dropdown component to the project called _select_, used {...rest} for the first time and read and wrote about immutability.
