@@ -1,5 +1,85 @@
 # 100 Days Of Code - Log
 
+### Day 55: April 26, 2020
+
+**Today's Progress**: Error handling and some refactoring of axios error handling.
+
+**Thoughts**: Encountered CORS again today. Can't say that I'm totaly comfortable with it at this point. I'll have to read or watch a video about it. At least I sort of know what it is know. I like the refactoring that I'm learning. It's good stuff!
+
+**Experimented with**:
+So I'm working on CRUD operations and wanted to add error handling. Apparently you can roughly divide errors into expected and unexpected errors. In my case an expected error is a 404: not found or a 400: bad request. Everything else, from network/server/database errors fall into the unexpected category.
+
+```javascript
+handleDelete = async post => {
+  const originalPosts = this.state.posts;
+
+  const posts = this.state.posts.filter(p => p.id !== post.id);
+  this.setState({ posts });
+
+  try {
+    await axios.delete('s' + apiEndpoint + '/999' + post.id);
+  } catch (ex) {
+    console.log('HANDLE DELETE CATCH BLOCK');
+    if (ex.response && ex.response.status === 404)
+      alert('This post has already been deleted');
+    else {
+      console.log('Logging the error', ex);
+      alert('An unexpected error occurred');
+    }
+
+    this.setState({ posts: originalPosts });
+  }
+```
+
+All unexpected errors are "logged" do allow the delevoper(s) to understand what happened or didnt' happen while the error occurred. With some refactoring the code can be moved outside of the handler and made more general. By doing so it can handle/intercept requests and responses and check for errors globally.
+
+```javascript
+axios.interceptors.response.use(null, (error) => {
+  const expectedError =
+    error.response &&
+    error.response.status >= 400 &&
+    error.response.status < 500;
+
+  if (!expectedError) {
+    console.log("Logging the error", error);
+    alert("An unexpected error occurred");
+  }
+
+  return Promise.reject(error);
+});
+```
+
+Refactoring this even further I moved the _axios.interceptors_ into it's own service module which ended up looking like this:
+
+```javascript
+import axios from "axios";
+
+axios.interceptors.response.use(null, (error) => {
+  const expectedError =
+    error.response &&
+    error.response.status >= 400 &&
+    error.response.status < 500;
+
+  if (!expectedError) {
+    console.log("Logging the error", error);
+    alert("An unexpected error occurred");
+  }
+
+  return Promise.reject(error);
+});
+
+export default {
+  get: axios.get,
+  post: axios.post,
+  put: axios.put,
+  delete: axios.delete,
+};
+```
+
+By exporting an object that is mapped to what axios object looks like we can access its methods outside of the module. Working in this way it is easy to switch axios for another promise-based HTTP client without having to change too much code in the process!
+
+**Link(s) to work**: [http-app simple CRUD in JS](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/http-app)
+
 ### Day 54: April 25, 2020
 
 **Today's Progress**: Read about CORS and worked on search functionality in my Vidly app. I also started looking at making API requests to endpoints outside of my application. More specifically I also learnt how to throw an error within a try catch block to test my error handling.
