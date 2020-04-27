@@ -286,9 +286,8 @@ return Object.keys(errors).length === 0 ? null : errors;
 ```
 
 Which means, if the errors object has zero keys return null. In other words there are no errors. Else the errors object is returnd from the validation function.
-**Link(s) to work**: None today
 
-https://gist.github.com/rxaviers/7360908
+**Link(s) to work**: None today
 
 ### Day 50: April 21, 2020
 
