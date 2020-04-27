@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 56: April 27, 2020
+
+**Today's Progress**: Added toast messages to my application
+
+**Thoughts**: I've heard that you should keep the dependencies to a minimum. So I'm not sure where you should draw the line. I could make my own toast messages. Then again I don't want to re-invent the wheel.
+
+**Experimented with**: npm react-toastify
+
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/toastify.png" width="365" height="162">
+
+**Link(s) to work**: [http-app w toast messages](https://github.com/Organwolf/ReactJS/tree/5023cf1c2c72ee854fbca155dd2125609b9e7d50)
+
 ### Day 55: April 26, 2020
 
 **Today's Progress**: Error handling and some refactoring of axios error handling.
