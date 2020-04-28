@@ -5,7 +5,7 @@
 **Today's Progress**: Installed mongoDB, firgured out how to add backticks inside of a code block in markdown, worked with some CS fundamentals such as how to loop though objects in JS as well as check if an object is an array.
 
 **Thoughts**: Today I spent my time installing mongodb on macOS Catalina. It was surprisingly hard for me to do this. Partly due to the fact that macOS [Catalina](https://support.apple.com/en-us/HT210650) runs in a read-only system volume, separate from other files on my mac.
-[This](https://zellwk.com/blog/install-mongodb/) article saved the day. by adding double backticks `` before and after a code block I was able to add backticks inside of the code block.
+[This](https://zellwk.com/blog/install-mongodb/) article saved the day. By adding double backticks `` before and after a code block I was able to add backticks inside of the code block.
 
 **Experimented with**:
 
