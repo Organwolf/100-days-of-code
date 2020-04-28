@@ -1,5 +1,32 @@
 # 100 Days Of Code - Log
 
+Installing mongodb on macOS Catalina
+TIL that macOS Catalina runs in a read-only system volume
+[this](https://zellwk.com/blog/install-mongodb/) saved the day.
+
+`sudo mkdir -p /System/Volumes/Data/data/db`  
+`sudo chown -R \`id -un\`/System/Volumes/Data/data/db``brew services run mongodb-community``brew services list`
+
+### Day 57: April 28, 2020
+
+**Today's Progress**: CS fundamentals
+**Thoughts**:
+**Experimented with**:
+
+Fundamentals:
+Array.isArray(obj)
+delete errors[action.id];
+Object.keys(formData).forEach((item) => {
+// formData[item] is the value
+// item is the key
+}
+
+https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/
+https://stackoverflow.com/questions/4775722/how-to-check-if-an-object-is-an-array
+
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
 ### Day 56: April 27, 2020
 
 **Today's Progress**: Added toast messages to my application
