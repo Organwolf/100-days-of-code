@@ -20,6 +20,7 @@ Array.isArray(obj)
 
 // Delete a key value pair from and object
 delete errors[action.id];
+
 // Loop through and object
 Object.keys(data).forEach((item) => {
   // data[item] is the value
