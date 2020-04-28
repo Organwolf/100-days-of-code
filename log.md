@@ -2,12 +2,13 @@
 
 ### Day 57: April 28, 2020
 
-**Today's Progress**: Installed mongoDB, firgured out how to add backticks inside of a code block in markdown, worked with some CS fundamentals as well.
+**Today's Progress**: Installed mongoDB, firgured out how to add backticks inside of a code block in markdown, worked with some CS fundamentals such as how to loop though objects in JS as well as check if an object is an array.
 
 **Thoughts**: Today I spent my time installing mongodb on macOS Catalina. It was surprisingly hard for me to do this. Partly due to the fact that macOS [Catalina](https://support.apple.com/en-us/HT210650) runs in a read-only system volume, separate from other files on my mac.
 [This](https://zellwk.com/blog/install-mongodb/) article saved the day. by adding double backticks `` before and after a code block I was able to add backticks inside of the code block.
 
-**Experimented with**:  
+**Experimented with**:
+
 `sudo mkdir -p /System/Volumes/Data/data/db`  
 `` sudo chown -R `id -un` /System/Volumes/Data/data/db ``  
 `brew services run mongodb-community`  
@@ -26,8 +27,8 @@ Object.keys(data).forEach((item) => {
 }
 ```
 
-**Link(s) to resources**:  
-[Loop through objects](https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/)  
+**Link(s) to resources**:
+[Loop through objects](https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/)
 [Check if object is an array](https://stackoverflow.com/questions/4775722/how-to-check-if-an-object-is-an-array)
 
 ### Day 56: April 27, 2020
