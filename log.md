@@ -29,7 +29,8 @@ Object.keys(data).forEach((item) => {
 ```
 
 **Link(s) to resources**:
-[Loop through objects](https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/)
+
+[Loop through objects](https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/)  
 [Check if object is an array](https://stackoverflow.com/questions/4775722/how-to-check-if-an-object-is-an-array)
 
 ### Day 56: April 27, 2020
