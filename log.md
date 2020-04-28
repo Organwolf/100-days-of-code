@@ -1,11 +1,13 @@
 # 100 Days Of Code - Log
 
 Installing mongodb on macOS Catalina
-TIL that macOS Catalina runs in a read-only system volume
+TIL that macOS [Catalina](https://support.apple.com/en-us/HT210650) runs in a read-only system volume, separate from other files on my mac.
 [this](https://zellwk.com/blog/install-mongodb/) saved the day.
 
 `sudo mkdir -p /System/Volumes/Data/data/db`  
-`sudo chown -R \`id -un\`/System/Volumes/Data/data/db``brew services run mongodb-community``brew services list`
+` sudo chown -R ```id -un``` /System/Volumes/Data/data/db `  
+`brew services run mongodb-community`  
+brew services list`
 
 ### Day 57: April 28, 2020
 
