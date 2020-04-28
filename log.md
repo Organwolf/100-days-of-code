@@ -1,33 +1,34 @@
 # 100 Days Of Code - Log
 
-Today I spent my time installing mongodb on macOS Catalina. It was
-TIL that macOS [Catalina](https://support.apple.com/en-us/HT210650) runs in a read-only system volume, separate from other files on my mac.
-[this](https://zellwk.com/blog/install-mongodb/) saved the day.
+### Day 57: April 28, 2020
 
+**Today's Progress**: Installed mongoDB, firgured out how to add backticks inside of a code block in markdown, worked with some CS fundamentals as well.
+
+**Thoughts**: Today I spent my time installing mongodb on macOS Catalina. It was surprisingly hard for me to do this. Partly due to the fact that macOS [Catalina](https://support.apple.com/en-us/HT210650) runs in a read-only system volume, separate from other files on my mac.
+[This](https://zellwk.com/blog/install-mongodb/) article saved the day. by adding double backticks `` before and after a code block I was able to add backticks inside of the code block.
+
+**Experimented with**:  
 `sudo mkdir -p /System/Volumes/Data/data/db`  
 `` sudo chown -R `id -un` /System/Volumes/Data/data/db ``  
 `brew services run mongodb-community`  
 `brew services list`
 
-### Day 57: April 28, 2020
-
-**Today's Progress**: CS fundamentals
-**Thoughts**:
-**Experimented with**:
-
-Fundamentals:
+```javascript
+// Check if adn object is an array
 Array.isArray(obj)
+
+// Delete a key value pair from and object
 delete errors[action.id];
-Object.keys(formData).forEach((item) => {
-// formData[item] is the value
-// item is the key
+// Loop through and object
+Object.keys(data).forEach((item) => {
+  // data[item] is the value
+  // item is the key
 }
+```
 
-https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/
-https://stackoverflow.com/questions/4775722/how-to-check-if-an-object-is-an-array
-
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+**Link(s) to resources**:  
+[Loop through objects](https://gomakethings.com/the-es6-way-to-loop-through-objects-with-vanilla-javascript/)  
+[Check if object is an array](https://stackoverflow.com/questions/4775722/how-to-check-if-an-object-is-an-array)
 
 ### Day 56: April 27, 2020
 
