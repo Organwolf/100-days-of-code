@@ -2,7 +2,7 @@
 
 ### Day 58: April 29, 2020
 
-**Today's Progress**: Started using git stash, used mongodb together with react, moved the api url used for API requests into a config.json file and watched [The art of code NDC 2020](https://www.youtube.com/watch?v=6avJHaC3C2U).
+**Today's Progress**: Started using git stash, used mongodb together with react, moved the api url used for API requests into a config.json file and watched [The art of code](https://www.youtube.com/watch?v=6avJHaC3C2U), a talk given by Dylan Beattie at NDC 2020.
 
 **Thoughts**: I am really glad that I tried using git stash. I also managed to find a way to compare the stash towards a commit which is useful if something has gone wrong and you want to check what you've changed sense the last working commit! I solved a problem I had using git stash, the internet and some patience! <3
 
@@ -10,8 +10,8 @@
 
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/git_stash.png" width="290" height="174">
 
-`git stash`
-`git diff stash@{0} master`
+`git stash`  
+`git diff stash@{0} master`  
 `git stash pop`
 
 **Usefull Link(s)**:  
