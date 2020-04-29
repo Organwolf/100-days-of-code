@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+Destructuring + not checking what an object contains or not
+
+write about how you solved it using git stash, the internet and some patience! <3
+
+[The art of code NDC 2020](https://www.youtube.com/watch?v=6avJHaC3C2U)
+
+dispatching shit w async
+https://redux.js.org/advanced/async-actions
+
+https://www.quora.com/My-Git-is-stashed-How-do-I-unstash-it-and-access-my-original-project
+https://stackoverflow.com/questions/7677736/git-diff-against-a-stash
+
 ### Day 57: April 28, 2020
 
 **Today's Progress**: Installed mongoDB, firgured out how to add backticks inside of a code block in markdown, worked with some CS fundamentals such as how to loop though objects in JS as well as check if an object is an array.
