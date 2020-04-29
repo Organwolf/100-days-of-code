@@ -1,15 +1,21 @@
 # 100 Days Of Code - Log
 
-Destructuring + not checking what an object contains or not
+### Day 58: April 29, 2020
 
-write about how you solved it using git stash, the internet and some patience! <3
+**Today's Progress**: Started using git stash, used mongodb together with react, moved the api url used for API requests into a config.json file and watched [The art of code NDC 2020](https://www.youtube.com/watch?v=6avJHaC3C2U).
 
-[The art of code NDC 2020](https://www.youtube.com/watch?v=6avJHaC3C2U)
+**Thoughts**: I am really glad that I tried using git stash. I also managed to find a way to compare the stash towards a commit which is useful if something has gone wrong and you want to check what you've changed sense the last working commit! I solved a problem I had using git stash, the internet and some patience! <3
 
-dispatching shit w async
-https://redux.js.org/advanced/async-actions
+**Experimented with**:
 
-https://www.quora.com/My-Git-is-stashed-How-do-I-unstash-it-and-access-my-original-project
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/git_stash.png" width="290" height="174">
+
+`git stash`
+`git diff stash@{0} master`
+`git stash pop`
+
+**Usefull Link(s)**:  
+https://www.quora.com/My-Git-is-stashed-How-do-I-unstash-it-and-access-my-original-project  
 https://stackoverflow.com/questions/7677736/git-diff-against-a-stash
 
 ### Day 57: April 28, 2020
