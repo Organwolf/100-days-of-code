@@ -8,7 +8,7 @@
 
 **Experimented with**:
 
-`if ('key' in myObj)`
+`if ('key' in myObj)`  
 searches the whole prototype chain.
 
 `myObj.hasOwnProperty('key')`  
@@ -28,7 +28,7 @@ register = async () => {
 };
 ```
 
-error handling while registering a user.
+Error handling while registering a user.
 
 **Link(s) to work**: [Vidly w registration](https://github.com/Organwolf/ReactJS/tree/8fcbcaf4e12aff8401e84189be7e95888553a464)
 
