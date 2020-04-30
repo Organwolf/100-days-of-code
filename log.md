@@ -8,11 +8,9 @@
 
 **Experimented with**:
 
-`if ('key' in myObj)`  
-searches the whole prototype chain.
+`if ('key' in myObj)` searches the whole prototype chain.
 
-`myObj.hasOwnProperty('key')`  
-check an object's own keys and will only return true if key is available on myObj directly [source](https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript).
+`myObj.hasOwnProperty('key')` check an object's own keys and will only return true if key is available on myObj directly [source](https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript).
 
 ```javascript
 register = async () => {
