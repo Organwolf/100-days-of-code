@@ -1,5 +1,37 @@
 # 100 Days Of Code - Log
 
+### Day 59: April 30, 2020
+
+**Today's Progress**: Worked with finding/editing/removing key-value pairs in objects. I also started working on the registration of the Vidly app.
+
+**Thoughts**: I really want to understand the error handling. It was interesting to learn that _hasOwnProperty_ was the better option of the two below because it doesn't look through the entile prototype chain.
+
+**Experimented with**:
+
+`if ('key' in myObj)`
+searches the whole prototype chain.
+
+`myObj.hasOwnProperty('key')`  
+check an object's own keys and will only return true if key is available on myObj directly [source](https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript).
+
+```javascript
+register = async () => {
+  try {
+    await userService.register(this.state.data);
+  } catch (ex) {
+    if (ex.response && ex.response.status === 400) {
+      const errors = { ...this.state.errors };
+      errors.username = ex.response.data;
+      this.setState({ errors });
+    }
+  }
+};
+```
+
+error handling while registering a user.
+
+**Link(s) to work**: [Vidly w registration](https://github.com/Organwolf/ReactJS/tree/8fcbcaf4e12aff8401e84189be7e95888553a464)
+
 ### Day 58: April 29, 2020
 
 **Today's Progress**: Started using git stash, used mongodb together with react, moved the api url used for API requests into a config.json file and watched [The art of code](https://www.youtube.com/watch?v=6avJHaC3C2U), a talk given by Dylan Beattie at NDC 2020.
