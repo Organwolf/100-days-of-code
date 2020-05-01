@@ -12,7 +12,7 @@
 axios.defaults.headers.common["x-auth-token"] = auth.getJwt();
 ```
 
-I also learnt what bi-directional dependencies are and how to solve them.
+I also learnt that this was bad because it creates a bi-directional dependency. Apparently they are bad, and I leant how to solve them.
 
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/bi1.png" width="450" height="210">
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/bi2.png" width="450" height="210">
