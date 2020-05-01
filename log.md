@@ -1,5 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 22: March 24, 2020
+
+**Today's Progress**: Yet anohter day solely focused on refactoring. Ok, I didn't just refactor my code, I searched the web for ways to determine if an object is a string or not in JS, as well as worked with JWT (JSON Web Tokens).
+
+**Thoughts**: [This](https://jwt.io/) site helped me understand the different parts of a JWT. You can copy a JWT and paste it into their decypherer. That was helpful. I also appreciate working with refactoring. DRY (don't repeat yourself) is easy to understand but takes tons of practise to master. Todays refactoring focused on moving all of the code that dealt with the JWT token to one place called authService. authService in turn contains a couple of constants, that keep track of the api endpoint as well as the name of the token, and functions that deal with login/loginWithJwt/logout/getCurrentUser. I'm not at the point where this kind of achitecture feels "natural" but at least I'm moving away from putting everything in one big file.
+
+**Experimented with**: Localstorage to store the JWT. I also worked with the axios library to set the x-auth-token header for all http requests which looks like this:
+
+```javascript
+axios.defaults.headers.common["x-auth-token"] = auth.getJwt();
+```
+
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
+https://stackoverflow.com/questions/4059147/check-if-a-variable-is-a-string-in-javascript
+https://www.superhi.com/video/how-to-make-an-interactive-rotating-3d-cube-with-css-and-javascript
+https://jwt.io/ decypher JWT
+refactoring - localStorage -> authservice
+
 ### Day 59: April 30, 2020
 
 **Today's Progress**: Worked with finding/editing/removing key-value pairs in objects. I also started working on the registration of the Vidly app.
