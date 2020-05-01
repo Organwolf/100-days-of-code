@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 22: March 24, 2020
+### Day 60: May 1, 2020
 
 **Today's Progress**: Yet anohter day solely focused on refactoring. Ok, I didn't just refactor my code, I searched the web for ways to determine if an object is a string or not in JS, as well as worked with JWT (JSON Web Tokens).
 
