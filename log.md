@@ -20,6 +20,22 @@ I also learnt what bi-directional dependencies are and how to solve them.
 
 As the images show both the httpService and the authService are dependent on each other. One way to solve this is to set the token from the authService. And _voila_ that removes https dependency to the authService.
 
+The code looks something like this:
+
+```javascript
+// authService
+http.setJwt(getJwt());
+
+export function getJwt() {
+  return localStorage.getItem(tokenKey);
+}
+
+// httpService
+function setJwt(jwt) {
+  axios.defaults.headers.common["x-auth-token"] = jwt;
+}
+```
+
 **Link(s) to work**: [Vidly](https://github.com/Organwolf/ReactJS/tree/40fc6d9236e8bf210dcf4fa806f3d43e21959b30/vidly)
 
 ### Day 59: April 30, 2020
