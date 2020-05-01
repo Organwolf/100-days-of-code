@@ -12,19 +12,15 @@
 axios.defaults.headers.common["x-auth-token"] = auth.getJwt();
 ```
 
-I also learnt what bi-directional dependencies are and how to solve
+I also learnt what bi-directional dependencies are and how to solve them.
 
-<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/bi1.png" height="450" width="210">
-<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/bi2.png" height="450" width="210">
-<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/bi3.png" height="450" width="210">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/bi1.png" width="450" height="210">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/bi2.png" width="450" height="210">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/bi3.png" width="450" height="210">
 
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+As the images show both the httpService and the authService are dependent on each other. One way to solve this is to set the token from the authService. And _voila_ that removes https dependency to the authService.
 
-https://stackoverflow.com/questions/4059147/check-if-a-variable-is-a-string-in-javascript
-https://www.superhi.com/video/how-to-make-an-interactive-rotating-3d-cube-with-css-and-javascript
-https://jwt.io/ decypher JWT
-refactoring - localStorage -> authservice
+**Link(s) to work**: [Vidly](https://github.com/Organwolf/ReactJS/tree/40fc6d9236e8bf210dcf4fa806f3d43e21959b30/vidly)
 
 ### Day 59: April 30, 2020
 
