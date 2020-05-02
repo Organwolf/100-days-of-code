@@ -45,6 +45,12 @@ const ProtectedRoute = ({ path, component: Component, render, ...rest }) => {
 
 You could go further and remove the **path={path}** because the **{...rest}** would actually solve that for us. However, for readabilities sake I chose to keep it as is.
 
+In **App.js** it ended up looking like this when all was said and done.
+
+```javascript
+<ProtectedRoute path="/movies/:id" component={MovieForm} />
+```
+
 <hr>
 
 As for the configuration of my zsh terminal I did the following:
