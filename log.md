@@ -2,7 +2,7 @@
 
 ### Day 61: May 2, 2020
 
-**Today's Progress**: Worked with Route from react-router-dom as well as added some functionallity to my zsh terminal.
+**Today's Progress**: Worked with the **Route** component from react-router-dom and moreover I added some functionality to my zsh terminal.
 
 **Thoughts**: I actually feel more comfortable with Routes. I'd used them before in other projects. I'd even used/created/copied from StackOverflow some ProtectedRoute code similar to the code I wrote today. Difference is that I understand (most) of what I'm doing now.
 
