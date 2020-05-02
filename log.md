@@ -54,10 +54,9 @@ As for the configuration of my zsh terminal I did the following:
 - saved the changes
   Funny thing is i had to read one of my previouse log posts from day 28 about how to edit the config file. I'm not that used to **vim** either. I accessed the config file by typing `vi ~/. zshrc`, then pressed **i** to to insert new stuff into the file, then hit **esc** followed by typing `:wp` to save and quit vim.
 
-Read these two resources ([1](https://github.com/ohmyzsh/ohmyzsh/issues/2537) [2](https://medium.com/@smile2gether/how-to-customize-your-mac-os-terminal-880c4097b18b)) to solve my zsh problems.
+Read these two resources ([1](https://github.com/ohmyzsh/ohmyzsh/issues/2537), [2](https://medium.com/@smile2gether/how-to-customize-your-mac-os-terminal-880c4097b18b)) to solve my zsh problems.
 
 **Link(s) to work**: [Vidly](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly)
-https://gist.github.com/rxaviers/7360908
 
 ### Day 60: May 1, 2020
 
