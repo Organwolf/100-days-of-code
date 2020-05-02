@@ -1,5 +1,64 @@
 # 100 Days Of Code - Log
 
+### Day 61: May 2, 2020
+
+**Today's Progress**: Worked with Route from react-router-dom as well as added some functionallity to my zsh terminal.
+
+**Thoughts**: I actually feel more comfortable with Routes. I'd used them before in other projects. I'd even used/created/copied from StackOverflow some ProtectedRoute code similar to the code I wrote today. Difference is that I understand (most) of what I'm doing now.
+
+**Experimented with**: Worked with protected routes as well as basic authentication. At first the logic for checking if the user was logged in or not was done in the **App.js** directory. By replacing the **component** with a **render** function this could be accomplished.
+
+Before
+
+```javascript
+<Route path="/movies/:id" component={Logout}></Route>
+```
+
+After
+
+```javascript
+<Route
+  path="/movies/:id"
+  render={(props) => {
+    if (!user) return <Redirect to="/login" />;
+    return <MovieForm {...props} />;
+  }}
+></Route>
+```
+
+Further, to make this a reusable component I made it more general. I created a protectedRoute component in my common folder which holds all reusables. Then I extract the **path** from **props** as well as the component to render if the user is logged in. The **render** method is also passed to the protected route as a safeguard if the component is null. **rest** is also passed to ensure that the rest of the properies (if any) are passed along.
+
+```javascript
+const ProtectedRoute = ({ path, component: Component, render, ...rest }) => {
+  return (
+    <Route
+      path={path}
+      {...rest}
+      render={(props) => {
+        if (!auth.getCurrentUser) return <Redirect to="/login" />;
+        return Component ? <Component {...props} /> : render(props);
+      }}
+    ></Route>
+  );
+};
+```
+
+You could go further and remove the **path={path}** because the **{...rest}** would actually solve that for us. However, for readabilities sake I chose to keep it as is.
+
+<hr>
+
+As for the configuration of my zsh terminal I did the following:
+
+- opened the config file with vim
+- added unsetopt share_history
+- saved the changes
+  Funny thing is i had to read one of my previouse log posts from day 28 about how to edit the config file. I'm not that used to **vim** either. I accessed the config file by typing `vi ~/. zshrc`, then pressed **i** to to insert new stuff into the file, then hit **esc** followed by typing `:wp` to save and quit vim.
+
+Read these two resources ([1](https://github.com/ohmyzsh/ohmyzsh/issues/2537) [2](https://medium.com/@smile2gether/how-to-customize-your-mac-os-terminal-880c4097b18b)) to solve my zsh problems.
+
+**Link(s) to work**: [Vidly](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly)
+https://gist.github.com/rxaviers/7360908
+
 ### Day 60: May 1, 2020
 
 **Today's Progress**: Yet anohter day solely focused on refactoring. Ok, I didn't just refactor my code, I searched the web for ways to determine if an object is a string or not in JS, as well as worked with JWT (JSON Web Tokens).
