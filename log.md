@@ -1,5 +1,46 @@
 # 100 Days Of Code - Log
 
+### Day 62: May 3, 2020
+
+**Today's Progress**: Worked with the context API for the first time.
+
+**Thoughts**: Fairly straightforward. After working with Redux all sorts of "global" state handlers in react feel manageble. However, I'd like to learn more about [component composition](https://reactjs.org/docs/composition-vs-inheritance.html) and [thinking in React](https://reactjs.org/docs/thinking-in-react.html). I plan on reading up on these topics as well as refactoring my todo-app to use hooks instead of Redux.
+
+**Experimented with**: Adding and removing objects from a **Provider** which looks like this:
+
+```javascript
+import React, { createContext, useState } from "react";
+
+export const PokemonContext = createContext();
+
+export const PokemonProvider = (props) => {
+  const [pokemons, setPokemons] = useState([
+    { id: 1, name: "Bulbasaur" },
+    { id: 2, name: "Charmander" },
+    { id: 3, name: "Squirtle" },
+  ]);
+
+  const [capturedPokemons, setCapturedPokemons] = useState([]);
+
+  const providerValue = {
+    pokemons,
+    setPokemons,
+    capturedPokemons,
+    setCapturedPokemons,
+  };
+
+  return (
+    <PokemonContext.Provider value={providerValue}>
+      {props.children}
+    </PokemonContext.Provider>
+  );
+};
+```
+
+This provider _provides_ other components with data and functions to manipulate/use that data. The current four provider values give components access to the _current pokemons_, the ability to _manipulate_ the array of pokemons, a list of _captured pokemons_ and yet another functions that allows the component to _set captured pokemons_.
+
+**Link(s) to work**: [Pokemon thing using the context API](https://github.com/Organwolf/ReactJS/tree/hooks/pokemon)
+
 ### Day 61: May 2, 2020
 
 **Today's Progress**: Worked with the **Route** component from react-router-dom and moreover I added some functionality to my zsh terminal.
