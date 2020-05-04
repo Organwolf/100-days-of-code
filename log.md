@@ -1,5 +1,42 @@
 # 100 Days Of Code - Log
 
+### Day 63: May 4, 2020
+
+**Today's Progress**: Started reading about _Composition vs Inheritancs_ in an effort to be able to create re-usable components in react. I also completed the pokemon hooks app as well as fixed two bugs left by the developer that wrote the tutorial.
+
+**Thoughts**: Still just wrapping my head around the concepts but some of it is pretty straight forward.
+
+**Experimented with**: There is this CodePen on [reactjs.org](https://reactjs.org/docs/composition-vs-inheritance.html) used to explain how you can create a general component without knowing the exact type of props that will me passed to the project. The pen lives [here](https://codepen.io/gaearon/pen/ozqNOV?editors=0010). Esentially you can create a container component such as _FancyBorder_ below and assume the the children passed to is will want to be passed directly to its output.
+
+```javascript
+function FancyBorder(props) {
+  return (
+    <div className={"FancyBorder FancyBorder-" + props.color}>
+      {props.children}
+    </div>
+  );
+}
+```
+
+This lets other components pass arbitrary children to them by nesting the JSX:
+
+```javascript
+function WelcomeDialog() {
+  return (
+    <FancyBorder color="blue">
+      <h1 className="Dialog-title">Welcome</h1>
+      <p className="Dialog-message">Thank you for visiting our spacecraft!</p>
+    </FancyBorder>
+  );
+}
+```
+
+<hr />
+
+As for the pokemon app I solved an issue caused by the useEffect's dependency array. I read a little about it in [this](https://medium.com/better-programming/understanding-the-useeffect-dependency-array-2913da504c44) medium post. I don't get everything though but previouse to the bug fix the app kept rendering infinitely.
+
+**Link(s) to work**: [Pokemon context hook app](https://github.com/Organwolf/ReactJS/tree/hooks/pokemon)
+
 ### Day 62: May 3, 2020
 
 **Today's Progress**: Worked with the context API for the first time.
