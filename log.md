@@ -6,7 +6,7 @@
 
 **Thoughts**: Although I've been pouring hours into react I still feel like I'm late to the party. Not being up to date with how hooks work, PropTypes, using higher order functions and the like. Truth is, or at least I hope this is the truth, I'm laying the groundwork for deeper understanding of programming further down the line. Sometimes you can't see the forest for the trees. Learning in itself has inherit value.
 
-**Experimented with**: Thinking in react by following [this](https://reactjs.org/docs/thinking-in-react.html). I also set some environment variable in `.env.development` by prefixing them with _REACT*APP*_. Ending up with something like this
+**Experimented with**: Thinking in react by following [this](https://reactjs.org/docs/thinking-in-react.html). I also set some environment variable in `.env.development` by prefixing them with `REACT_APP_`. Ending up with something like this
 
 `REACT_APP_NAME=Vidly in Dev`  
 `REACT_APP_VERSION=1`
