@@ -2,7 +2,7 @@
 
 ### Day 64: March 5, 2020
 
-**Today's Progress**: Started using environmen variables in React, finished the article on composition vs inheritance, started reading an article about [5 React Best Practices To Learn In 2020](https://programmingwithmosh.com/react/5-react-best-practices-to-learn-in-2020/) and drank two cups of tea.
+**Today's Progress**: Started using environment variables in React, finished the article on composition vs inheritance, started reading an article about [5 React Best Practices To Learn In 2020](https://programmingwithmosh.com/react/5-react-best-practices-to-learn-in-2020/) and drank two cups of tea.
 
 **Thoughts**: Although I've been pouring hours into react I still feel like I'm late to the party. Not being up to date with how hooks work, PropTypes, using higher order functions and the like. Truth is, or at least I hope this is the truth, I'm laying the groundwork for deeper understanding of programming further down the line. Sometimes you can't see the forest for the trees. Learning in itself has inherit value.
 
