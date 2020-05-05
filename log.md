@@ -2,12 +2,13 @@
 
 ### Day 64: March 5, 2020
 
-**Today's Progress**: Started using environmen variables in React, finished the article on composition vs inheritance, started reading an article about [5 React Best Practices To Learn In 2020](https://programmingwithmosh.com/react/5-react-best-practices-to-learn-in-2020/) and drank two cups of tea :eyes:.
+**Today's Progress**: Started using environmen variables in React, finished the article on composition vs inheritance, started reading an article about [5 React Best Practices To Learn In 2020](https://programmingwithmosh.com/react/5-react-best-practices-to-learn-in-2020/) and drank two cups of tea.
 
 **Thoughts**: Although I've been pouring hours into react I still feel like I'm late to the party. Not being up to date with how hooks work, PropTypes, using higher order functions and the like. Truth is, or at least I hope this is the truth, I'm laying the groundwork for deeper understanding of programming further down the line. Sometimes you can't see the forest for the trees. Learning in itself has inherit value.
 
-**Experimented with**: Thinking in react by following [this](https://reactjs.org/docs/thinking-in-react.html). I also set some environment variable in `.env.development` by prefixing them with _REACT*APP*_. Ending up with something like this  
-`REACT_APP_NAME=Vidly in Dev`
+**Experimented with**: Thinking in react by following [this](https://reactjs.org/docs/thinking-in-react.html). I also set some environment variable in `.env.development` by prefixing them with _REACT*APP*_. Ending up with something like this
+
+`REACT_APP_NAME=Vidly in Dev`  
 `REACT_APP_VERSION=1`
 
 I also restricted the removal of movies to admins of the vidly app.
