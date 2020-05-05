@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 64: March 5, 2020
+
+**Today's Progress**: Started using environmen variables in React, finished the article on composition vs inheritance, started reading an article about [5 React Best Practices To Learn In 2020](https://programmingwithmosh.com/react/5-react-best-practices-to-learn-in-2020/) and drank two cups of tea :eyes:.
+
+**Thoughts**: Although I've been pouring hours into react I still feel like I'm late to the party. Not being up to date with how hooks work, PropTypes, using higher order functions and the like. Truth is, or at least I hope this is the truth, I'm laying the groundwork for deeper understanding of programming further down the line. Sometimes you can't see the forest for the trees. Learning in itself has inherit value.
+
+**Experimented with**: Thinking in react by following [this](https://reactjs.org/docs/thinking-in-react.html). I also set some environment variable in `.env.development` by prefixing them with _REACT*APP*_. Ending up with something like this  
+`REACT_APP_NAME=Vidly in Dev`
+`REACT_APP_VERSION=1`
+
+I also restricted the removal of movies to admins of the vidly app.
+
+**Link(s) to work**: [Vidly](https://github.com/Organwolf/ReactJS/tree/react-bootstrap/vidly)
+
 ### Day 63: May 4, 2020
 
 **Today's Progress**: Started reading about _Composition vs Inheritancs_ in an effort to be able to create re-usable components in react. I also completed the pokemon hooks app as well as fixed two bugs left by the developer that wrote the tutorial.
