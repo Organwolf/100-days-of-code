@@ -6,7 +6,7 @@
 
 **Thoughts**: Still just wrapping my head around the concepts but some of it is pretty straight forward.
 
-**Experimented with**: There is this CodePen on [reactjs.org](https://reactjs.org/docs/composition-vs-inheritance.html) used to explain how you can create a general component without knowing the exact type of props that will me passed to the project. The pen lives [here](https://codepen.io/gaearon/pen/ozqNOV?editors=0010). Esentially you can create a container component such as _FancyBorder_ below and assume the the children passed to is will want to be passed directly to its output.
+**Experimented with**: [This](https://codepen.io/gaearon/pen/ozqNOV?editors=0010) codepen on [reactjs.org](https://reactjs.org/docs/composition-vs-inheritance.html) that is used to explain how you can create a general functional component without knowing the exact type of props that will be passed to it. Esentially you can create a container component such as _FancyBorder_ below and assume that the children passed to is will want to be passed directly to its output.
 
 ```javascript
 function FancyBorder(props) {
