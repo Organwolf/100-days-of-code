@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 65: May 6, 2020
+
+**Today's Progress**: Wrote a guide for building Unity 2018 projects to iOS and verified that my guide works on my iPhone.
+
+**Thoughts**: I've been putting this off for ages so it feels amazing to actually get it out of the way.
+
+**Experimented with**: Xcode, Unity 2018.4.22f1, my patience and various preference settings.
+
+**Link(s) to work**: [Build Guide](https://github.com/Organwolf/100-days-of-code/blob/master/text/Building%20to%20iOS%20in%20Unity%202018.txt)
+
 ### Day 64: March 5, 2020
 
 **Today's Progress**: Started using environment variables in React, finished the article on composition vs inheritance, started reading an article about [5 React Best Practices To Learn In 2020](https://programmingwithmosh.com/react/5-react-best-practices-to-learn-in-2020/) and drank two cups of tea.
