@@ -1,0 +1,46 @@
+Building to iOS in Unity 2018.4.22f1
+
+Prerequisite: 
+A compatible phone to build to, an Apple computer to build from, 
+Xcode installed and up to date, as well Unity 2018 (LTS) with iOS build support.
+
+--- iOS Build Support ------
+
+Inside of Unity Hub go to Installs. Click on the three dots in the right corner of your version of Unity.
+Choose "Add Modules" and install iOS Build support.
+
+--- Building the project ---
+
+Inside of visAR in Unity go to 
+
+File > Build Settings
+
+under Platform choose iOS. Press Switch Platform
+
+Player Settings... > Other Settings 
+    Set "Camera Usage Description" to something
+    and change "Architecture" to ARM64
+
+Now you should be able to press "Build And Run" without errors.
+If this process was successful the app was built to the computer.
+
+--- Xcode -------------------
+
+Inside of the directory you built the app to select "Unity-iPhone.xcodeproj". You will need to connect your appleID to xcode. 
+
+Do this via Xcode > Preferences > Accounts > Press the plus sign in the lower left corner.
+
+When that is done select Unity-iPhone in the upper left > Signing & Capabilities > Tick the box for Automatically manage signing
+
+Proceed to select a Team in the dropdown.
+
+Connect the phone and make sure that you set the settings to trust the computer you are connected to. 
+
+With all of that out of the way you can press the Play button and build the project to the iPhone.
+This takes a couple of minutes. When finished the app, with the display name you gave it, should be on your phone and ready to use.
+
+------------------------------
+
+Resources: 
+https://docs.unity3d.com/2018.4/Documentation/Manual/UnityCloudBuildiOS.html
+https://www.youtube.com/watch?v=80-nE7ichvk
