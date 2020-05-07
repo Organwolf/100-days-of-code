@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 66: May 7, 2020
+
+**Today's Progress**: Registering and setting up environments on [Heroku](www.heroku.com) and [mLab](https://mlab.com/).
+
+**Thoughts**: For some reason my email adress is in use on mLab but I have no memory of hearing about mLab before let along registering. Had to use another email to register
+
+**Experimented with**: Setting up the necesary environment to deploy my react app to the cloud. Deployment and getting an optimized production build using `npm run build`. If I'd want to test my app in the future I can to this with `npm test`which uses test environment variables. I also installed the heroku CLI `brew tap heroku/brew && brew install heroku` and double checked that it was installed with `heroku -v` as well as logged in via the command line using `heroku login`.
+
+**Link(s) to work**: None today
+
 ### Day 65: May 6, 2020
 
 **Today's Progress**: Wrote a guide for building Unity 2018 projects to iOS and verified that my guide works on my iPhone.
