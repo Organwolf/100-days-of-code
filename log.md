@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 67: May 8, 2020
+
+**Today's Progress**: Deployment to Heroku and using their continuous integration. Problem solving on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) as well as setting up and reading the database connection string from a Heroku environment variable.
+
+**Thoughts**: Honest, I should hate trying to solve the breaking updates that have been made since this guy made his tutorial but I actually find it ok. It's really pleasing when you manage to find your way to where you need to go (sort of on your own).
+
+**Experimented with**: Continuous integration with heroku by commiting my changes locally then push it to the heroku, which in turn builds the latest source code, and (assuming that it is runnable) shows it at an address provided by Heroku.  
+
+Some commands worth remembering:  
+`heroku create`  
+`git push heroku master`  
+`heroku open`  
+`heroku logs`
+
+**Link(s) to work**: [Vidly Api]()
+https://gist.github.com/rxaviers/7360908
+
 ### Day 66: May 7, 2020
 
 **Today's Progress**: Registering and setting up environments on [Heroku](www.heroku.com) and [mLab](https://mlab.com/).
