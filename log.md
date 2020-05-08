@@ -14,8 +14,7 @@ Some commands worth remembering:
 `heroku open`  
 `heroku logs`
 
-**Link(s) to work**: [Vidly Api]()
-https://gist.github.com/rxaviers/7360908
+**Link(s) to work**: None today
 
 ### Day 66: May 7, 2020
 
