@@ -1,12 +1,33 @@
 # 100 Days Of Code - Log
 
+### Day 68: May 9, 2020
+
+**Today's Progress**: Worked with HOC (higher-order components) and did a recap on some basic git.
+
+**Thoughts**: I'm glad that I took the time to recap how to connect a local repo to github. For some reason I feel like I should know that by heart. Thoughts/feelings like that hinder me more than help me. I'm also glad that I took the time to learn more about HOCs. Read through the [react documentation](https://reactjs.org/docs/higher-order-components.html) but didn't delve deep into their examples as they still use lifecycle hooks. I'm trying to avoid using lifecycle hooks if I can.
+
+**Experimented with**: Higher-Order Components (HOC) - A design pattern which enforces DRY (don't repeat yourself). It is more or less a wrapper. A HOC takes a component as an argument and returns a component. Usually it adds some data to the component. I've created an example where a tooltip is added by using a HOC. Check it out. A HOC is a type of heigher-order function. A function that accepts and/or returns another function is called a higher-order function.
+[map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) and [filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) are higher-order functions because they take a **callback** function as an argument.
+
+`A Higher Order Component (HOC) is a function that takes a component and returns a component.`
+
+I also experimented with pushing a local git repository to github
+
+> git init.  
+>  git add .  
+>  git commit -m "first commit"  
+>  git remote add origin "remote repository URL"  
+>  git push origin master.
+
+**Link(s) to work**: [Simple HOC example](https://github.com/Organwolf/advanced-react)
+
 ### Day 67: May 8, 2020
 
 **Today's Progress**: Deployment to Heroku and using their continuous integration. Problem solving on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) as well as setting up and reading the database connection string from a Heroku environment variable.
 
 **Thoughts**: Honest, I should hate trying to solve the breaking updates that have been made since this guy made his tutorial but I actually find it ok. It's really pleasing when you manage to find your way to where you need to go (sort of on your own).
 
-**Experimented with**: Continuous integration with heroku by commiting my changes locally then push it to the heroku, which in turn builds the latest source code, and (assuming that it is runnable) shows it at an address provided by Heroku.  
+**Experimented with**: Continuous integration with heroku by commiting my changes locally then push it to the heroku, which in turn builds the latest source code, and (assuming that it is runnable) shows it at an address provided by Heroku.
 
 Some commands worth remembering:  
 `heroku create`  
