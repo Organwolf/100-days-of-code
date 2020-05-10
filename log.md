@@ -1,5 +1,39 @@
 # 100 Days Of Code - Log
 
+### Day 69: May 10, 2020
+
+**Today's Progress**: Learning more about hooks in React. Specifically useState and useEffect.
+
+**Thoughts**: This has been a recap. I've sort of used hooks before. It just helps a lot to refresh and also relearn the core concepts.
+
+**Experimented with**: Before 16.8 React separated stateful and stateless components. Class components were generally stateful, i.e could keep track of a local state, and functions were statless. Since 16.8 that changed with the introduction of hooks. What is a hook? According to the react documentation
+
+> A Hook is a special function that lets you “hook into” React features. For example, useState is a Hook that lets you add React state to function components.
+
+The most common hook provided by the React, _useState_, enables functional component to add stateful behaviour.
+
+The reasons for adding hooks were many. Mainly it was due to the fact that classes add unwanted complexity to the code with wide use of the **this** keyword. Compared to using hooks class based components also require more boilerplate code which effects readability.
+
+The documentation shows an example of creating a counter app using _useState_. I did the same to wrap my head around the concepts.
+
+The useState can be set up like this:
+
+```javascript
+const array = useState(0);
+const count = array[0]; // this.state.count
+const setState = array[1]; // this.setState()
+```
+
+Refactored using array destructuring it looks even better:
+
+```javascript
+const [count, setState] = useState(0);
+```
+
+The **0** is just the initial value of count. It could be set to anything really.
+
+**Link(s) to work**: [Counter using useState](https://github.com/Organwolf/advanced-react)
+
 ### Day 68: May 9, 2020
 
 **Today's Progress**: Worked with HOC (higher-order components) and did a recap on some basic git.
