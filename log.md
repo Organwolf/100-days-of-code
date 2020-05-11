@@ -4,7 +4,7 @@
 
 **Today's Progress**: Learnt how to use the _useEffect_ hook.
 
-**Thoughts**: It's kind of strange learning front-end development because things change fast. Tutorials, blog and forum posts made two years ago are most likely outdated, at least to some extent. That has been the case for me when trying to learn React. I've read, and heard from others, that I shouldn't use the (lifecycle methods)[https://reactjs.org/docs/state-and-lifecycle.html]. Only if it was an emergency. I hadn't learnt how hooks worked either so I was kind of stuck between two ways of dealing with the lifecycle of a component not knowing how to use either one. Well, now I've been introduced to the _useEffect_ hook and below I've tried to demonstrate how it works.
+**Thoughts**: It's kind of strange learning front-end development because things change fast. Tutorials, blog and forum posts made two years ago are most likely outdated, at least to some extent. That has been the case for me when trying to learn React. I've read, and heard from others, that I shouldn't use the [lifecycle methods](https://reactjs.org/docs/state-and-lifecycle.html). Only if it was an emergency. I hadn't learnt how hooks worked either so I was kind of stuck between two ways of dealing with the lifecycle of a component not knowing how to use either one. Well, now I've been introduced to the _useEffect_ hook and below I've tried to demonstrate how it works.
 
 **Experimented with**:
 
@@ -35,7 +35,7 @@ export default function Counter() {
 }
 ```
 
-**useEffect** is triggered everytime a component _mounts_, _updates_ or _unmounts_. So each time a component is triggered, appears on screen or is changed in any way, a cycle occurs. What _useEffect_ replaces is the three lifecycle methods responsible for listening to the mounting, updating and unmounting of a component, namely _componentDidMount_, _componentDidUpdate_, _componentWillUnmount_. **useEffect** takes a function as its first parameter. Optionally one can add an array as a second parameter which specifies the dependencies. In the example above the function inside of useEffect only triggers when either count or name change. Additionally, if a return is added to the useEffect function that will be triggered during the unmounting cycle. 
+**useEffect** is triggered everytime a component _mounts_, _updates_ or _unmounts_. So each time a component is triggered, appears on screen or is changed in any way, a cycle occurs. What _useEffect_ replaces is the three lifecycle methods responsible for listening to the mounting, updating and unmounting of a component, namely _componentDidMount_, _componentDidUpdate_, _componentWillUnmount_. **useEffect** takes a function as its first parameter. Optionally one can add an array as a second parameter which specifies the dependencies. In the example above the function inside of useEffect only triggers when either count or name change. Additionally, if a return is added to the useEffect function that will be triggered during the unmounting cycle.
 
 **Link(s) to work**: [Counter using useEffect](https://github.com/Organwolf/advanced-react)
 
