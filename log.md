@@ -1,5 +1,44 @@
 # 100 Days Of Code - Log
 
+### Day 70: March 24, 2020
+
+**Today's Progress**: Learnt how to use the _useEffect_ hook.
+
+**Thoughts**: It's kind of strange learning front-end development because things change fast. Tutorials, blog and forum posts made two years ago are most likely outdated, at least to some extent. That has been the case for me when trying to learn React. I've read, and heard from others, that I shouldn't use the (lifecycle methods)[https://reactjs.org/docs/state-and-lifecycle.html]. Only if it was an emergency. I hadn't learnt how hooks worked either so I was kind of stuck between two ways of dealing with the lifecycle of a component not knowing how to use either one. Well, now I've been introduced to the _useEffect_ hook and below I've tried to demonstrate how it works.
+
+**Experimented with**:
+
+```javascript
+import React, { useState, useEffect, Fragment } from "react";
+
+export default function Counter() {
+  const [count, setCount] = useState(0);
+  const [name, setName] = useState("");
+
+  useEffect(() => {
+    document.title = `${name} har clicked ${count} times`;
+
+    return () => {
+      console.log("cleanup");
+    };
+  }, [count, name]);
+
+  return (
+    <Fragment>
+      <input type="text" onChange={(e) => setName(e.target.value)} />
+      <div>
+        {name} has clicked {count} times
+      </div>
+      <button onClick={() => setCount(count + 1)}>Increase</button>
+    </Fragment>
+  );
+}
+```
+
+**useEffect** is triggered everytime a component _mounts_, _updates_ or _unmounts_. So each time a component is triggered, appears on screen or is changed in any way, a cycle occurs. What _useEffect_ replaces is the three lifecycle methods responsible for listening to the mounting, updating and unmounting of a component, namely _componentDidMount_, _componentDidUpdate_, _componentWillUnmount_. **useEffect** takes a function as its first parameter. Optionally one can add an array as a second parameter which specifies the dependencies. In the example above the function inside of useEffect only triggers when either count or name change. Additionally, if a return is added to the useEffect function that will be triggered during the unmounting cycle. 
+
+**Link(s) to work**: [Counter using useEffect](https://github.com/Organwolf/advanced-react)
+
 ### Day 69: May 10, 2020
 
 **Today's Progress**: Learning more about hooks in React. Specifically useState and useEffect.
@@ -30,7 +69,7 @@ Refactored using array destructuring it looks even better:
 const [count, setState] = useState(0);
 ```
 
-The **0** is just the initial value of count. It could be set to anything really.
+The **0** ins _useState(0)_ is just the initial value of count. It could be set to anything really.
 
 **Link(s) to work**: [Counter using useState](https://github.com/Organwolf/advanced-react)
 
