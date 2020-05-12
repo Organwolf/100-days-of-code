@@ -1,6 +1,18 @@
 # 100 Days Of Code - Log
 
-### Day 70: March 24, 2020
+### Day 71: May 12, 2020
+
+**Today's Progress**: Getting a grip on fetching data asynchronous. Focusing on async/await, promises and to a small degree the library axios.
+
+**Thoughts**:
+
+**Experimented with**:
+
+**Link(s) to work**:
+
+https://gist.github.com/rxaviers/7360908
+
+### Day 70: May 11, 2020
 
 **Today's Progress**: Learnt how to use the _useEffect_ hook.
 
