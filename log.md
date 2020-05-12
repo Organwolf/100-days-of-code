@@ -4,13 +4,17 @@
 
 **Today's Progress**: Getting a grip on fetching data asynchronous. Focusing on async/await, promises and to a small degree the library axios.
 
-**Thoughts**:
+**Thoughts**: So whay is asyc/await? If we start with _asyc_ it can be placed before a function. The word _async_ before a function means that the function returns a promise. The second keyword, _await_, that works only inside async functions, makes JavaScript wait until that promise settles and returns its results.
 
-**Experimented with**:
+**Experimented with**: async/await, promises and other stuff. According to the developer pages on [mozillas webpage](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise):
 
-**Link(s) to work**:
+> The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 
-https://gist.github.com/rxaviers/7360908
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/promise.png" height="285" width="545">
+
+[source](https://javascript.info/promise-basics)
+
+**Link(s) to work**: [async/await in Users component](https://github.com/Organwolf/advanced-react/tree/b9e3811029da50072a926e7fd6592392308ecd6b)
 
 ### Day 70: May 11, 2020
 
