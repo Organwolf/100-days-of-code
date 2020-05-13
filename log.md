@@ -2,7 +2,7 @@
 
 ### Day 71: May 12, 2020
 
-**Today's Progress**: Getting a grip on fetching data asynchronous. Focusing on async/await, promises and to a small degree the library axios.
+**Today's Progress**: Getting a grip on fetching data asynchronous. Focusing on async/await, promises and to a small degree the axios library.
 
 **Thoughts**: So whay is asyc/await? If we start with _asyc_ it can be placed before a function. The word _async_ before a function means that the function returns a promise. The second keyword, _await_, that works only inside async functions, makes JavaScript wait until that promise settles and returns its results.
 
