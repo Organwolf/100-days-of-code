@@ -1,10 +1,54 @@
 # 100 Days Of Code - Log
 
-Context API in short. First we create the context object, then we provide it, and finally we consume it.
+### Day 72: May 13, 2020
+
+**Today's Progress**: Working with the Context API within React.
+
+**Thoughts**: Similar to Redux. Which one you choose depends on the size of the app and the amount of complexity one wants to add to the project.
+
+**Experimented with**: Context API in short. First you create the context object, then you provide to to a part of your hierarchy, and finally you consume the context somewhere within that hierarchy.
 
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/context%20api.png" width="484" height="202">
-<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/context%20provide.png" width="422" height="95">
-<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/context%20consume.png" width="469" height="84">
+
+This image shows how a usercontext is provided to the MoviePage component which in turn renders a MovieList component. Within the MovieList component the context is then consumed.
+
+1. Create the Context
+
+```javascript
+import React from "react";
+
+const UserContext = React.createContext();
+UserContext.displayName = "UserContext";
+
+export default UserContext;
+```
+
+2. Provide the Context
+
+```javascript
+<UserContext.Provider value={this.state.currentUser}>
+  <MoviePage />
+</UserContext.Provider>
+```
+
+3. Consume the Context
+
+```javascript
+import React, { Component } from "react";
+import UserContext from "./userContext";
+
+export default class MovieList extends Component {
+  render() {
+    return (
+      <UserContext.Consumer>
+        {(userContext) => <div>Movie List {userContext.name}</div>}
+      </UserContext.Consumer>
+    );
+  }
+}
+```
+
+**Link(s) to work**: [Context API in class components](https://github.com/Organwolf/advanced-react/tree/966f01fad1a35cd8532c8779ab11b364079fe1f8)
 
 ### Day 71: May 12, 2020
 
