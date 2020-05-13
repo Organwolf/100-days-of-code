@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+Context API in short. First we create the context object, then we provide it, and finally we consume it.
+
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/context%20api.png" width="484" height="202">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/context%20provide.png" width="422" height="95">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/context%20consume.png" width="469" height="84">
+
 ### Day 71: May 12, 2020
 
 **Today's Progress**: Getting a grip on fetching data asynchronous. Focusing on async/await, promises and to a small degree the axios library.
