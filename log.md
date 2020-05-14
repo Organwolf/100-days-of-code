@@ -1,5 +1,44 @@
 # 100 Days Of Code - Log
 
+### Day 73: May 14, 2020
+
+**Today's Progress**: Worked some more with the Context API. More specifically I learnt how to make changes to values passed down by the context provider. I also got to see and implement a stateless functional component using the _useContext_ hook.
+
+**Thoughts**: I'm inching towards a better understanding om functional components and their role in better structured react apps. As well as how hook interact with functional components and complement them.
+
+**Experimented with**: The _useContext_ hook, which you use inside fucntional components, containst less boilerplate code than context consumption in a class component. Here is an example taken directly from [reactjs.org](https://reactjs.org/docs/hooks-reference.html#usecontext):
+
+```javascript
+const value = useContext(MyContext);
+```
+
+useContext accepts a context object and returns the current value for that context object.
+
+<hr />
+
+Now what if I want to send more than one peice of data via a single context provider? You solve this by passing an object as its value. An object containing key value pairs of data. In the example below a user and a function are passed down via the provider of the UserContext.
+
+Before
+
+```javascript
+<UserContext.Provider value={this.state.currentUser}>
+```
+
+After
+
+```javascript
+<UserContext.Provider
+  value={{
+    currentUser: this.state.currentUser,
+    onLoggedIn: this.handleLoggedIn,
+  }}
+>
+```
+
+Recap: to update the context, add a method that updates the state, then pass the method down using the context object. This way any component in the component tree can call this method.
+
+**Link(s) to work**: [Context API in functional components](https://github.com/Organwolf/advanced-react/tree/717d9e98a9c9be9220730d1f01638aa1185568ea)
+
 ### Day 72: May 13, 2020
 
 **Today's Progress**: Working with the Context API within React.
