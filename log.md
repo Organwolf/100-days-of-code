@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 74: May 15, 2020
+
+**Today's Progress**: Worked on animating a dropdown using the package _react-transition-group_. I also found a nice command I'll be using more in the future as well as got a small heart attack from following along a [Fireship.io tutorial](https://www.youtube.com/watch?v=IF6k0uZuypA&list=PLDYvKtwxa9g39626F5PhHborthRAKaI6v&index=9&t=0s).
+
+**Thoughts**: Not sure how much of todays session will stick. However I hope that the exposure alone will give me something. Just knowing that I've animated a dropdown will make it easier if I need to do so in the future.
+
+**Experimented with**: Animation, component composition in react, using `props.children` to made a component more dynamic, functional components, importing svg icons and using the `Workspaces: Duplicate Workspace in New Window` in VS code to duplicate a workspace!
+
+**Link(s) to work**: [Facebook dropdown](https://github.com/Organwolf/ReactJS/tree/a6f030d11d34abc926d0c751fe6d6ae2e3a8b247)
+
 ### Day 73: May 14, 2020
 
 **Today's Progress**: Worked some more with the Context API. More specifically I learnt how to make changes to values passed down by the context provider. I also got to see and implement a stateless functional component using the _useContext_ hook.
