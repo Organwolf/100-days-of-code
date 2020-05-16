@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 75: May 16, 2020
+
+**Today's Progress**: I went over some of the basic in git today.
+
+**Thoughts**: Pretty basic but I still need the practice and repetition. I don't feel like spending 20+ hours on a git course right now so this Git-it app/tutorial is really handly. I learnt that `$` dollar sign signifies the **command line** in code examples. Version control is synonamous with tracking changes. `git diff` in the terminal shows how the current state of the project differs from the latest commit. `remote` repositories live on some server somewhere. By pushing `local` changes from my computer to the remote I can keep my project up to date. `pulling` down changes from the remote to my local computer enables me and others to work on the same projects together.
+
+**Experimented with**: `git config --global user.name` setting a username in the git config. Connecting a local repo to a remote repo.
+
+**Link(s) to work**: [Git-it](http://jlord.us/git-it/)
+
 ### Day 74: May 15, 2020
 
 **Today's Progress**: Worked on animating a dropdown using the package _react-transition-group_. I also found a nice command I'll be using more in the future as well as got a small heart attack from following along a [Fireship.io tutorial](https://www.youtube.com/watch?v=IF6k0uZuypA&list=PLDYvKtwxa9g39626F5PhHborthRAKaI6v&index=9&t=0s).
