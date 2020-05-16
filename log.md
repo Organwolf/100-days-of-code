@@ -8,6 +8,15 @@
 
 **Experimented with**: `git config --global user.name` setting a username in the git config. Connecting a local repo to a remote repo.
 
+Pull in changes
+`git pull <REMOTENAME> <BRANCHNAME>`
+
+View remote addresses
+`git remote -v`
+
+Push changes
+`git push <REMOTE> <BRANCH>`
+
 **Link(s) to work**: [Git-it](http://jlord.us/git-it/)
 
 ### Day 74: May 15, 2020
