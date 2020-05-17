@@ -4,30 +4,29 @@
 
 **Today's Progress**: Git and radio buttons in react.
 
-**Thoughts**: On the git side of things I learnt that you can have an 'origin' remote with my fork's address and then an 'upstream' remote with the address to the original repository. Pulling from the upstream was still a little comfusing `git pull upstream gh-pages`. Further a pull request is a request to the maintainer(s) to pull changes _into_ their original project - that's a pull request.  
-On the react side of things I learnt more about leaky abstraction. When onChange passes an event to handleChange `onChange={this.handleChange}`that becomes a leaky abstraction.
+**Thoughts**: On the git side of things I learnt that you can have an 'origin' remote with my fork's address and then an 'upstream' remote with the address to the original repository. Pulling from the upstream was still a little comfusing `git pull upstream gh-pages`. Further a pull request is a request to the maintainer(s) to pull changes _into_ their original project - that's a pull request. On the react side of things I learnt more about leaky abstraction. When onChange passes an event to handleChange `onChange={this.handleChange}`that becomes a leaky abstraction.
 
 **Experimented with**:
 
-Remove a remote
+Remove a remote  
 `git remote rm <URL>`
 
-Add a remote
+Add a remote  
 `git remote add <REMOTENAME> <URL>`
 
-Create and switch barnches in one line
+Create and switch barnches in one line  
 `git checkout -b <BRANCHNAME>`
 
-Rename the branch you're currently on
+Rename the branch you're currently on  
 `git branch -m <NEWBRANCHNAME>`
 
-See changes to the remote before you pull
+See changes to the remote before you pull  
 `git fetch --dry-run`
 
-Merge a branch called BRANCHNAME into the current branch
+Merge a branch called BRANCHNAME into the current branch  
 `git merge <BRANCHNAME>`
 
-Delete a branch
+Delete a branch  
 `git branch -d <BRANCHNAME>`
 
 **Link(s) to work**: Completed the [Git-it](http://jlord.us/patchwork/) tutorial.
