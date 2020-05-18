@@ -1,5 +1,41 @@
 # 100 Days Of Code - Log
 
+### Day 77: May 18, 2020
+
+**Today's Progress**: Dealt with functional programming: functional composition, currying, pure functions & immutability.
+
+**Thoughts**: Some of it was new and other parts of the functional programming paradigm I recognised but didn't quite understand yet. Currying and how that is a type of functional composition was new to me.
+
+**Experimented with**: The lodash library for javascript. I used it to pipe functions together to compose a more complex function from smaller simpler functions.
+
+```javascript
+import { pipe } from "lodash/fp";
+
+const trim = (str) => str.trim();
+const wrap = (type) => (str) => `<${type}> ${str} </${type}>`;
+const toLowerCase = (str) => str.toLowerCase();
+
+let input = "JavasCripT      ";
+const transform = pipe(trim, toLowerCase, wrap("h1"));
+
+console.log(transform(input));
+
+// <h1> javascrtip </h1>
+```
+
+I also had a look at three libraries that enforce immutability (unchangeablility) in javascript: Immutable.js, Immer and Mori.
+
+1. What is functional programming?
+   A programming paradigm/style of programming that uses immutability, pure functions and functional composition to achive certain pros.
+
+2. Functional programming languages
+   Haskel, Erlang, Clojure. Python and Javascript partially support functional programming but are not entirely functional programming languges
+
+3. What is a higher order function?
+   It is a function that takes a function as its input and or returns a function as its output. Array.map() is an example of a functional component in JS.
+
+**Link(s) to work**: None today
+
 ### Day 76: May 17, 2020
 
 **Today's Progress**: Git and radio buttons in react.
@@ -39,13 +75,13 @@ Delete a branch
 
 **Experimented with**: `git config --global user.name` setting a username in the git config. Connecting a local repo to a remote repo.
 
-Pull in changes
+Pull in changes  
 `git pull <REMOTENAME> <BRANCHNAME>`
 
-View remote addresses
+View remote addresses  
 `git remote -v`
 
-Push changes
+Push changes  
 `git push <REMOTE> <BRANCH>`
 
 **Link(s) to work**: [Git-it](http://jlord.us/git-it/)
