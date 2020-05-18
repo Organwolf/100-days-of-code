@@ -2,7 +2,7 @@
 
 ### Day 77: May 18, 2020
 
-**Today's Progress**: Dealt with functional programming: functional composition, currying, pure functions & immutability.
+**Today's Progress**: Dealt with functional programming: function composition, currying, pure functions & immutability.
 
 **Thoughts**: Some of it was new and other parts of the functional programming paradigm I recognised but didn't quite understand yet. Currying and how that is a type of functional composition was new to me.
 
