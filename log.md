@@ -1,5 +1,39 @@
 # 100 Days Of Code - Log
 
+### Day 78: May 19, 2020
+
+**Today's Progress**: Redux, and some more functional programming.
+
+**Thoughts**:
+
+**Experimented with**: The Redux store, which is inspired by flux takes an actions type and a payload. Where the payload is optional in Redux but was/is required in flux. The payload should contain minimum information for updating the store. Business logic is implemented in the reducer. But the reducer, adhearing to one of the rules of functional programming, has to be a pure function. Meaning no side effects allowed, no DOM manipulation or API calls.
+
+```javascript
+let lastId = 0;
+
+function reducer(state = [], action) {
+  if (action.type === "bugAdded") {
+    return [
+      ...state,
+      {
+        id: ++lastId,
+        description: action.payload.description,
+        resolve: false,
+      },
+    ];
+  } else if (action.type === "bugRemoved")
+    return state.filter((bug) => bug.id !== action.payload.id);
+
+  return state;
+}
+```
+
+A reducer that tracks bugs could look something like that.
+
+The befefits of pure functions are the following: concurrency (operations can be run in parallell without unexpected results). predictability (due to no side effects), easier to debug and test and in general pure functions are more scaleable.
+
+**Link(s) to work**: None today
+
 ### Day 77: May 18, 2020
 
 **Today's Progress**: Dealt with functional programming: function composition, currying, pure functions & immutability.
