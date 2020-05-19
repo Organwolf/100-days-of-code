@@ -4,7 +4,7 @@
 
 **Today's Progress**: Redux, and some more functional programming.
 
-**Thoughts**:
+**Thoughts**: I appriciate the repetition. I've used redux before but not gone over the basics. This is an opportunity to wrap my head around the core concepts.
 
 **Experimented with**: The Redux store, which is inspired by flux takes an actions type and a payload. Where the payload is optional in Redux but was/is required in flux. The payload should contain minimum information for updating the store. Business logic is implemented in the reducer. But the reducer, adhearing to one of the rules of functional programming, has to be a pure function. Meaning no side effects allowed, no DOM manipulation or API calls.
 
