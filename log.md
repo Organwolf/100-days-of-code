@@ -1,5 +1,67 @@
 # 100 Days Of Code - Log
 
+### Day 79: March 20, 2020
+
+**Today's Progress**: Redux, re-created the bare bone source code and learnt a couple of things and made a couple of mistakes along the way.
+
+**Thoughts**: Althoug the sourcecode is fairly "short" it still manages to expose some of the things I need to work more on. Spelling for one thing creates bug that feel unneccessary. I also want to delve deeper in to object-oriented programming after mostly been working with UI/React for the past month or so.
+
+**Experimented with**: Functions inside of functins which works in Javascript bc functions are "first class citizens" meaning that they are not any different from declaring a variable. I also recapped how the spread operator only performs shallow copies of an object.
+
+Immutability and the shallow copying of the spread operator:
+
+```javascript
+const person = { name: "Aron", address: { country: "Sweden", city: "Malmö" } };
+
+const updated = {
+  ...person,
+  address: {
+    ...person.address,
+    city: "Öslöv",
+  },
+  name: "Henrik",
+};
+```
+
+And created a bare bones Redux store from scratch:
+
+```javascript
+import reducer from "./reducer";
+
+function createStore(reducer) {
+  let state;
+  let listeners = [];
+
+  function getState() {
+    return state;
+  }
+
+  function subscribe(listener) {
+    listeners.push(listener);
+  }
+
+  function dispatch(action) {
+    state = reducer(state, action);
+
+    for (let i = 0; i < listeners.length; i++) {
+      listeners[i]();
+    }
+  }
+
+  return {
+    subscribe,
+    dispatch,
+    getState,
+  };
+}
+
+export default createStore(reducer);
+```
+
+I also learnt that `payload: {id}` is a shorthand for `payload: {id: id}` which I'll try to use more moving forward.
+
+**Link(s) to work**: None today
+
 ### Day 78: May 19, 2020
 
 **Today's Progress**: Redux, and some more functional programming.
