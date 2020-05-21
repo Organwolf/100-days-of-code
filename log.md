@@ -1,5 +1,78 @@
 # 100 Days Of Code - Log
 
+### Day 80: May 21, 2020
+
+**Today's Progress**: Worked with the Redux Toolkit rewriting "classic" redux code, reducing the boilerplate that the serpation of the action types, action creators and reducers produce. During the process I also learnt more about functional programming and how to add middleware to a redux application.
+
+**Thoughts**: Good practice but a little after the fact. I wish that I'd learnt this a couple of months ago. I've used redux a lot at work and knowing more about the Redux Toolkit might have made my life easier. It's not sure though and hindsight is 20/20.
+
+**Experimented with**:
+
+The createAction helper combines the two declarations, type and payload, into one.
+
+```javascript
+import { createAction } from "@reduxjs/toolkit";
+
+// Replaced this
+export const bugAdded = (description) => ({
+  type: BUG_ADDED,
+  payload: {
+    description: description,
+  },
+});
+
+// With this
+export const bugAdded = createAction("bugAdded");
+```
+
+Leveraging Redux Toolkit, the reducer can be created with mutating code (by using Immer.js under the hood) to accomplish the same thing as a classic reducer. This reduces some of the boilplate code as well as removes the spread operator.
+
+```javascript
+// Replaced this
+switch (action.type) {
+  case bugAdded.type:
+    return [
+      ...state,
+      {
+        id: ++lastId,
+        description: action.payload.description,
+        resolved: false,
+      },
+    ];
+  default:
+    state;
+}
+
+// With this
+createReducer([], {
+  bugAdded: (state, action) => {
+    state.push({
+      id: ++lastId,
+      description: action.payload.description,
+      resolved: false,
+    });
+  }
+}
+```
+
+I'd like to say that I haven't made mistakes while working in a functional way but I have. Below I sort of misunderstood both the map function as well as how to use the spread operator when returning the copy of the state. Learning by doing!
+
+```javascript
+// Replaced this
+const bug = state.map((b) => b.id === action.payload.id);
+bug[0].resolve = true;
+return [...state, ...bug];
+
+// With this
+return state.map((bug) =>
+  bug.id !== action.payload.id ? bug : { ...bug, resolved: true }
+);
+```
+
+I also learnt that in Javascript functions are objects so they have properties just like objects, the renaming symbol command in vscode is F2, that source maps in webpack genereate mappings between the bundle and the source code. I also learnt that you can set up Redux to show the bugs directly in the source code by connecting the devtools extension in the browser with vscode. Lastly I learnt that by clicking arrow down in redux devtools you can download a state.json. Later, if you'd like, you can use the arrow up symbol to load the state.json. Can be usefull to track certain behaviours and bugs.
+
+**Link(s) to work**: [Redux Toolkit Docs](https://redux-toolkit.js.org/api/createAction)
+
 ### Day 79: March 20, 2020
 
 **Today's Progress**: Redux, re-created the bare bone source code and learnt a couple of things and made a couple of mistakes along the way.
