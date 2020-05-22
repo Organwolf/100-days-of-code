@@ -23,11 +23,9 @@
 
 > Virtual machines and containers both enable you to make more effective use of your bare metal resources with the use of virtualisation. The difference between them is that they virtualise at different levels of the stack.
 
-[https://blog.kumina.nl/2017/03/an-introduction-to-container-technology/](source)
+[source](https://blog.kumina.nl/2017/03/an-introduction-to-container-technology/)
 
-**Link(s) to work**: Worked through 30 minutes of [this](https://www.youtube.com/watch?v=fqMOX6JJhGo).
-
-25:22
+**Link(s) to work**: Worked through 30 minutes of [this](https://www.youtube.com/watch?v=fqMOX6JJhGo) video on Docker.
 
 ### Day 80: May 21, 2020
 
