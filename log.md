@@ -1,6 +1,14 @@
 # 100 Days Of Code - Log
 
-<img src="" height="" width="">
+### Day 22: March 24, 2020
+
+**Today's Progress**:
+**Thoughts**:
+**Experimented with**:
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/Containers_vs_Virtual-Machines.png" height="650" width="1000">
 
 > Virtual machines and containers both enable you to make more effective use of your bare metal resources with the use of virtualisation. The difference between them is that they virtualise at different levels of the stack.  
 > [https://blog.kumina.nl/2017/03/an-introduction-to-container-technology/](source)
