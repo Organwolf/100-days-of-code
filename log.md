@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+<img src="" height="" width="">
+
+> Virtual machines and containers both enable you to make more effective use of your bare metal resources with the use of virtualisation. The difference between them is that they virtualise at different levels of the stack.  
+> [https://blog.kumina.nl/2017/03/an-introduction-to-container-technology/](source)
+
+Docker commands
+
+`docker run` - run a container from an image on the docker host.
+`docker ps` - lists all running containers (id, container name, when created)
+`docker ps -a` - lists all containers, including those that are stopped.
+`docker stop [container id or container name]`
+`docker rm [name or id]`
+`docker images`
+`docker rmi`
+`docker pull [something]`
+
+Unlike VMs (virtual machines) containers are not meant to run an OS (operating system). Containers are meant to run a specific task or process such as hosting a specific webserver, application server or database or run a process. Once the task is complete the container exits. 25:22
+
 ### Day 80: May 21, 2020
 
 **Today's Progress**: Worked with the Redux Toolkit rewriting "classic" redux code, reducing the boilerplate that the serpation of the action types, action creators and reducers produce. During the process I also learnt more about functional programming and how to add middleware to a redux application.
