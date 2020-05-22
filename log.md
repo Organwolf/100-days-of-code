@@ -100,7 +100,7 @@ I also learnt that in Javascript functions are objects so they have properties j
 
 **Link(s) to work**: [Redux Toolkit Docs](https://redux-toolkit.js.org/api/createAction)
 
-### Day 79: March 20, 2020
+### Day 79: May 20, 2020
 
 **Today's Progress**: Redux, re-created the bare bone source code and learnt a couple of things and made a couple of mistakes along the way.
 
