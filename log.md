@@ -26,11 +26,11 @@
 - DATA PERSISTENCE  
   If a container containing a database is created and data is stored in that database that data would not persist is the container is stopped and removed. To overcome this obsticle you can use _volume mapping_. Instead of running a regular run command you can run the following: `docker run -v /opt/datadir:/var/lib/appname` where /var/lib/appname is the location of the data within the container and /opt/datadir is a location outside of the container where we want to volume map the data to.
 
-Docker commands
+**Docker commands**
 
-`docker run ubuntu sleep 5` executing a command when we run a container
-`docker exec` can be used to execute something on a running container
-`docker run CONTAINERNAME/id` will run the container in the foreground (attached state)
+`docker run ubuntu sleep 5` executing a command when we run a container  
+`docker exec` can be used to execute something on a running container  
+`docker run CONTAINERNAME/id` will run the container in the foreground (attached state)  
 `docker run -d CONTAINERNAME/id` will run the container in the background (detached state)
 
 **Link(s) to work**: [Tutorial](https://www.youtube.com/watch?v=fqMOX6JJhGo) && [Interactive docker labs](https://kodekloud.com/p/docker-labs)
