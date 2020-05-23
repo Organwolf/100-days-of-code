@@ -33,8 +33,8 @@
 `docker run ubuntu sleep 5` executing a command when we run a container  
 `docker exec` can be used to execute something on a running container  
 `docker run CONTAINERNAME/id` will run the container in the foreground (attached state)  
-`docker run -d CONTAINERNAME/id` will run the container in the background (detached state)
-`docker inspect CONTAINERNAME` will return a json with detailed info about the container
+`docker run -d CONTAINERNAME/id` will run the container in the background (detached state)  
+`docker inspect CONTAINERNAME` will return a json with detailed info about the container  
 `docker logs CONTAINERNAME` will return the logs of a container run in detached state
 
 Using docker inspect you can see which, if any, environment variables are present in the container.
