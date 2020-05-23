@@ -7,7 +7,6 @@
 **Thoughts**: I appriciate the interactive labs and little for little I'm grasping how powerful docker can be.
 
 **Experimented with**:
-
 Creating a container named _webapp_ which runs the _nginx:1.14-alpine_ image  
 `docker run --name webapp nginx:1.14-alpine`
 
@@ -15,19 +14,16 @@ Using tags (4.0 is the tag)
 `docker run redis:4.0`
 
 STDIN and STDOUT  
-`-i` is the interactive flag
+`-i` is the interactive flag  
 `-t` is the pseudo teminal  
 enables both interaction and the ability to input values
 
 PORT mapping  
-Either use the IP inside the docker host to access the docker engine OR apply port mapping.  
 `docker run -p 8306:3306 mysql`  
 maps the _mysql_ application from port 8306 inside the docker container to port 3306 on the docker host.
 
 DATA PERSISTENCE  
-If a container containing a database is created and data is stored in that database that data would not persist is the container is stopped and removed. To overcome this obsticle you can use _volume mapping_. Instead of running a regular run command you can run the following:  
-`docker run -v /opt/datadir:/var/lib/[NAME_OF_APP]`  
-where /var/lib/[NAME_OF_APP] is the location of the data within the container and /opt/datadir is a location outside of the container where we want to volume map the data to.
+If a container containing a database is created and data is stored in that database that data would not persist is the container is stopped and removed. To overcome this obsticle you can use _volume mapping_. Instead of running a regular run command you can run the following: `docker run -v /opt/datadir:/var/lib/[NAME_OF_APP]` where /var/lib/[NAME_OF_APP] is the location of the data within the container and /opt/datadir is a location outside of the container where we want to volume map the data to.
 
 **Docker commands**
 
