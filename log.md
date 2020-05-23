@@ -2,7 +2,7 @@
 
 ### Day 82: May 23, 2020
 
-**Today's Progress**: Kept working with docker through watching a video and completing interactive labs.
+**Today's Progress**: Kept working with docker by watching a video and completing interactive labs.
 
 **Thoughts**: I appriciate the interactive labs and little for little I'm grasping how powerful docker can be.
 
