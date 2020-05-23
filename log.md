@@ -20,8 +20,10 @@
   enables both interaction and the ability to input values
 
 - PORT mapping  
-  `docker run -p 8306:3306 mysql`  
+  `docker run -p 3306:8306 mysql`  
   maps the _mysql_ application from port 8306 inside the docker container to port 3306 on the docker host.
+
+  > By default, when you create a container, it does not publish any of its ports to the outside world. To make a port available to services outside of Docker, or to Docker containers which are not connected to the container’s network, use the --publish or -p flag. This creates a firewall rule which maps a container port to a port on the Docker host. [source](https://docs.docker.com/config/containers/container-networking/)
 
 - DATA PERSISTENCE  
   If a container containing a database is created and data is stored in that database that data would not persist is the container is stopped and removed. To overcome this obsticle you can use _volume mapping_. Instead of running a regular run command you can run the following: `docker run -v /opt/datadir:/var/lib/appname` where /var/lib/appname is the location of the data within the container and /opt/datadir is a location outside of the container where we want to volume map the data to.
@@ -32,6 +34,22 @@
 `docker exec` can be used to execute something on a running container  
 `docker run CONTAINERNAME/id` will run the container in the foreground (attached state)  
 `docker run -d CONTAINERNAME/id` will run the container in the background (detached state)
+`docker inspect CONTAINERNAME` will return a json with detailed info about the container
+`docker logs CONTAINERNAME` will return the logs of a container run in detached state
+
+Using docker inspect you can see which, if any, environment variables are present in the container.
+
+**Examples**
+
+Run an image of mysql on a container named mysql-db and set the root password via the environmental variables.
+`docker run --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql`
+
+Run an instance of simple-webapp in the container. Set the app_color via the environmental variables. Name the app blue_app. Port map 8080 inside of the container to 38282 on the docker host.
+`docker run -e APP_COLOR=blue -p 38282:8080 --name blue-app kodekloud/simple-webapp`
+
+P
+
+>
 
 **Link(s) to work**: [Tutorial](https://www.youtube.com/watch?v=fqMOX6JJhGo) && [Interactive docker labs](https://kodekloud.com/p/docker-labs)
 
