@@ -44,7 +44,8 @@ Using docker inspect you can see which, if any, environment variables are presen
 Run an image of mysql on a container named mysql-db and set the root password via the environmental variables.  
 `docker run --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql`
 
-Run an instance of simple-webapp in the container. Set the app_color via the environmental variables. Name the app blue_app. Port map 8080 inside of the container to 38282 on the docker host.  
+Run an instance of simple-webapp in the container. Set the app_color via the environmental variables.  
+Name the app blue_app. Port map 8080 inside of the container to 38282 on the docker host.  
 `docker run -e APP_COLOR=blue -p 38282:8080 --name blue-app kodekloud/simple-webapp`
 
 **Link(s) to work**: [Tutorial](https://www.youtube.com/watch?v=fqMOX6JJhGo) && [Interactive docker labs](https://kodekloud.com/p/docker-labs)
