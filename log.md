@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+Cerating your own image, containerizing an application, what are we creating an image for? What order do we have to follow? Instructions ->
+
+```docker
+FROM Ubuntu
+
+RUN apt-get update
+RUN apt-get install python
+
+RUN pip install flask
+RUN pip install flask-mysql
+
+COPY . /opt/source-code
+
+ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
+```
+
 ### Day 82: May 23, 2020
 
 **Today's Progress**: Kept working with docker by watching a video and completing interactive labs.
