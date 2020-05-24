@@ -69,7 +69,7 @@ Docker has a built in DNS server that can help containers locate each other with
 
 <hr />
 
-**From lab 6**
+**From the Docker Labs**
 
 `docker network create --driver bridge --subnet 182.18.0.1/24 --gateway 182.18.0.1 wp-mysql-network`
 
@@ -78,6 +78,8 @@ Creates a new network named wp-mysql-network using the bridge driver, allocates 
 `docker run -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db --network wp-mysql-network mysql:5.6`
 
 Deplays a mysql database using the mysql:5.6 image, names it to mysql-db, attaching it to the newly created network wp-mysql-network. The root password is also set to db_pass123.
+
+<hr />
 
 **Link(s) to work**: [Docker course](https://www.youtube.com/watch?v=fqMOX6JJhGo), [Docker documentation](https://docs.docker.com/engine/reference/commandline/build/)!
 
