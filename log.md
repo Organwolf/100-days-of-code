@@ -26,7 +26,7 @@ ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
 
 Docker uses a layered architecture where each row inside the image is a layer. Running the history command shows the size of each layer and thus the size on the image. Layers are cached and if something fails during the build process and you re-build it will do so faster. This might seem insignificant but it is very usefull when something inside of the image is updates frequently like the source code.
 
-`docker build [OPTIONS] PATH | URL | -` [source](https://docs.docker.com/engine/reference/commandline/build/)
+`docker build [OPTIONS] PATH | URL | -`
 
 `docker build -t webapp-color .`
 
