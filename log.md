@@ -1,6 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 83: May 24, 2020
+
+**Today's Progress**: Docker, more specifically dockerfiles ... Learnt that _cat_ means concatinate in Linux/Unix and that the general syntax is `cat [OPTION] [FILE]`. I also used vim to edit a Dockerfile and to insert new stuff into a file using vim to press shift + i. To save and exit you type `:wq` which stands for write and quit/exit.
+
+**Thoughts**: I always trick myself into believing that a 2 hour tutorial is going to take two hours to complete. Although, I tend to take detailed notes and I want to be able to explain how things work here and to myself and others. That simply takes time. I'm in no hutty either.
+
+**Experimented with**: Docker files .. [add more here]
+
 Cerating your own image, containerizing an application, what are we creating an image for? What order do we have to follow? Instructions ->
+
+A docker file is a text file written in a specific format that docker can understand, it's in an _instuction_ and _argument_ format. Everything to the left in the code below is an instruction, FROM, RUN, COPY & ENTRYPOINT. All docker files must start with a FROM instruction and every docker image must be based off of another image. RUN instructs docker to run a particular command on the base image. COPY in this case copies code from outside the container into it. Finally ENTRYPOINT allows you to configure a container that will run as an executable.
 
 ```docker
 FROM Ubuntu
@@ -15,6 +25,59 @@ COPY . /opt/source-code
 
 ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
 ```
+
+Layered architecture where each row is a layer. Running the history command shows the size of each layer. Layers are cached and if something fails during the build process and you re-build it will do so faster. This might seem insignificant but is very usefull when something inside of the image is updates frequently like the source code.
+
+`docker build [OPTIONS] PATH | URL | -` [source](https://docs.docker.com/engine/reference/commandline/build/)
+
+`docker build -t webapp-color .`
+
+Apparently you can't swap places of -p and name of the image to run.  
+I guess it makes sense that it' sequential.
+`docker run -p 8282:8080 webapp-color`
+
+vi - Vim, /root/ - root directory, webapp-color - app name, Dockerfile - file to open
+`vi /root/webapp-color/Dockerfile`
+
+<hr />
+
+Networking in docker
+
+Bridge, none, host are the three standard network in docker.
+
+`docker run ubuntu` runs ubuntu on the bridge network
+`docker run ubuntu --network=none` runs the OS on the none network
+`docker run ubuntu --network=host` you get the drill
+
+Setting up the container in the hosts network exposes it to the outside world and doesn't require port mapping. However this stops you from running multiple webcontainers on the same port and host. The _none_ network run in an isolated network with no connection to the ouside world.
+
+To create an isolated network you could do something like this
+
+```docker
+docker network create \
+    --driver bridge \
+    --subnet 182.18.0.0/16
+    custom-isolated-network
+```
+
+`docker network ls` can then be used to list all networks
+`docker inspect name_of_container` can be used to extract the ip of that container
+
+Docker has a built in DNS server that can help containers locate each other within a node.
+
+<hr />
+
+**From lab 6**
+
+`docker network create --driver bridge --subnet 182.18.0.1/24 --gateway 182.18.0.1 wp-mysql-network`
+
+Creates a new network named wp-mysql-network using the bridge driver, allocates 182.18.0.1/24 as the subnet and configures 182.18.0.1 as the gateway.
+
+`docker run -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db --network wp-mysql-network mysql:5.6`
+
+Deplays a mysql database using the mysql:5.6 image, names it to mysql-db, attaching it to the newly created network wp-mysql-network. The root password is also set to db_pass123.
+
+**Link(s) to work**: [Docker course](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 
 ### Day 82: May 23, 2020
 
