@@ -30,16 +30,12 @@ Docker uses a layered architecture where each row inside the image is a layer. R
 
 `docker build -t webapp-color .`
 
-Apparently you can't swap places of -p and name of the image to run.  
-I guess it makes sense that it' sequential.
-`docker run -p 8282:8080 webapp-color`
+`vi /root/webapp-color/Dockerfile`
 
 vi - Vim,  
 /root/ - root directory,  
 webapp-color - app name,  
 Dockerfile - file to open
-
-`vi /root/webapp-color/Dockerfile`
 
 <hr />
 
@@ -47,8 +43,8 @@ Dockerfile - file to open
 
 Bridge, none, host are the three standard network in docker.
 
-`docker run ubuntu` runs ubuntu on the bridge network
-`docker run ubuntu --network=none` runs the OS on the none network
+`docker run ubuntu` runs ubuntu on the bridge network  
+`docker run ubuntu --network=none` runs the OS on the none network  
 `docker run ubuntu --network=host` you get the drill
 
 Setting up the container in the hosts network exposes it to the outside world and doesn't require port mapping. However this stops you from running multiple webcontainers on the same port and host. The _none_ network run in an isolated network with no connection to the ouside world.
@@ -62,10 +58,10 @@ docker network create \
     custom-isolated-network
 ```
 
-`docker network ls` can then be used to list all networks
+`docker network ls` can then be used to list all networks  
 `docker inspect name_of_container` can be used to extract the ip of that container
 
-Docker has a built in DNS server that can help containers locate each other within a node.
+Docker has a built in DNS server that can be used to help containers locate each other within a node without relying on the exact IP-address.
 
 <hr />
 
@@ -82,6 +78,8 @@ Deplays a mysql database using the mysql:5.6 image, names it to mysql-db, attach
 <hr />
 
 **Link(s) to work**: [Docker course](https://www.youtube.com/watch?v=fqMOX6JJhGo), [Docker documentation](https://docs.docker.com/engine/reference/commandline/build/)!
+
+<hr />
 
 ### Day 82: May 23, 2020
 
