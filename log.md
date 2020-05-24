@@ -154,9 +154,7 @@ Name the app blue_app. Port map 8080 inside of the container to 38282 on the doc
 
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/Containers_vs_Virtual-Machines.png" height="650" width="1000">
 
-> Virtual machines and containers both enable you to make more effective use of your bare metal resources with the use of virtualisation. The difference between them is that they virtualise at different levels of the stack.
-
-[source](https://blog.kumina.nl/2017/03/an-introduction-to-container-technology/)
+> Virtual machines and containers both enable you to make more effective use of your bare metal resources with the use of virtualisation. The difference between them is that they virtualise at different levels of the stack. [source](https://blog.kumina.nl/2017/03/an-introduction-to-container-technology/)
 
 **Link(s) to work**: Worked through 30 minutes of [this](https://www.youtube.com/watch?v=fqMOX6JJhGo) video on Docker.
 
