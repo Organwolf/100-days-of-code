@@ -2,13 +2,11 @@
 
 ### Day 83: May 24, 2020
 
-**Today's Progress**: Docker, more specifically dockerfiles ... Learnt that _cat_ means concatinate in Linux/Unix and that the general syntax is `cat [OPTION] [FILE]`. I also used vim to edit a Dockerfile and to insert new stuff into a file using vim to press shift + i. To save and exit you type `:wq` which stands for write and quit/exit.
+**Today's Progress**: Docker, more specifically dockerfiles and networking while using docker.
 
-**Thoughts**: I always trick myself into believing that a 2 hour tutorial is going to take two hours to complete. Although, I tend to take detailed notes and I want to be able to explain how things work here and to myself and others. That simply takes time. I'm in no hutty either.
+**Thoughts**: I always trick myself into believing that a 2 hour tutorial is going to take two hours to complete. Although, I tend to take detailed notes and I want to be able to explain how things work here and to myself and others. That simply takes time. I'm in no hutty either. I Learnt that _cat_ means concatinate in Linux/Unix and that the general syntax is `cat [OPTION] [FILE]`. I also used vim to edit a Dockerfile and to insert new stuff into a file using vim to press shift + i. To save and exit you type `:wq` which stands for write and quit/exit.
 
-**Experimented with**: Docker files .. [add more here]
-
-Cerating your own image, containerizing an application, what are we creating an image for? What order do we have to follow? Instructions ->
+**Experimented with**: Docker files and networking while using docker. I also touched some vim along the way.
 
 A docker file is a text file written in a specific format that docker can understand, it's in an _instuction_ and _argument_ format. Everything to the left in the code below is an instruction, FROM, RUN, COPY & ENTRYPOINT. All docker files must start with a FROM instruction and every docker image must be based off of another image. RUN instructs docker to run a particular command on the base image. COPY in this case copies code from outside the container into it. Finally ENTRYPOINT allows you to configure a container that will run as an executable.
 
@@ -26,7 +24,7 @@ COPY . /opt/source-code
 ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
 ```
 
-Layered architecture where each row is a layer. Running the history command shows the size of each layer. Layers are cached and if something fails during the build process and you re-build it will do so faster. This might seem insignificant but is very usefull when something inside of the image is updates frequently like the source code.
+Docker uses a layered architecture where each row inside the image is a layer. Running the history command shows the size of each layer and thus the size on the image. Layers are cached and if something fails during the build process and you re-build it will do so faster. This might seem insignificant but it is very usefull when something inside of the image is updates frequently like the source code.
 
 `docker build [OPTIONS] PATH | URL | -` [source](https://docs.docker.com/engine/reference/commandline/build/)
 
@@ -36,12 +34,16 @@ Apparently you can't swap places of -p and name of the image to run.
 I guess it makes sense that it' sequential.
 `docker run -p 8282:8080 webapp-color`
 
-vi - Vim, /root/ - root directory, webapp-color - app name, Dockerfile - file to open
+vi - Vim,  
+/root/ - root directory,  
+webapp-color - app name,  
+Dockerfile - file to open
+
 `vi /root/webapp-color/Dockerfile`
 
 <hr />
 
-Networking in docker
+**Networking in docker**
 
 Bridge, none, host are the three standard network in docker.
 
@@ -77,7 +79,7 @@ Creates a new network named wp-mysql-network using the bridge driver, allocates 
 
 Deplays a mysql database using the mysql:5.6 image, names it to mysql-db, attaching it to the newly created network wp-mysql-network. The root password is also set to db_pass123.
 
-**Link(s) to work**: [Docker course](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+**Link(s) to work**: [Docker course](https://www.youtube.com/watch?v=fqMOX6JJhGo), [Docker documentation](https://docs.docker.com/engine/reference/commandline/build/)!
 
 ### Day 82: May 23, 2020
 
