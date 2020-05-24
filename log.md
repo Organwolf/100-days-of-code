@@ -4,7 +4,9 @@
 
 **Today's Progress**: Docker, more specifically dockerfiles and networking while using docker.
 
-**Thoughts**: I always trick myself into believing that a 2 hour tutorial is going to take two hours to complete. Although, I tend to take detailed notes and I want to be able to explain how things work here and to myself and others. That simply takes time. I'm in no hutty either. I Learnt that _cat_ means concatinate in Linux/Unix and that the general syntax is `cat [OPTION] [FILE]`. I also used vim to edit a Dockerfile and to insert new stuff into a file using vim to press shift + i. To save and exit you type `:wq` which stands for write and quit/exit.
+**Thoughts**: I always trick myself into believing that a 2 hour tutorial is going to take two hours to complete. Although, I tend to take detailed notes and I want to be able to explain how things work here and to myself and others. That simply takes time. I'm in no hutty either. I Learnt that _cat_ means concatinate in Linux/Unix and that the general syntax is  
+`cat [OPTION] [FILE]`  
+I also used vim to edit a Dockerfile and to insert new stuff into a file using vim to press shift + i. To save and exit you type `:wq` which stands for write and quit/exit.
 
 **Experimented with**: Docker files and networking while using docker. I also touched some vim along the way.
 
