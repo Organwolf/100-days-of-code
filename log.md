@@ -1,10 +1,47 @@
 # 100 Days Of Code - Log
 
+https://reacttraining.com/react-router/web/guides/quick-start
+https://redux.js.org/advanced/usage-with-react-router
+
+### Day 84: May 25, 2020
+
+**Today's Progress**: Docker storage and a sprinkle of docker compose.
+
+**Thoughts**: I keep making mistakes with the order of commands. Especially when you have to string three or more things together in one run command. However that is how things are supposed to go right. Learning by doing.
+
+**Experimented with**: /var/lib/docker which is where docker stores data by default. As mentioned before docker builds images using a layered architecture. Each layer stores the data of the previouse layer. Advantages of the layered architecture are that base images can be reused from the cache between images. This saves disk space and makes the build process faster. When you run a container on a certain image a container layer is created on top of the read only image layers. The container layer contains the specific data for that container. That layer is Read Write in contrast to the image layers which are Read only. If you would want to edit something that is inside the image layers a copy of that file is made and the changes are made to that copy of the file.
+
+There are two types of mounting
+
+- Volume mounting
+  Mounts a volume from the volumes directory.
+- Bind mounting
+  Mounts from any location on the docker host by using the complete path to the folfer we would want to mount.
+
+`docker volume create data_volume` creates a folder called data_volume inside the volumes folder  
+`docker run -v data_volume:/var/lib/mysql mysql` mounts data_volume to the container and stores the data persistently outside of the container
+
+Storage drivers deal with the layered architecture. Depending on the OS a certain driver will be chosen by docker.
+
+Today I used sh to read from a data.sh file inside on a container too. I learnt the following about sh:
+
+> sh is a command language interpreter that executes commands read from a command line string, the standard input, or a specified file. [source](https://www.computerhope.com/unix/ush.htm)
+
+<hr />
+
+**Labs**
+
+`docker run -v /opt/data:/var/lib/mysql -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db mysql`
+
+Runs a mysql container that mounts the data to /opt/data as well as sets the root pw and name of the container
+
+**Link(s) to work**: None today still chipping away on the docker course
+
 ### Day 83: May 24, 2020
 
 **Today's Progress**: Docker, more specifically dockerfiles and networking while using docker.
 
-**Thoughts**: I always trick myself into believing that a 2 hour tutorial is going to take two hours to complete. Although, I tend to take detailed notes and I want to be able to explain how things work here and to myself and others. That simply takes time. I'm in no hutty either. I Learnt that _cat_ means concatinate in Linux/Unix and that the general syntax is  
+**Thoughts**: I always trick myself into believing that a 2 hour tutorial is going to take two hours to complete. Although, taking detailed notes and wanting to be able to explain how things work in my log and to others takes time. It takes more time than you think. I'm in no hurry. I Learnt that _cat_ means concatinate in Linux/Unix and that the general syntax is  
 `cat [OPTION] [FILE]`. I also used vim to edit a Dockerfile and to insert new stuff into a file using vim to press shift + i. To save and exit you type `:wq` which stands for write and quit/exit.
 
 **Experimented with**: Docker files and networking while using docker. I also touched some vim along the way.
