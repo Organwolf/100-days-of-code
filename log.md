@@ -1,8 +1,5 @@
 # 100 Days Of Code - Log
 
-https://reacttraining.com/react-router/web/guides/quick-start
-https://redux.js.org/advanced/usage-with-react-router
-
 ### Day 84: May 25, 2020
 
 **Today's Progress**: Docker storage and a sprinkle of docker compose.
