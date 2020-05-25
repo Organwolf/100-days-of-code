@@ -15,16 +15,16 @@ There are two types of mounting
 - Bind mounting
   Mounts from any location on the docker host by using the complete path to the folfer we would want to mount.
 
-`docker volume create data_volume` creates a folder called data_volume inside the volumes folder  
-`docker run -v data_volume:/var/lib/mysql mysql` mounts data_volume to the container and stores the data persistently outside of the container
+`docker volume create data_volume`  
+creates a folder called data_volume inside the volumes folder  
+`docker run -v data_volume:/var/lib/mysql mysql`  
+mounts data_volume to the container and stores the data persistently outside of the container
 
 Storage drivers deal with the layered architecture. Depending on the OS a certain driver will be chosen by docker.
 
 Today I used sh to read from a data.sh file inside on a container too. I learnt the following about sh:
 
 > sh is a command language interpreter that executes commands read from a command line string, the standard input, or a specified file. [source](https://www.computerhope.com/unix/ush.htm)
-
-<hr />
 
 **Labs**
 
