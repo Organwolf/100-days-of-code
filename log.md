@@ -13,7 +13,7 @@ There are two types of mounting
 - Volume mounting
   Mounts a volume from the volumes directory.
 - Bind mounting
-  Mounts from any location on the docker host by using the complete path to the folfer we would want to mount.
+  Mounts from any location on the docker host by using the complete path to the folder we would want to mount.
 
 `docker volume create data_volume`  
 creates a folder called data_volume inside the volumes folder  
