@@ -1,5 +1,46 @@
 # 100 Days Of Code - Log
 
+### Day 22: March 24, 2020
+
+**Today's Progress**: Kept working with docker. Got to the part about the registry. Watched the introduction and decided to keep moving and get back to this in the future if the need arises.
+
+**Thoughts**: I feel like I've leant a lot about docker. Stuff that I previously had no idea about. However things got a bit to technical and I can't really apply this knowledge to something practical right now therefor I'm letting go of this course for the time being.
+
+**Experimented with**: Networking in docker-compose.  
+One teqnique that is particularly useful is separating user generated traffic and the applicatiopns internal traffic.
+
+Below is a bare bones docker-compose file with the architecture mentioned above. Two networks take care of two seperate functionalities in the application.
+
+```docker
+version: 2
+services:
+  redis:
+    image:regis
+
+    networks:
+      - back-end
+  db:
+    image: postgres:9,4
+    network:
+      - front-end
+      - back-end
+  result:
+    image: result
+    networks:
+      - front-end
+      - back-end
+
+networks:
+  front-end:
+  back-end:
+```
+
+Code for running a container in detatched mode named db with the root pw set
+
+`docker run --name db -e POSTGRES_PASSWORD=mysecretpassword -d postgres`
+
+**Link(s) to work**: None today
+
 ### Day 84: May 25, 2020
 
 **Today's Progress**: Docker storage and a sprinkle of docker compose.
