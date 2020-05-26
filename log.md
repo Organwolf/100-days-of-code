@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 22: March 24, 2020
+### Day 85: May 26, 2020
 
 **Today's Progress**: Kept working with docker. Got to the part about the registry. Watched the introduction and decided to keep moving and get back to this in the future if the need arises.
 
