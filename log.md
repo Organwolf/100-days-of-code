@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 86: May 27, 2020
+
+**Today's Progress**: Worked with Redux toolkit
+
+**Thoughts**: Honestly a bit confusing after working with Redux without it. It abstracts away the functional programming. Thus making it easier in some sense by allowing mutation.
+
+**Experimented with**: [createSlice](https://redux-toolkit.js.org/usage/usage-with-typescript#createslice) from the toolkit.
+
+**Link(s) to work**: None today
+
 ### Day 85: May 26, 2020
 
 **Today's Progress**: Kept working with docker. Got to the part about the registry. Watched the introduction and decided to keep moving and get back to this in the future if the need arises.
