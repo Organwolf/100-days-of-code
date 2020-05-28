@@ -1,18 +1,20 @@
 # 100 Days Of Code - Log
 
-### Day 22: March 24, 2020
+### Day 87: May 28, 2020
 
-**Today's Progress**: Worked with ES6 template litterals, async/await, functional components, solving a problem with the API provider, the fetch API in Javascript, prefixing an API URL with another API URL that enables cross-origin requests, and using the template litterals to make an API call with the search word typed into an input field.
+**Today's Progress**: Worked with ES6 template litterals, async/await, functional components, solving a problem with the API provider, the fetch API in Javascript, prefixing an API URL with another API URL to enable cross-origin requests and using the template litterals to make an API call with the search word typed into an input field.
 
-**Thoughts**: Progress is in a sense subjective. Sometimes, if not most times, you don't notice when the actual progress is made. That isn't the case today, or rather, today I noticed how my progress has accumulated.
+**Thoughts**: Progress is in a sense subjective. Sometimes, if not most times, you don't notice when the actual progress is made. That isn't the case today, or rather, today I noticed how my progress and knowledge has accumulated over the past three months.
 
-Here's some context. I'd stored away a video on creating a recipe application using react router. The tutorial in question is two years old. In front-end development that means breaking changes. To begin with the packages were outdated leading to tons of vulnerabilities.
+Here's some context. I'd stored away a video on creating a recipe application using react router. Just a short video that is a hour and a half. The tutorial in question is two years old. In front-end development that means breaking changes. To begin with the packages were outdated leading to tons of vulnerabilities and warnings.
 
-<img src="" height="" width="">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/npm-errors.png" height="39" width="582">
 
-**Experimented with**:
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+Solved that with `npm audit fix`. The real progress was replacing the API used in the tutorial, and which had been down for more than a year, with someones Heroku implementation of that same API. First I had to learn how to call the new api and later when that was solved I learnt how to prefix the URL to the new API with another Heroku application which solves CORS (cross-origin request) errors. Making this all work went fairly well and I'm certain that I would have struggled with all of the above a couple of months ago.
+
+**Experimented with**: [cors-anywhere](https://cors-anywhere.herokuapp.com/), solving the CORS problem when running the server locally. I also experimented with another implementation of the old API used in the tutorial.
+
+**Link(s) to work**: None right now. I'll recap and add a link to a github repo tomorrow.
 
 ### Day 86: May 27, 2020
 
