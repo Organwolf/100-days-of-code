@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 22: March 24, 2020
+
+**Today's Progress**: Worked with ES6 template litterals, async/await, functional components, solving a problem with the API provider, the fetch API in Javascript, prefixing an API URL with another API URL that enables cross-origin requests, and using the template litterals to make an API call with the search word typed into an input field.
+
+**Thoughts**: Progress is in a sense subjective. Sometimes, if not most times, you don't notice when the actual progress is made. That isn't the case today, or rather, today I noticed how my progress has accumulated.
+
+Here's some context. I'd stored away a video on creating a recipe application using react router. The tutorial in question is two years old. In front-end development that means breaking changes. To begin with the packages were outdated leading to tons of vulnerabilities.
+
+<img src="" height="" width="">
+
+**Experimented with**:
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
 ### Day 86: May 27, 2020
 
 **Today's Progress**: Worked with Redux toolkit
