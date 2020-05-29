@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 88: May 29, 2020
+
+**Today's Progress**: Breaking out logic into seperate components, added predefined css styling to JSX elements, setting bootstrap up as a dependency and importing the css indside of the index file. Lastly I encountered and used the style property.
+
+**Thoughts**: I really like the pace of this tutorial and I've already subscribed to the channel. It's perfect repetition as well as hand on coding. This particular tutorial isn't scripted either which, in a way, makes it feel more approachable.
+
+**Experimented with**: The stype property. MDN descripbes the style property as follows
+
+> The style property is used to get as well as set the inline style of an element. When getting, it returns a CSSStyleDeclaration object that contains a list of all styles properties for that element with values assigned for the attributes that are defined in the element's inline style attribute. [source](https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style)
+
+in React I use it like this:  
+`<form onSubmit={props.getRecipe} style={{ marginBottom: "2rem" }}>`
+
+**Link(s) to work**: None today. Tomorrow I with push the project to my repository and share a link.
+
 ### Day 87: May 28, 2020
 
 **Today's Progress**: Worked with ES6 template litterals, async/await, functional components, solving a problem with the API provider, the fetch API in Javascript, prefixing an API URL with another API URL to enable cross-origin requests and using the template litterals to make an API call with the search word typed into an input field.
