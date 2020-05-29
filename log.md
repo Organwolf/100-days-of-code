@@ -6,12 +6,15 @@
 
 **Thoughts**: I really like the pace of this tutorial and I've already subscribed to the channel. It's perfect repetition as well as hand on coding. This particular tutorial isn't scripted either which, in a way, makes it feel more approachable.
 
-**Experimented with**: The stype property. MDN descripbes the style property as follows
+**Experimented with**: The stype property. MDN descripbes the style property as follows:
 
 > The style property is used to get as well as set the inline style of an element. When getting, it returns a CSSStyleDeclaration object that contains a list of all styles properties for that element with values assigned for the attributes that are defined in the element's inline style attribute. [source](https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style)
 
-in React I use it like this:  
-`<form onSubmit={props.getRecipe} style={{ marginBottom: "2rem" }}>`
+In react I use it like this:
+
+```javascript
+<form onSubmit={props.getRecipe} style={{ marginBottom: "2rem" }}>
+```
 
 **Link(s) to work**: None today. Tomorrow I with push the project to my repository and share a link.
 
