@@ -11,14 +11,14 @@
 - [ ] Experiment +5 min with code per day
   - [x] 0-24 &nbsp;&nbsp;days completed
   - [x] 25-49 days completed
-  - [ ] 50-74 days completed
+  - [x] 50-74 days completed
   - [ ] 75-99 days completed
 - [x] Become better at using Markdown language
 - [x] Re-evaluate my goals and add/remove goals at least once
   - [x] Added a new goal about virtual environments
 - [x] Learn how, why and when I should use virtual environments
 - [x] Learn more about the different default interactive shells
-- [ ] Learn how to resolve git conflicts using the terminal
+- [x] Learn how to resolve git conflicts using the terminal
 - [x] Learn basic VIM commands
 
 ###### Open-source
@@ -47,14 +47,14 @@
 - [x] Use a single API call in an app
   - [x] Webcam Navigator web API
 - [x] Use multiple API calls in an app
-- [ ] Create a full-stack application
+- [x] Create a full-stack application
 - [ ] Make a simple app for mobile
 
 ###### Styling
 
 - [x] Learn basic CSS
-  - [ ] Understand how to center different elements vertically/horizontally using css
-  - [ ] Understart how to group elements
+  - [x] Understand how to center different elements vertically/horizontally using css
+  - [x] Understart how to group elements
 - [ ] Remix a project on Glitch
 - [ ] Export a project from Codepen and edit it localy
 
@@ -62,7 +62,7 @@
 
 - [x] Animate UI
   - [x] Increase the size of an element on click
-  - [ ] Animate a dropdown
+  - [x] Animate a dropdown
   - [ ] Animate movement in the background of a homepage
 - [x] Manipulate an image with code
   - [x] using get imageData and then processing the pixels. Day 11
