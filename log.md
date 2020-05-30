@@ -1,5 +1,32 @@
 # 100 Days Of Code - Log
 
+### Day 89: May 30, 2020
+
+**Today's Progress**: React router (more specifically adding path parameters), substrings (to solve visual uglyness of too long titles),
+
+**Thoughts**:
+
+**Experimented with**: The react-router-dom `<Link>` provides declarative, accessible navigation around the application. Now what does this provide in more detail? The Link element is similar to the anchore tag in HTML. Using the bare minimum of what the Link element provides you declare a **pathname** inside of the Link. In my case it looks like this:
+
+```javascript
+<Link to={{ pathname: `/recipe/${recipe.recipe_id}` }}>View Recipe</Link>
+```
+
+Pressing that link then leads to the **Recipe** component being rendered with the **recipe_id** attached to the URL.
+
+```javascript
+const Router = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" component={App} exact />
+      <Route path="/recipe/:id" component={Recipe} />
+    </Switch>
+  </BrowserRouter>
+);
+```
+
+**Link(s) to work**: If you want to learn more about **Link** or React Router I highly recommend this resource [reacttraining.com](https://reacttraining.com/react-router/web/api/Link). If you're into tutorials and want some guidance I really learnt a lot from [this tutorial](https://www.youtube.com/watch?v=PbJt7-a2274&list=WL&index=6&t=0s) by Hamza Mirza. You can also check out my [repo from this tutorial](). Clone it and try it out if you'd like. [My repo](https://github.com/Organwolf/Recipe-Application).
+
 ### Day 88: May 29, 2020
 
 **Today's Progress**: Breaking out logic into seperate components, added predefined css styling to JSX elements, setting bootstrap up as a dependency and importing the css indside of the index file. Lastly I encountered and used the style property.
@@ -51,7 +78,7 @@ Solved that with `npm audit fix`. The real progress was replacing the API used i
 **Thoughts**: I feel like I've leant a lot about docker. Stuff that I previously had no idea about. However things got a bit to technical and I can't really apply this knowledge to something practical right now therefor I'm letting go of this course for the time being.
 
 **Experimented with**: Networking in docker-compose.  
-One teqnique that is particularly useful is separating user generated traffic and the applicatiopns internal traffic.
+One teqnique that is particularly useful is separating user generated traffic and the applications internal traffic.
 
 Below is a bare bones docker-compose file with the architecture mentioned above. Two networks take care of two seperate functionalities in the application.
 
