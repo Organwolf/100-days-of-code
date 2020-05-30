@@ -2,9 +2,9 @@
 
 ### Day 89: May 30, 2020
 
-**Today's Progress**: React router (more specifically adding path parameters), substrings (to solve visual uglyness of too long titles),
+**Today's Progress**: React router (more specifically adding path parameters), substrings (to solve visual uglyness of too long titles), as well as general styling of a simple homepage.
 
-**Thoughts**:
+**Thoughts**: As I've said before I really appriciated this tutorial. It was a great recap and deep dive into how react-router-dom can be used. It was also an appropriate size both timewise and difficultywise.
 
 **Experimented with**: The react-router-dom `<Link>` provides declarative, accessible navigation around the application. Now what does this provide in more detail? The Link element is similar to the anchore tag in HTML. Using the bare minimum of what the Link element provides you declare a **pathname** inside of the Link. In my case it looks like this:
 
@@ -24,6 +24,12 @@ const Router = () => (
   </BrowserRouter>
 );
 ```
+
+I also improved the UI by capping the recipe titles at 20 characters. This stops the boxes that enclose the recipe components of becoming bigger when the title of the recipe is longer. Instead **...** is added at the end of the title.
+
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/before-substring.png" height="1000" width="600">
+
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/after-substring.png" height="1000" width="600">
 
 **Link(s) to work**: If you want to learn more about **Link** or React Router I highly recommend this resource [reacttraining.com](https://reacttraining.com/react-router/web/api/Link). If you're into tutorials and want some guidance I really learnt a lot from [this tutorial](https://www.youtube.com/watch?v=PbJt7-a2274&list=WL&index=6&t=0s) by Hamza Mirza. You can also check out my [repo from this tutorial](). Clone it and try it out if you'd like. [My repo](https://github.com/Organwolf/Recipe-Application).
 
