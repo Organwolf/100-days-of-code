@@ -11,9 +11,9 @@
 I've also started to formulate StackOverflow questions:
 
 - How can I configure gulp to handle arrow functions inside of class components within React?
-- how do I re-write a class component (specified logic for multiple checkboxes) with hooks?
+- How do I re-write a class component (give an example with logic for multiple checkboxes) with hooks?
 
-So far I haven't dared to ask any questions. And quite frankly, most things that I want to know/solve/ask can be found while using Google. I'd still like to get over that hurdle. Learning how to ask good questions is something that you learn through practise. I also want to tick of all of my goals that I had going into **100daysOfCode**. I might be able to complete them all. if I don't that isn't the end of the world.
+I haven't dared to ask any questions on SO yet. And quite frankly, most things that I want to know/solve/ask can be found while using Google. I'd still like to get over that hurdle. Learning how to ask good questions is something that you learn through practise. I also want to tick of all of my goals that I had going into **100daysOfCode**. I might be able to complete them all. if I don't that isn't the end of the world.
 
 **Link(s) to work**: The [tutorial](https://www.youtube.com/watch?v=C5cnZ-gZy2I) that I've started.
 
