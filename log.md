@@ -2,7 +2,7 @@
 
 ### Day 90: May 31, 2020
 
-**Today's Progress**: Getting into and preparing for working with an .NET Core application on my Mac.
+**Today's Progress**: Getting into and preparing for working with a .NET Core application on my Mac.
 
 **Thoughts**: I figured that this might be tricky. So far I've had to look into installing MSSQL (microsoft sql) on my mac via docker. Updating my version of Visual Studio for Mac and trying to figure out how to run an empty template of RazorPages (RP). I am considering installing Windows on my mac as it just seems simpler than trying to do something that is so Windosw centric on a Mac machine. We'll have to see how things play out though.
 
