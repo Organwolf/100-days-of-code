@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 90: May 31, 2020
+
+**Today's Progress**: Getting into and preparing for working with an .NET Core application on my Mac.
+
+**Thoughts**: I figured that this might be tricky. So far I've had to look into installing MSSQL (microsoft sql) on my mac via docker. Updating my version of Visual Studio for Mac and trying to figure out how to run an empty template of RazorPages (RP). I am considering installing Windows on my mac as it just seems simpler than trying to do something that is so Windosw centric on a Mac machine. We'll have to see how things play out though.
+
+**Experimented with**: So far I've learnt that RazorPages is a page-focused framework that is cross platform, C# centric and developed my Microsoft. If I've understood it correctly RP has something known as a PageModel which separates the UI layer and the processing/logic of the page. I've also learnt that RP partially replaces the MVC layout when working on simpler applications with a lot of read-only contenct and basic input.
+
+I've also started to formulate StackOverflow questions:
+
+- How can I configure gulp to handle arrow functions inside of class components within React?
+- how do I re-write a class component (specified logic for multiple checkboxes) with hooks?
+
+So far I haven't dared to ask any questions. And quite frankly, most things that I want to know/solve/ask can be found while using Google. I'd still like to get over that hurdle. Learning how to ask good questions is something that you learn through practise. I also want to tick of all of my goals that I had going into **100daysOfCode**. I might be able to complete them all. if I don't that isn't the end of the world.
+
+**Link(s) to work**: The [tutorial](https://www.youtube.com/watch?v=C5cnZ-gZy2I) that I've started.
+
 ### Day 89: May 30, 2020
 
 **Today's Progress**: React router (more specifically adding path parameters), substrings (to solve visual uglyness of too long titles), as well as general styling of a simple homepage.
