@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 91: June 1, 2020
+
+**Today's Progress**: Remixed a Glitch project to get to know the JavaScript library D3.js better.
+
+**Thoughts**: As I have mentioned before I like the aestetics of Glitch. I love naive illustrations and bright colors. I haven't [Glitch](https://glitch.com/) much but I really like the concept. If I've understood everything correctly you can even host applications of their site. It probably requires some type of paid membership but I still like that they provide both a community of developers, projects and hosting.
+
+**Experimented with**: D3, short for Data Driven Documents, uses the web standards: HTML, CSS, SVG to visualize data. D3.js can be used to "tell a story" with data. Scalable thanks to the use of SVG. Central principal of D3 is that it makes use of CSS style selectors to select nodes by tag, calss, identifier or attribute. It then manipulates those node in a manner similar to jQuery using get/set attributes, displaying text and adding styles.
+
+**Workflow: Data -> SVG container -> Create SVG elements from data**
+
+**Link(s) to work**: [My remixed Glitch Project that uses D3](https://glitch.com/~long-dull-payment), [A video I watched on D3](https://www.youtube.com/watch?v=_sqqxcRf9hw), [D3 Documentation](https://d3js.org/).
+
 ### Day 90: May 31, 2020
 
 **Today's Progress**: Getting into and preparing for working with a .NET Core application on my Mac.
