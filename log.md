@@ -44,9 +44,9 @@ const Router = () => (
 
 I also improved the UI by capping the recipe titles at 20 characters. This stops the boxes that enclose the recipe components of becoming bigger when the title of the recipe is longer. Instead **...** is added at the end of the title.
 
-<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/before-substring.png" width="500" height="300">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/before-substring.png" width="400" height="230">
 
-<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/after-substring.png" width="500" height="300">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/after-substring.png" width="400" height="230">
 
 **Link(s) to work**: If you want to learn more about **Link** or React Router I highly recommend this resource [reacttraining.com](https://reacttraining.com/react-router/web/api/Link). If you're into tutorials and want some guidance I really learnt a lot from [this tutorial](https://www.youtube.com/watch?v=PbJt7-a2274&list=WL&index=6&t=0s) by Hamza Mirza. You can also check out my [repo from this tutorial](). Clone it and try it out if you'd like. [My repo](https://github.com/Organwolf/Recipe-Application).
 
