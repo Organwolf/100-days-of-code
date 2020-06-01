@@ -10,8 +10,8 @@
 
 <p align="center">
 <img width="460" height="300" src="http://www.fillmurray.com/460/300">
-Workflow: Data -> SVG container -> Create SVG elements from data
 </p>
+Workflow: Data -> SVG container -> Create SVG elements from data
 
 **Link(s) to work**: [My remixed Glitch Project that uses D3](https://glitch.com/~long-dull-payment), [A video I watched on D3](https://www.youtube.com/watch?v=_sqqxcRf9hw), [D3 Documentation](https://d3js.org/).
 
