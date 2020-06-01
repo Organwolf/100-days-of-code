@@ -13,7 +13,11 @@
 </p>
 <p align="center">Workflow: Data -> SVG container -> Create SVG elements from data</p>
 
-**Link(s) to work**: [My remixed Glitch Project that uses D3](https://glitch.com/~long-dull-payment), [A video I watched on D3](https://www.youtube.com/watch?v=_sqqxcRf9hw), [D3 Documentation](https://d3js.org/).
+**Link(s) to work**:
+
+- [My remixed Glitch Project that uses D3](https://glitch.com/~long-dull-payment)
+- [A video I watched on D3](https://www.youtube.com/watch?v=_sqqxcRf9hw)
+- [D3 Documentation](https://d3js.org/).
 
 ### Day 90: May 31, 2020
 
