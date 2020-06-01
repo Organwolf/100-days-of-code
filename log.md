@@ -9,6 +9,7 @@
 **Experimented with**: D3, short for Data Driven Documents, uses the web standards: HTML, CSS, SVG to visualize data. D3.js can be used to "tell a story" with data. Scalable thanks to the use of SVG. Central principal of D3 is that it makes use of CSS style selectors to select nodes by tag, calss, identifier or attribute. It then manipulates those node in a manner similar to jQuery using get/set attributes, displaying text and adding styles.
 
 <p align="center">
+<img width="460" height="300" src="http://www.fillmurray.com/460/300">
 Workflow: Data -> SVG container -> Create SVG elements from data
 </p>
 
