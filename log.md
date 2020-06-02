@@ -1,5 +1,73 @@
 # 100 Days Of Code - Log
 
+### Day 22: March 24, 2020
+
+**Today's Progress**: Learning more about web APIs as well as catching up on my C# skills.
+
+**Thoughts**: As usual I really liked working in the terminal. I had some problems while installing the dotnet SDK. I forgot that I had to restart my Unix shell for it to work. After a restart I was up and running. Todays code is basic but I appriciate the repetition and I kept forgetting to add **;** at the end of my lines. I'd also forgotten how to import a library into a **C#** project.
+
+**Experimented with**: I'm taking a Microsoft Web API course as preparation for a job I'm applying for. Here are some cut outs I wanted to hold on to as well as share.
+
+<hr />
+
+> If an application can provide data and/or computing power across a web, we call it a web server.
+
+> If a web service acts as the wrapper of class libraries and just exposes remote computing ability, we call it Web API.
+
+<hr />
+
+I created my first dotnet application using the CLI
+
+```dotnet
+dotnet --version
+dotnet new console --name MyApp
+dotnet add package Newtonsoft.Json
+dotnet restore
+dotnet build
+dotnet run
+
+// Output:
+Hello World!
+```
+
+Inside the application folder of MyApp I wrote code to serialize and deserialize objects.
+
+`code .`
+
+```csharp
+using Newtonsoft.Json;
+
+namespace MyApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var product1 = new Product { ID = 101, Name = "Sven", Price = 2.0 };
+
+            // Serialize
+            var jsonString = JsonConvert.SerializeObject(product1);
+            System.Console.WriteLine(jsonString);
+
+            // Deserialize
+            var product2 = JsonConvert.DeserializeObject<Product>(jsonString);
+            System.Console.WriteLine($"The Product ID is {product2.ID}");
+        }
+    }
+
+    class Product
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public double Price { get; set; }
+    }
+}
+```
+
+I also did something similar in JavaScript using `JSON.stringify(myObject)` to serialize data and `JSON.parse(json)` to deserialize it.
+
+**Link(s) to work**: Check the appended code.
+
 ### Day 91: June 1, 2020
 
 **Today's Progress**: Remixed a Glitch project to get to know the JavaScript library D3.js better.
