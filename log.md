@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 22: March 24, 2020
+### Day 92: June 2, 2020
 
 **Today's Progress**: Learning more about web APIs as well as catching up on my C# skills.
 
