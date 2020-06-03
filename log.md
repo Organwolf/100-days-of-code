@@ -4,9 +4,11 @@
 
 **Today's Progress**: Worked on _"Tutorial: Create a web API with ASP.NET Core"_. This time going straight to the source instead of starting a course on [Edx.org](www.edx.org) that is 3 years old and archived. Learning by doing.
 
-**Thoughts**: Getting some pointers when it comes to navigating **Visual Studio for Mac** is very much appriciated. I also like the mixture of adding code to the project in VS as well as installing packages using the .NET Core CLI.  
+**Thoughts**: Getting some pointers when it comes to navigating **Visual Studio for Mac** is very much appriciated. I also like the mixture of adding code to the project in VS as well as installing packages using the .NET Core CLI.
+
 `dotnet aspnet-codegenerator controller -name TodoItemsController`  
-`-async -api -m TodoItem -dc TodoContext -outDir Controllers`  
+`-async -api -m TodoItem -dc TodoContext -outDir Controllers`
+
 What a one liner!
 
 **Experimented with**: Creating a web API project in Visual Studio, Entity Framework and Scaffolding a controller.
