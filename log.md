@@ -5,20 +5,21 @@
 **Today's Progress**: Worked on _"Tutorial: Create a web API with ASP.NET Core"_. This time going straight to the source instead of starting a course on [Edx.org](www.edx.org) which is 3 years old and archived. Learning by doing.
 
 **Thoughts**: Getting some pointers when it comes to navigating **Visual Studio for Mac** is very much appriciated. I also like the mixture of adding code to the project in VS as well as installing packages using the .NET Core CLI.  
-`dotnet aspnet-codegenerator controller -name TodoItemsController -async -api -m TodoItem -dc TodoContext -outDir Controllers`  
+`dotnet aspnet-codegenerator controller -name TodoItemsController`
+`-async -api -m TodoItem -dc TodoContext -outDir Controllers`  
 What a one liner!
 
 **Experimented with**: Creating a web API project in Visual Studio, Entity Framework and Scaffolding a controller.
 
 Some random stuff that I learnt along the way today:
 
+`dotnet restore` - Restores the dependencies and tools of a project.
+
 > There are various web server software applications like Internet Information Server (IIS), Apache Tomcat, NodeJS, Nginx, Jetty, and so on. The web server software plays the role of the container for web applications. It receives HTTP requests from clients, regardless whether the client is a smartphone or a desktop application. They then forward the information included in the requests to the web applications which are sitting in the container. After the web application takes actions based on the request and generates a proper result, such as a JSON string, the web server will wrap the result in an HTTP response and send the response back to the client. In short, a web server’s job is to accept requests and send responses back; the jobs of serialization, deserialization, and computing actions are performed by web applications, not by the web server.
 
 So hosting is one thing and computing actions and so on is done by the actual web app.
 
 > Please note, not all web applications need web servers. For example, web applications created using Node or ASP.NET Core can be self-hosted, meaning they don't need the web server to accept the HTTP request and send back the HTTP response, they can do it themselves.
-
-`dotnet restore` - Restores the dependencies and tools of a project.
 
 > A model is a set of classes that represent the data that the app manages. The model for this app is a single TodoItem class.
 
@@ -28,7 +29,7 @@ So hosting is one thing and computing actions and so on is done by the actual we
 
 In another project I worked with JavaScript. More specifically [splitting](https://www.w3schools.com/jsref/jsref_split.asp) strings and checking if the start of the splitted string was [included](https://www.w3schools.com/jsref/jsref_includes_array.asp) inside of an array. I also created a method with three parameters. One which I set to a [default parameter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters).
 
-**Link(s) to work**: [Microsoft tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio-mac#routing-and-url-paths) next up is routing.
+**Link(s) to work**: [Microsoft tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio-mac#routing-and-url-paths), next up is routing.
 
 ### Day 92: June 2, 2020
 
