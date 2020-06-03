@@ -2,10 +2,10 @@
 
 ### Day 93: June 3, 2020
 
-**Today's Progress**: Worked on _"Tutorial: Create a web API with ASP.NET Core"_. This time going straight to the source instead of starting a course on [Edx.org](www.edx.org) which is 3 years old and archived. Learning by doing.
+**Today's Progress**: Worked on _"Tutorial: Create a web API with ASP.NET Core"_. This time going straight to the source instead of starting a course on [Edx.org](www.edx.org) that is 3 years old and archived. Learning by doing.
 
 **Thoughts**: Getting some pointers when it comes to navigating **Visual Studio for Mac** is very much appriciated. I also like the mixture of adding code to the project in VS as well as installing packages using the .NET Core CLI.  
-`dotnet aspnet-codegenerator controller -name TodoItemsController`
+`dotnet aspnet-codegenerator controller -name TodoItemsController`  
 `-async -api -m TodoItem -dc TodoContext -outDir Controllers`  
 What a one liner!
 
@@ -17,7 +17,7 @@ Some random stuff that I learnt along the way today:
 
 > There are various web server software applications like Internet Information Server (IIS), Apache Tomcat, NodeJS, Nginx, Jetty, and so on. The web server software plays the role of the container for web applications. It receives HTTP requests from clients, regardless whether the client is a smartphone or a desktop application. They then forward the information included in the requests to the web applications which are sitting in the container. After the web application takes actions based on the request and generates a proper result, such as a JSON string, the web server will wrap the result in an HTTP response and send the response back to the client. In short, a web server’s job is to accept requests and send responses back; the jobs of serialization, deserialization, and computing actions are performed by web applications, not by the web server.
 
-So hosting is one thing and computing actions and so on is done by the actual web app.
+So, hosting is one thing and computing actions and so on is done by the actual web app.
 
 > Please note, not all web applications need web servers. For example, web applications created using Node or ASP.NET Core can be self-hosted, meaning they don't need the web server to accept the HTTP request and send back the HTTP response, they can do it themselves.
 
