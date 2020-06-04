@@ -1,5 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 94: June 4, 2020
+
+**Today's Progress**: Created an ASP.NET Core App.
+
+**Thoughts**: The structure enforced by the developers behind ASP.NET is both unfamiliar and re-assuring. The MVC structure creates a clean project structure.
+
+**Experimented with**: Using a subset of the model, for security reasons, also called Data Transfer Object (DTO), or input model, or view model. This prevents over-posting, reduces payload size by omitting some properties, and flatten object graphs that contain nested objects.
+
+I configure the launchSettings.json, read more about the ASP.NET Core structure. I havn't encountered the **wwwroot** before. Apparently the files inside the web root (wwwroot) can be served via a http request.
+
+I followed and completed the following:
+
+Create a web API
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio-mac#routing-and-url-paths
+
+Web API with JavaScript
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-javascript?view=aspnetcore-3.1
+
+**Link(s) to work**: [TodoApi](https://github.com/Organwolf/TodoApi)
+
 ### Day 93: June 3, 2020
 
 **Today's Progress**: Worked on _"Tutorial: Create a web API with ASP.NET Core"_. This time going straight to the source instead of starting a course on [Edx.org](www.edx.org) that is 3 years old and archived. Learning by doing.
