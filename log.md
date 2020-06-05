@@ -1,5 +1,33 @@
 # 100 Days Of Code - Log
 
+### Day 95: June 5, 2020
+
+**Today's Progress**: Encountered a bunch of problems when trying to create an app while following a tutorial. For some reason the tutorial, which is fairly new, had a dependency to bootstrap 2 which is old and no longer officially supported. The progress today was in solving the problem with the dependency.
+
+**Thoughts**: I'm feeling that I'm getting close to the finish line. I recognise the fatigue and a kind of lack of motivation. In the past I've had a hard time completing projects. So in that sense this is a big thing for me. I have actually appriciated writing about my progress in this
+
+**Experimented with**: So far I've set up a base structure with a wrapper and main component that are responsible for the "zoomed" out style of the project. Centering the main content, setting a max height, etc.
+
+```scss
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+```
+
+I'm looking forward to completing this tutorial and afterwards I hope that I've gathered enough courage to refactor (or re-create) my todo-app with hooks. We'll see how things pan out. I'm also looking forward to wrap my head around scss if I'm given the chanse. I might try to sort some things out with VS code too. See if I can improve my work flow by adding/removing extensions and browsing the web for tips.
+
+Stay safe out there!
+
+**Link(s) to work**: [Current tutorial](https://www.youtube.com/watch?v=At_5xYramLk)
+
 ### Day 94: June 4, 2020
 
 **Today's Progress**: Created an ASP.NET Core App.
