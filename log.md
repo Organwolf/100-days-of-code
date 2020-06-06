@@ -20,6 +20,8 @@ This simple structure divides the styling, makes the code easier to read and mos
 
 **Experimented with**: useState and useContext mainly.
 
+<img src="" width="950" height="700" alt="weather application"/>
+
 **Link(s) to work**: [Weather app project](https://github.com/Organwolf/weather-app)
 
 ### Day 95: June 5, 2020
