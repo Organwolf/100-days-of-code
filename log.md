@@ -65,10 +65,11 @@ export default WeatherData;
 
 Where the props city and weather are passed down via the Context API.
 
-**Link(s) to work**:  
-[Weather app project](https://github.com/Organwolf/weather-app)  
-[Hooks at a glance](https://reactjs.org/docs/hooks-overview.html)  
-[Context API](https://reactjs.org/docs/context.html)
+**Link(s) to work**:
+
+- [Weather app project](https://github.com/Organwolf/weather-app)
+- [Hooks at a glance](https://reactjs.org/docs/hooks-overview.html)
+- [Context API](https://reactjs.org/docs/context.html)
 
 ### Day 95: June 5, 2020
 
