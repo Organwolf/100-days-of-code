@@ -2,11 +2,11 @@
 
 ### Day 96: June 6, 2020
 
-**Today's Progress**: Finished an app that uses **useState**, **useEffect** and **useContext** to deliver the current weather of a location. A user types in the city he/she wishes to get the current temperature, humidity and pressure from and that is retrieved from the [OpenWeather](https://openweathermap.org) api. Some error handling is also set up to catch an empty input field. The finished app is a single page application that looks like this:
+**Today's Progress**: Finished an app that uses **useState**, **useEffect** and **useContext** to deliver the current weather of a location. A user types in the city he/she wishes to get the current temperature, humidity and pressure from and that is retrieved from the [OpenWeather](https://openweathermap.org) api. Some error handling is also set up to catch an empty input field. The finished app is a single page application (SPA) that looks like this:
 
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/weather-app.png" width="950" height="700" alt="weather application">
 
-**Thoughts**: I have a lot to learn from how this app is structured. Not sure if this is the actuall convention (if there is any). That would probably depend on what application you are developing on further thought. Either way, I like how a wrapper takes responsibility of centering the content, as well as adding some padding. After the wrapper the entire component, due to its small size, fits into a main component.
+**Thoughts**: I have a lot to learn from how this app is structured. Not sure if this is the actual convention (if there is any) for an SPA. On further thought that would depend on what application you are developing. Either way, I like how a wrapper takes responsibility of centering the content, as well as adding some padding. After the wrapper the entire component, due to its small size, fits into a main component.
 
 ```javascript
 const App = () => {
@@ -18,7 +18,25 @@ const App = () => {
 };
 ```
 
-This simple structure divides the styling, makes the code easier to read and most likely makes it easier to maintain.
+This simple structure divides the styling, makes the code easier to read and most likely makes it easier to maintain. The **Main** component contains the "business logic" and inside the return of the main component the structure of the UI is set.
+
+```javascript
+return (
+  <div className="main">
+    <Header />
+    <Content>
+      <DateTime />
+      <Tagline />
+      <Context.Provider value={{ api_call, weather, city }}>
+        <WeatherSearch />
+        {weather && <WeatherData />}
+        {error && <Error error={error} />}
+      </Context.Provider>
+      <Footer />
+    </Content>
+  </div>
+);
+```
 
 **Experimented with**: useState and useContext mainly.
 
