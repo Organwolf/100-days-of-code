@@ -67,7 +67,8 @@ Where the props city and weather are passed down via the Context API.
 
 **Link(s) to work**:
 
-- [Weather app project](https://github.com/Organwolf/weather-app)
+- [Weather app repo](https://github.com/Organwolf/weather-app)
+- [Original tutorial](https://www.youtube.com/watch?v=At_5xYramLk)
 - [Hooks at a glance](https://reactjs.org/docs/hooks-overview.html)
 - [Context API](https://reactjs.org/docs/context.html)
 
