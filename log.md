@@ -1,5 +1,29 @@
 # 100 Days Of Code - Log
 
+### Day 96: June 6, 2020
+
+**Today's Progress**: Finished an app that uses **useState**, **useEffect** and **useContext** to deliver the current weather of a location.
+
+**Thoughts**: I have a lot to learn from how this app is structured. Not sure if this is the actuall convention (if there is any). That would probably depend on what application you are developing on further thought. Either way, I like how a wrapper takes responsibility of centering the content, as well as adding some padding. After the wrapper the entire component, due to its small size, fits into a main component.
+
+```javascript
+const App = () => {
+  return (
+    <Wrapper>
+      <Main />
+    </Wrapper>
+  );
+};
+```
+
+This simple yet effective structure divides the styling, makes the code easier to read and most likely makes it easier to maintain.
+
+**Experimented with**: useState and useContext mainly.
+
+**Link(s) to work**: [Weather app project](https://github.com/Organwolf/weather-app)
+
+https://gist.github.com/rxaviers/7360908
+
 ### Day 95: June 5, 2020
 
 **Today's Progress**: Encountered a bunch of problems when trying to create an app while following a tutorial. For some reason the tutorial, which is fairly new, had a dependency to bootstrap 2 which is old and no longer officially supported. The progress today was in solving the problem with the dependency.
