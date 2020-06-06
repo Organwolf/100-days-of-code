@@ -20,7 +20,7 @@ This simple structure divides the styling, makes the code easier to read and mos
 
 **Experimented with**: useState and useContext mainly.
 
-<img src="" width="950" height="700" alt="weather application"/>
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/weather-app.png" width="950" height="700" alt="weather application">
 
 **Link(s) to work**: [Weather app project](https://github.com/Organwolf/weather-app)
 
