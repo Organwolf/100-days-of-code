@@ -38,9 +38,37 @@ return (
 );
 ```
 
-**Experimented with**: useState and useContext mainly.
+**Experimented with**: useState and useContext. Hooks, according to the offical documentation, are functions that let you "hook into" React state and lifecycle features from function components. The useState hook is a built-in hook which can add some local state inside a functional component. The syntax looks like this:
 
-**Link(s) to work**: [Weather app project](https://github.com/Organwolf/weather-app)
+```javascript
+const [city, setCity] = useState();
+```
+
+The array destructuring allows us to give names to the state variables we are declaring. In this case the state is name _city_ and the function that should be used to change that part of the state is called _setCity_.
+
+Context on the other hand provides a way to pass data through the component tree without having to pass props down manually at every level, also known as props drilling. To use the context api you declare the context in its own file. Then wrap the components you want to provide with data and passing the functions or values you want to pass down via a _value_ property. In the components that want to make use of the values provided by the context the _useContext_ hook is imported. Continuing with the Weather App example above the WeatherData component looks like this:
+
+```javascript
+import React, { useContext } from "react";
+import Context from "../Context";
+
+const WeatherData = () => {
+  const { city, weather } = useContext(Context);
+  const { temp, humidity, pressure } = weather;
+  return (
+    // important JSX lives here
+  );
+};
+
+export default WeatherData;
+```
+
+Where the props city and weather are passed down via the Context API.
+
+**Link(s) to work**:  
+[Weather app project](https://github.com/Organwolf/weather-app)  
+[Hooks at a glance](https://reactjs.org/docs/hooks-overview.html)  
+[Context API](https://reactjs.org/docs/context.html)
 
 ### Day 95: June 5, 2020
 
