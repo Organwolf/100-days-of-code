@@ -6,7 +6,7 @@
 
 **Thoughts**: A fun project. These past months I've worked a lot with JavaScript. I've sprinkled in some C# along the way but this is my first python app made during the 100daysOfCode challange.
 
-**Experimented with**: Tinder, according to themselves, is
+**Experimented with**: automating Tinder swiping. Tinder, according to themselves, is
 
 > ... a geosocial networking and online dating application that allows users to anonymously swipe to like or dislike other profiles based on their photos, a small bio, and common interests.
 > And Tinder is the application I've partially automated.
