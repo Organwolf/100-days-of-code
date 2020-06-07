@@ -1,10 +1,10 @@
 # 100 Days Of Code - Log
 
-### Day 22: March 24, 2020
+### Day 97: June 7, 2020
 
-**Today's Progress**: Created a Tinder bot that auto-swipes for me by using python, selenium and chromedriver. I also took the time to add my mail and password as environmental variables. Making it easier for me to publish my code safely.
+**Today's Progress**: Created a Tinder bot that auto-swipes for me by using python, selenium and chromedriver. I also took the time to add my mail and password as environmental variables. Making it easier for me to publish my code safely. I also got to use a virtual environment typing `source venv/bin/activate` to enter the environment and `deactivate` to deactivate it. I also used nano to create and edit a .env file learning that `Ctrl + O` (WriteOut/Save) and `Ctrl + X`(Exit).
 
-**Thoughts**: A fun project. These past months I've worked a lot with JavaScript. I've sprinkled in some C# along the way but this is my first python app made during the 100daysOfCode challange. I also got to use a virtual environment typing `source venv/bin/activate` to enter the environment and `deactivate` to deactivate it.
+**Thoughts**: A fun project. These past months I've worked a lot with JavaScript. I've sprinkled in some C# along the way but this is my first python app made during the 100daysOfCode challange.
 
 **Experimented with**: Tinder, according to themselves, is
 
@@ -20,18 +20,12 @@ email_in = self.driver.find_element_by_xpath('//*[@id="identifierId"]')
 ```
 
 **Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
 
-python
-source venv/bin/activate
-(deactivate to close)
+- [My implementations repo](https://github.com/Organwolf/tinder_bot/tree/master)
 
-selenium and chromesomething
-nano - Ctrl + O (WriteOut) - Ctrl + X (Exit)
-
-Links: https://able.bio/rhett/how-to-set-and-get-environment-variables-in-python--274rgt5
-https://www.youtube.com/watch?v=lvFAuUcowT4
-https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/
+- [How to set and get environment variables in python](https://able.bio/rhett/how-to-set-and-get-environment-variables-in-python--274rgt5)
+- [Tutorial I followed](https://www.youtube.com/watch?v=lvFAuUcowT4)
+- [Chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/)
 
 ### Day 96: June 6, 2020
 
