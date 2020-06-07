@@ -2,7 +2,7 @@
 
 ### Day 97: June 7, 2020
 
-**Today's Progress**: Created a Tinder bot that auto-swipes for me by using python, selenium and chromedriver. I also took the time to add my mail and password as environmental variables. Making it easier for me to publish my code safely. I also got to use a virtual environment typing `source venv/bin/activate` to enter the environment and `deactivate` to deactivate it. I also used nano to create and edit a .env file learning that `Ctrl + O` (WriteOut/Save) and `Ctrl + X`(Exit).
+**Today's Progress**: Created a Tinder bot that auto-swipes for me by using python, selenium and chromedriver. I also took the time to add my mail and password as environmental variables. Making it easier for me to publish my code safely. I also got to use a virtual environment typing `source venv/bin/activate` to enter the environment and `deactivate` to deactivate it. I also used nano to create and edit a .env file learning that `Ctrl + O` (WriteOut/Save) and `Ctrl + X` (Exit).
 
 **Thoughts**: A fun project. These past months I've worked a lot with JavaScript. I've sprinkled in some C# along the way but this is my first python app made during the 100daysOfCode challange.
 
