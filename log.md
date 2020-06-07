@@ -1,5 +1,38 @@
 # 100 Days Of Code - Log
 
+### Day 22: March 24, 2020
+
+**Today's Progress**: Created a Tinder bot that auto-swipes for me by using python, selenium and chromedriver. I also took the time to add my mail and password as environmental variables. Making it easier for me to publish my code safely.
+
+**Thoughts**: A fun project. These past months I've worked a lot with JavaScript. I've sprinkled in some C# along the way but this is my first python app made during the 100daysOfCode challange. I also got to use a virtual environment typing `source venv/bin/activate` to enter the environment and `deactivate` to deactivate it.
+
+**Experimented with**: Tinder, according to themselves, is
+
+> ... a geosocial networking and online dating application that allows users to anonymously swipe to like or dislike other profiles based on their photos, a small bio, and common interests.
+> And Tinder is the application I've partially automated.
+
+[Selenium](https://www.selenium.dev/) automates browsers. Meaning that it can be used to automate testing as well as automate swiping! Selenium can be set up with most major browsers by using different [drivers](https://selenium-python.readthedocs.io/installation.html#drivers). I used the WebDriver from selenium to interact with my chrome browser. The WebDriver is a collection of open source APIs that accepts commands and sends them to a browser. The Selenium WebDriver supports Java, C#, Python, Perl, Ruby. It also has [language bindings](https://www.selenium.dev/ecosystem/) for Go, Haskel, JavaScript and a couple more programming languages.
+
+To interact with the browser I had to copy the xpath of the buttons and input fields needed to visit, login, swipe, close popups, etc. XPath uses path expressions to select nodes or node-sets in an XML document. Below is an example showing how the XPath can be used to connect with the email input field.
+
+```python
+email_in = self.driver.find_element_by_xpath('//*[@id="identifierId"]')
+```
+
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
+python
+source venv/bin/activate
+(deactivate to close)
+
+selenium and chromesomething
+nano - Ctrl + O (WriteOut) - Ctrl + X (Exit)
+
+Links: https://able.bio/rhett/how-to-set-and-get-environment-variables-in-python--274rgt5
+https://www.youtube.com/watch?v=lvFAuUcowT4
+https://chromedriver.storage.googleapis.com/index.html?path=83.0.4103.39/
+
 ### Day 96: June 6, 2020
 
 **Today's Progress**: Finished an app that uses **useState**, **useEffect** and **useContext** to deliver the current weather of a location. A user types in the city he/she wishes to get the current temperature, humidity and pressure from and that is retrieved from the [OpenWeather](https://openweathermap.org) api. Some error handling is also set up to catch an empty input field. The finished app is a single page application (SPA) that looks like this:
