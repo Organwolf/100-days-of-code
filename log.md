@@ -1,20 +1,24 @@
 # 100 Days Of Code - Log
 
-Hex arcs - codepen
-https://vincentgarreau.com/particles.js/
-the codepen I played around with
-
 ### Day 98: March 24, 2020
 
-**Today's Progress**: I dipped a toe into the ocean of Codepens, found one that looked nice and seemed simple enough for me to play around with and did just that.
+**Today's Progress**: I dipped a toe into the ocean of Codepens, found one that looked nice and seemed simple enough for me to play around with and did just that. I also started to unfold ASP.NET. Wrapping my head around the MVC-patterns implementation in .NET Core. My brain feels scrambled right now but I'm sure that things will land, pan out, and become understandable. The MVC-pattern in itself isn't too complicated. It more or less comes down to how a framework has implemented all of the seperate functionalities inside of that MVC-pattern.
+
+**Thoughts**: I was planning on refactoring a todo app I make at the beginning of this challange. Remove the Redux part and replace it with the Context API. However, things didn't turn out as I'd planned. Either way, I got tons done and crammed so much stuff into my brain that I'll be dreaming about programming tonight.
+
+**Experimented with**: A Codepen that used hexes and arcs to create pseudo random patterns that shift when you click. After playing around with the code I produced the pattern below!
 
 <p align="center">
-<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/hex-arcs.png" height="700" width="700"/>
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/hex-arcs.png" height="518" width="578"/>
 </p>
-**Thoughts**:
-**Experimented with**:
-**Link(s) to work**:
-https://gist.github.com/rxaviers/7360908
+<p align="center">
+Original Pen can be found [here](https://codepen.io/DonKarlssonSan/pen/PoZwWwX).
+</p>
+
+Worked with ASP.NET creating a database through the EntityFramework. Using EntityFramework tools to migrate and update the database. I also used runtime compilation to be able to see changes in the running version without having to stop and start the solution.  
+A lot to take in. Just dependency injection, installing the right NuGet packages, working with .NETs conventional routing, partial views etc. A lot of which is mostly words at the moment. The fact that I have touched all of these things make them more accessable.
+
+**Link(s) to work**: [My hex arcs](https://github.com/Organwolf/hex-arcs), [ASP.NET Core MVC tutorial](https://youtu.be/C5cnZ-gZy2I?t=9519) I completed today.
 
 ### Day 97: June 7, 2020
 
