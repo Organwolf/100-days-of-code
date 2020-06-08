@@ -1,5 +1,9 @@
 # 100 Days Of Code - Log
 
+Hex arcs - codepen
+https://vincentgarreau.com/particles.js/
+the codepen I played around with
+
 ### Day 97: June 7, 2020
 
 **Today's Progress**: Created a Tinder bot that auto-swipes using python, selenium and chromedriver. I also took the time to add my mail and password as environmental variables. Making it easier for me to publish my code safely. I also got to use a virtual environment typing `source venv/bin/activate` to enter the environment and `deactivate` to deactivate it. I also used nano to create and edit a .env file learning that `Ctrl + O` (WriteOut/Save) and `Ctrl + X` (Exit).
