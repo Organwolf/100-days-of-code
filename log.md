@@ -4,6 +4,18 @@ Hex arcs - codepen
 https://vincentgarreau.com/particles.js/
 the codepen I played around with
 
+### Day 98: March 24, 2020
+
+**Today's Progress**: I dipped a toe into the ocean of Codepens, found one that looked nice and seemed simple enough for me to play around with and did just that.
+
+<p align="center">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/hex-arcs.png" height="700" width="700"/>
+</p>
+**Thoughts**:
+**Experimented with**:
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
 ### Day 97: June 7, 2020
 
 **Today's Progress**: Created a Tinder bot that auto-swipes using python, selenium and chromedriver. I also took the time to add my mail and password as environmental variables. Making it easier for me to publish my code safely. I also got to use a virtual environment typing `source venv/bin/activate` to enter the environment and `deactivate` to deactivate it. I also used nano to create and edit a .env file learning that `Ctrl + O` (WriteOut/Save) and `Ctrl + X` (Exit).
