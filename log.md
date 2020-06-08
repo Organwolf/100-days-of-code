@@ -16,7 +16,7 @@
 Worked with ASP.NET creating a database through the EntityFramework. Using EntityFramework tools to migrate and update the database. I also used runtime compilation to be able to see changes in the running version without having to stop and start the solution.  
 A lot to take in. Just dependency injection, installing the right NuGet packages, working with .NETs conventional routing, partial views etc. A lot of which is mostly words at the moment. The fact that I have touched all of these things make them more accessable.
 
-**Link(s) to work**: [My hex arcs](https://github.com/Organwolf/hex-arcs), [ASP.NET Core MVC tutorial](https://youtu.be/C5cnZ-gZy2I?t=9519) I completed today.
+**Link(s) to work**: [My hex arcs](https://github.com/Organwolf/hex-arcs) and the [ASP.NET Core MVC tutorial](https://youtu.be/C5cnZ-gZy2I?t=9519) I completed today.
 
 ### Day 97: June 7, 2020
 
