@@ -4,16 +4,14 @@
 
 **Today's Progress**: I dipped a toe into the ocean of [codepens](https://codepen.io/), found one that looked nice, and play around with for a while. I also started to unfold ASP.NET. Wrapping my head around the MVC-patterns implementation in .NET Core. My brain feels _scrambled_ right now but I'm sure that things will land, pan out, and become more understandable with time.
 
-**Thoughts**: I was planning on refactoring a todo app I make at the beginning of this challange. Remove the Redux part and replace it with the Context API. However, things didn't turn out as I'd planned. Either way, I got tons done and crammed so much stuff into my brain that I'll be dreaming about programming tonight.
+**Thoughts**: I was planning on refactoring my todo app today. Remove the Redux part and replace it with the Context API. However, things didn't turn out as I'd planned. Either way, I got tons done and crammed so much stuff into my brain that I'll be dreaming about programming tonight.
 
 **Experimented with**: A Codepen that used hexes and arcs to create pseudo random patterns that shift when you click. After playing around with the code I produced the pattern below!
 
 <p align="center">
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/hex-arcs.png" height="518" width="578"/>
 </p>
-<p align="center">
-Original Pen can be found [here](https://codepen.io/DonKarlssonSan/pen/PoZwWwX).
-</p>
+<p align="center">Original Pen can be found <a href="https://codepen.io/DonKarlssonSan/pen/PoZwWwX">here</a>.</p>
 
 Worked with ASP.NET creating a database through the EntityFramework. Using EntityFramework tools to migrate and update the database. I also used runtime compilation to be able to see changes in the running version without having to stop and start the solution.  
 A lot to take in. Just dependency injection, installing the right NuGet packages, working with .NETs conventional routing, partial views etc. A lot of which is mostly words at the moment. The fact that I have touched all of these things make them more accessable.
