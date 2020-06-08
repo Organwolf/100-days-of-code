@@ -55,27 +55,27 @@
 - [x] Learn basic CSS
   - [x] Understand how to center different elements vertically/horizontally using css
   - [x] Understart how to group elements
-- [ ] Remix a project on Glitch
-- [ ] Export a project from Codepen and edit it localy
+- [x] Remix a project on Glitch
+- [x] Export a project from Codepen and edit it localy
 
 ###### Sound/visuals
 
 - [x] Animate UI
   - [x] Increase the size of an element on click
   - [x] Animate a dropdown
-  - [ ] Animate movement in the background of a homepage
+  - [x] Animate movement in the background of a homepage
 - [x] Manipulate an image with code
   - [x] using get imageData and then processing the pixels. Day 11
 - [x] Trigger sound via code
   - [x] snap sound taking pictures. Day 11
   - [x] alarm sound on timer completion. Day 27
-- [ ] Trigger visuals via code
+- [x] Trigger visuals via code
 
 ###### Automation
 
-- [ ] use AI for something
-- [ ] Create a simple bot
-- [ ] Automate something via code
+- [ ] Use AI for something
+- [x] Create a simple bot
+- [x] Automate something via code
 
 ###### Stack Overflow
 
