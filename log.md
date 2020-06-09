@@ -6,7 +6,7 @@
 
 **Thoughts**: Just casually trying to throw in some AI stuff at the end of this challange was a bit naive. I'll admit that. And reading through the [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) was confusing. Although I've taken linear algebra at University I haven't really used it in the _"real world"_ since. After casually skimming through the blitz I tried to train a classifier on my machine but ran in to trouble. Luckily you could run the code in Google Colab. So, with a lot of help, I managed to train my first neural network!
 
-**Experimented with**: The python library Pytorch. According to [pytorch.org](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py)
+**Experimented with**: The python library Pytorch as well as an ASP.NET Core MVC app. According to [pytorch.org](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py)
 
 > PyTorch is a scientific computing package targeting two audiences: A replacement for NumPy to use the power of GPUs, a deep learning research platform that provides maximum flexibility and speed.
 
@@ -37,8 +37,6 @@ Being able to solve these small problems was really encouraging.
 
 - [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
 - [Create a web app with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/?view=aspnetcore-3.1)
-
-https://gist.github.com/rxaviers/7360908
 
 ### Day 98: June 8, 2020
 
