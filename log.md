@@ -2,9 +2,9 @@
 
 ### Day 99: March 24, 2020
 
-**Today's Progress**: Completed Deep Learning with PyTorch: A 60 Minute Blitz and kept working on understanding more of the architecture of ASP.NET MVC Web Apps.
+**Today's Progress**: Completed [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) and kept working on understanding more of the architecture of ASP.NET MVC Web Apps.
 
-**Thoughts**: Just casually trying to throw in some AI stuff at the end of this challange was a bit naive. I'll admit that. And reading through the [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) was confusing. Although I've taken linear algebra at University I havn't really used it in the _"real world"_. After casually skimming through the blitz I tried to train a classifier on my machine but ran in to trouble. Luckily you could run the code in Google Colab. So, with a lot of help, I managed to train my first neural network!
+**Thoughts**: Just casually trying to throw in some AI stuff at the end of this challange was a bit naive. I'll admit that. And reading through the [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) was confusing. Although I've taken linear algebra at University I haven't really used it in the _"real world"_ since. After casually skimming through the blitz I tried to train a classifier on my machine but ran in to trouble. Luckily you could run the code in Google Colab. So, with a lot of help, I managed to train my first neural network!
 
 **Experimented with**: The python library Pytorch. According to [pytorch.org](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py)
 
@@ -15,10 +15,28 @@ The tutorial uses the [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.h
 <p align="center">
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/CIFAR10-result.png" height="141" width="381">
 </p>
+<p align="center">
+The networks predictions.
+</p>
 
 <br />
 
+I also worked on the [Create a web app with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/?view=aspnetcore-3.1) and managed to get half way through the tutorial. Writing down a lot along the way. Mainly to get a better understanding of how ASP.NET Core MVC apps are structured but also with the goal to be able to leverage ASP.NET for my own web development in the future.
+
+Encountered a couple of problems along the way. The first major problem concerned the dotnet ef tool. Ef standing for EntityFramework. It has been included in .NET Core SDK but was removed. So I installed it using the .NET CLI.
+
+`dotnet tool install --global dotnet-ef`
+
+Another issue, entirely created by me, was missing a step where you should have updates the `_Layout.cshtml`. That file is the layout template and it allows you to specify the HTML container layout in one place. I'd forgotten to change the asp-contoller from the default "Home" to the new "Movies".
+
+`<a class="navbar-brand" asp-area="" asp-controller="Movies" asp-action="Index">Movie App</a>`
+
+Being able to solve these small problems was really encouraging.
+
 **Link(s) to work**:
+
+- [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)
+- [Create a web app with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/?view=aspnetcore-3.1)
 
 https://gist.github.com/rxaviers/7360908
 
