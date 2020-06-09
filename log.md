@@ -1,14 +1,28 @@
 # 100 Days Of Code - Log
 
-### Day 22: March 24, 2020
+### Day 99: March 24, 2020
 
-**Today's Progress**:
-**Thoughts**:
-**Experimented with**:
+**Today's Progress**: Completed Deep Learning with PyTorch: A 60 Minute Blitz and kept working on understanding more of the architecture of ASP.NET MVC Web Apps.
+
+**Thoughts**: Just casually trying to throw in some AI stuff at the end of this challange was a bit naive. I'll admit that. And reading through the [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) was confusing. Although I've taken linear algebra at University I havn't really used it in the _"real world"_. After casually skimming through the blitz I tried to train a classifier on my machine but ran in to trouble. Luckily you could run the code in Google Colab. So, with a lot of help, I managed to train my first neural network!
+
+**Experimented with**: The python library Pytorch. According to [pytorch.org](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py)
+
+> PyTorch is a scientific computing package targeting two audiences: A replacement for NumPy to use the power of GPUs, a deep learning research platform that provides maximum flexibility and speed.
+
+The tutorial uses the [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). It has the classes: ‘airplane’, ‘automobile’, ‘bird’, ‘cat’, ‘deer’, ‘dog’, ‘frog’, ‘horse’, ‘ship’, ‘truck’. After training the neural network the accuracy on the testset of 10000 images was 50%. Picking one of the classes at random would would give an accuracy of 10% (because we have 10 classes to choose from). The images in CIFAR-10 are of size 3x32x32, i.e. 3-channel color images of 32x32 pixels in size.
+
+<p align="center">
+<img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/CIFAR10-result.png" height="141" width="381">
+</p>
+
+<br />
+
 **Link(s) to work**:
+
 https://gist.github.com/rxaviers/7360908
 
-### Day 98: March 24, 2020
+### Day 98: June 8, 2020
 
 **Today's Progress**: I dipped a toe into the ocean of [codepens](https://codepen.io/), found one that looked nice, and play around with it for a while. I also started to unfold ASP.NET. Wrapping my head around the MVC-pattern implementation in .NET Core. My brain feels _scrambled_ right now but I'm sure that things will land, pan out, and become more understandable with time.
 
