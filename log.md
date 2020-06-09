@@ -2,7 +2,7 @@
 
 ### Day 99: March 24, 2020
 
-**Today's Progress**: Completed [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) and kept working with ASP.NET MVC Web Apps.
+**Today's Progress**: Completed [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) and also worked with ASP.NET MVC Web Apps.
 
 **Thoughts**: Just casually trying to throw in some AI stuff at the end of this challange was a bit naive. I'll admit that. And reading through the [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) was confusing. Although I've taken linear algebra at University I haven't really used it in the _"real world"_ since. After casually skimming through the blitz I tried to train a classifier on my machine but ran in to trouble. Luckily you could run the code in Google Colab. So, with a lot of help, I managed to train my first neural network!
 
