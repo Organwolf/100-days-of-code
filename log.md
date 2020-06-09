@@ -1,8 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 22: March 24, 2020
+
+**Today's Progress**:
+**Thoughts**:
+**Experimented with**:
+**Link(s) to work**:
+https://gist.github.com/rxaviers/7360908
+
 ### Day 98: March 24, 2020
 
-**Today's Progress**: I dipped a toe into the ocean of [codepens](https://codepen.io/), found one that looked nice, and play around with for a while. I also started to unfold ASP.NET. Wrapping my head around the MVC-patterns implementation in .NET Core. My brain feels _scrambled_ right now but I'm sure that things will land, pan out, and become more understandable with time.
+**Today's Progress**: I dipped a toe into the ocean of [codepens](https://codepen.io/), found one that looked nice, and play around with it for a while. I also started to unfold ASP.NET. Wrapping my head around the MVC-pattern implementation in .NET Core. My brain feels _scrambled_ right now but I'm sure that things will land, pan out, and become more understandable with time.
 
 **Thoughts**: I was planning on refactoring my todo app today. Remove the Redux part and replace it with the Context API. However, things didn't turn out as I'd planned. Either way, I got tons done and crammed so much stuff into my brain that I'll be dreaming about programming tonight.
 
