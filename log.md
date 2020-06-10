@@ -29,13 +29,10 @@ if (!String.IsNullOrEmpty(searchString))
 SQLite is the [most used](https://www.sqlite.org/mostdeployed.html) database engine in the world. It implements a small fast and full featured SQL database engine. However the fact that SQLite is small comes with some drawbacks. One being that new columns can't be added to existing tables. While working on the ASP.NET Core app I encountered problems adding a new column to one of my tables. Turns out I had to remove the previouse migrations on the said table and once that was done I could perform the new migration which added the new column.
 
 I solved the problem following these steps:
-
-<pre>
-    1: remove current database  
-    2: run 'dotnet ef migrations remove' to remove all migrations  
-    3: run 'dotnet ef migrations add initialCommit'  
-    4: run 'dotnet ef database update'
-</pre>
+&nbsp; &nbsp; &nbsp; &nbsp; 1: remove current database  
+&nbsp; &nbsp; &nbsp; &nbsp; 2: run 'dotnet ef migrations remove' to remove all migrations  
+&nbsp; &nbsp; &nbsp; &nbsp; 3: run 'dotnet ef migrations add initialCommit'  
+&nbsp; &nbsp; &nbsp; &nbsp; 4: run 'dotnet ef database update'
 
 **Link(s) to work**: [Get started with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-3.1&tabs=visual-studio)
 
