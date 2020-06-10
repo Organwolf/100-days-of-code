@@ -2,24 +2,39 @@
 
 ### Day 100: June 10, 2020
 
-**Today's Progress**: Finally completed the ASP.NET Core MVC app. Learnt how to add a controller, connect a SQLite database to the project, seed the database, as well as update the database all using EntityFramework. I also encountered a way of adding metadata through attributes such as \[HttpGet\] and \[HttpPost\].
+**Today's Progress**: Finally completed the ASP.NET Core MVC app. Among other things I learnt how to add a controller, connect a SQLite database to the project, seed the database, as well as update the database, all using EntityFramework. I also encountered a way of adding metadata through attributes such as \[HttpGet\] and \[HttpPost\]. I worked a little with LINQ queries as well.
 
-**Thoughts**:
+**Thoughts**: [Get started with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-3.1&tabs=visual-studio) is a comprehensive guide to creating a web app. A lot of the code is generated which can be confusing. The scaffolding tools used create the CRUD functionality of the database for example and it just works.
 
-**Experimented with**:
+**Experimented with**: LINQ queries, ASP.NET Core as well as SQLite. According to the official documentation in the tutorial
 
-> LINQ queries are not executed when they're defined or when they're modified by calling a method such as Where, Contains, or OrderBy. Rather, query execution is deferred. That means that the evaluation of an expression is delayed until its realized value is actually iterated over or the ToListAsync method is called. For more information about deferred query execution, see Query Execution. [Source](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-3.1)
+> LINQ queries are not executed when they're defined or when they're modified by calling a method such as Where, Contains, or OrderBy. Rather, query execution is deferred. That means that the evaluation of an expression is delayed until its realized value is actually iterated over or the ToListAsync method is called. [Source](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-3.1)
 
-Problems adding a new column to the SQLite database.  
-Solved following these steps:  
- 1: remove current database
-2: run 'dotnet ef migrations remove' to remove all migrations
-3: run 'dotnet ef migrations add initialCommit'
-4: run 'dotnet ef database update'
+The LINQ query I worked with selected each movie in the table Movie.
 
-**Link(s) to work**:
+```csharp
+var movies = from m in _context.Movie
+             select m;
+```
 
-https://gist.github.com/rxaviers/7360908
+Then I modified the movies querry to filter on the value of a search string like this:
+
+```csharp
+if (!String.IsNullOrEmpty(searchString))
+{
+    movies = movies.Where(s => s.Title.Contains(searchString));
+}
+```
+
+SQLite is the most used database engine in the world. It implementsa small fast and full featured SQL database engine. However the fact that SQLite is small comes with some drawbacks. One being that new columns can't be added to existing tables. While working on the ASP.NET Core app I encountered problems adding a new column to one of my tables. Turns out I had to remove the previouse migrations on the said table and once that was done I could perform the new migration which added the new column.
+
+I solved the problem following these steps:  
+ 1: remove current database  
+ 2: run 'dotnet ef migrations remove' to remove all migrations  
+ 3: run 'dotnet ef migrations add initialCommit'  
+ 4: run 'dotnet ef database update'
+
+**Link(s) to work**: [Get started with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-3.1&tabs=visual-studio)
 
 ### Day 99: June 9, 2020
 
