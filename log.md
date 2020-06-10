@@ -2,7 +2,7 @@
 
 ### Day 100: June 10, 2020
 
-**Today's Progress**: Finally completed the ASP.NET Core MVC app. Among other things I learnt how to add a controller, connect a SQLite database to the project, seed the database, as well as update the database, all using EntityFramework. I encountered a way of adding metadata through attributes such as \[HttpGet\] and \[HttpPost\]. I also worked a little with LINQ queries as well.
+**Today's Progress**: Final day and finally completed the ASP.NET Core MVC app! Among other things I learnt how to add a controller, connect a SQLite database to the project, seed the database, as well as update the database, all using EntityFramework. I encountered a way of adding metadata through attributes such as \[HttpGet\] and \[HttpPost\]. I also worked a little with LINQ queries as well.
 
 **Thoughts**: [Get started with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-3.1&tabs=visual-studio) is a comprehensive guide to creating a web app. A lot of the code is generated which can be confusing. The scaffolding tools used create the CRUD functionality of the database for example and it just works.
 
@@ -28,11 +28,11 @@ if (!String.IsNullOrEmpty(searchString))
 
 SQLite is the [most used](https://www.sqlite.org/mostdeployed.html) database engine in the world. It implements a small fast and full featured SQL database engine. However the fact that SQLite is small comes with some drawbacks. One being that new columns can't be added to existing tables. While working on the ASP.NET Core app I encountered problems adding a new column to one of my tables. Turns out I had to remove the previouse migrations on the said table and once that was done I could perform the new migration which added the new column.
 
-I solved the problem following these steps:
-&nbsp; &nbsp; &nbsp; &nbsp; 1: remove current database  
-&nbsp; &nbsp; &nbsp; &nbsp; 2: run 'dotnet ef migrations remove' to remove all migrations  
-&nbsp; &nbsp; &nbsp; &nbsp; 3: run 'dotnet ef migrations add initialCommit'  
-&nbsp; &nbsp; &nbsp; &nbsp; 4: run 'dotnet ef database update'
+I solved the problem following these steps:  
+&nbsp; &nbsp; **1**: remove current database  
+&nbsp; &nbsp; **2**: run 'dotnet ef migrations remove' to remove all migrations  
+&nbsp; &nbsp; **3**: run 'dotnet ef migrations add initialCommit'  
+&nbsp; &nbsp; **4**: run 'dotnet ef database update'
 
 **Link(s) to work**: [Get started with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-3.1&tabs=visual-studio)
 
