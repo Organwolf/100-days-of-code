@@ -1,6 +1,27 @@
 # 100 Days Of Code - Log
 
-### Day 99: March 24, 2020
+### Day 100: June 10, 2020
+
+**Today's Progress**: Finally completed the ASP.NET Core MVC app. Learnt how to add a controller, connect a SQLite database to the project, seed the database, as well as update the database all using EntityFramework. I also encountered a way of adding metadata through attributes such as \[HttpGet\] and \[HttpPost\].
+
+**Thoughts**:
+
+**Experimented with**:
+
+> LINQ queries are not executed when they're defined or when they're modified by calling a method such as Where, Contains, or OrderBy. Rather, query execution is deferred. That means that the evaluation of an expression is delayed until its realized value is actually iterated over or the ToListAsync method is called. For more information about deferred query execution, see Query Execution. [Source](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-3.1)
+
+Problems adding a new column to the SQLite database.  
+Solved following these steps:  
+ 1: remove current database
+2: run 'dotnet ef migrations remove' to remove all migrations
+3: run 'dotnet ef migrations add initialCommit'
+4: run 'dotnet ef database update'
+
+**Link(s) to work**:
+
+https://gist.github.com/rxaviers/7360908
+
+### Day 99: June 9, 2020
 
 **Today's Progress**: Completed [Deep Learning with PyTorch: A 60 Minute Blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) and also worked with ASP.NET MVC Apps.
 
@@ -12,6 +33,8 @@
 
 The tutorial uses the [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). It has the classes: ‘airplane’, ‘automobile’, ‘bird’, ‘cat’, ‘deer’, ‘dog’, ‘frog’, ‘horse’, ‘ship’, ‘truck’. After training the neural network the accuracy on the testset of 10000 images was 50%. Picking one of the classes at random would would give an accuracy of 10% (because we have 10 classes to choose from). The images in CIFAR-10 are of size 3x32x32, i.e. 3-channel color images of 32x32 pixels in size.
 
+<br />
+
 <p align="center">
 <img src="https://github.com/Organwolf/100-days-of-code/blob/master/images/CIFAR10-result.png" height="141" width="381">
 </p>
@@ -20,10 +43,11 @@ The networks predictions.
 </p>
 
 <br />
+<hr />
 
 I also worked on the [Create a web app with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/?view=aspnetcore-3.1) and managed to get half way through the tutorial. Writing down a lot along the way. Mainly to get a better understanding of how ASP.NET Core MVC apps are structured but also with the goal to be able to leverage ASP.NET for my own web development in the future.
 
-Encountered a couple of problems along the way. The first major problem concerned the dotnet ef tool. Ef standing for EntityFramework. It has been included in .NET Core SDK but was removed. So I installed it using the .NET CLI.
+Encountered a couple of problems along the way. The first major problem concerned the dotnet ef tool. Ef standing for EntityFramework. It was previously included in .NET Core SDK but was removed. So I installed it using the .NET CLI. Found a good post about it [here](https://stackoverflow.com/questions/57066856/dotnet-ef-not-found-in-net-core-3).
 
 `dotnet tool install --global dotnet-ef`
 
