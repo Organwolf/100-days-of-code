@@ -2,7 +2,7 @@
 
 ### Day 100: June 10, 2020
 
-**Today's Progress**: Final day and finally completed the ASP.NET Core MVC app! Among other things I learnt how to add a controller, connect a SQLite database to the project, seed the database, as well as update the database, all using EntityFramework. I encountered a way of adding metadata through attributes such as \[HttpGet\] and \[HttpPost\]. I also worked a little with LINQ queries as well.
+**Today's Progress**: Final day and finally completed the ASP.NET Core MVC app! Among other things I learnt how to add a controller, connect a SQLite database to the project, seed the database, as well as update the database, all using EntityFramework. I encountered a way of adding metadata through attributes such as \[HttpGet\] and \[HttpPost\]. I also worked a little with LINQ queries.
 
 **Thoughts**: [Get started with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-3.1&tabs=visual-studio) is a comprehensive guide to creating a web app. A lot of the code is generated which can be confusing. The scaffolding tools used create the CRUD functionality of the database for example and it just works.
 
@@ -353,7 +353,7 @@ I also did something similar in JavaScript using `JSON.stringify(myObject)` to s
 **Experimented with**: D3, short for Data Driven Documents, uses the web standards: HTML, CSS, SVG to visualize data. D3.js can be used to "tell a story" with data. Scalable thanks to the use of SVG. Central principal of D3 is that it makes use of CSS style selectors to select nodes by tag, calss, identifier or attribute. It then manipulates those node in a manner similar to jQuery using get/set attributes, displaying text and adding styles.
 
 <p align="center">
-<img width="460" height="300" src="http://www.fillmurray.com/440/380">
+<img width="440" height="380" src="http://www.fillmurray.com/440/380">
 </p>
 <p align="center">Workflow: Data -> SVG container -> Create SVG elements from data</p>
 
